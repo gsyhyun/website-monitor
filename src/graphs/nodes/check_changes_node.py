@@ -81,11 +81,27 @@ def check_changes_node(
     new_items: List[ContentItem] = []
     if has_change:
         old_items_set = set(old_items)
+        
+        # 过滤日期：只保留2026年1月及以后的内容
+        cutoff_date = datetime(2026, 1, 1)
+        
         for item in current_items_data:
             if item.title not in old_items_set:
-                new_items.append(item)
+                # 检查日期
+                if item.date:
+                    try:
+                        item_date = datetime.strptime(item.date, '%Y-%m-%d')
+                        if item_date >= cutoff_date:
+                            new_items.append(item)
+                    except ValueError:
+                        # 日期解析失败，保留（保守策略）
+                        new_items.append(item)
+                else:
+                    # 没有日期信息，保守保留
+                    new_items.append(item)
         
-        logger.info(f"网站 {website.name} 检测到变化，原始新增 {len(new_items)} 条内容")
+        logger.info(f"网站 {website.name} 检测到变化，原始新增 {len([item for item in current_items_data if item.title not in old_items_set])} 条内容")
+        logger.info(f"经过日期过滤后，保留 {len(new_items)} 条内容（2026年1月及以后）")
         
         # 如果历史记录为空（首次运行），只保留最新10条内容
         if not old_items:

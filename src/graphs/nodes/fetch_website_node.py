@@ -19,6 +19,63 @@ from graphs.state import (
 logger = logging.getLogger(__name__)
 
 
+def extract_date_from_text(text: str) -> Optional[str]:
+    """
+    从文本中提取日期
+    
+    Args:
+        text: 文本内容
+        
+    Returns:
+        日期字符串（格式：YYYY-MM-DD），如果没有找到返回None
+    """
+    # 匹配常见的日期格式：2026-01-30, 2026/01/30, 20260130等
+    date_patterns = [
+        r'(\d{4})[-/年](\d{1,2})[-/月](\d{1,2})[日号]?',  # 2026-01-30, 2026年1月30日
+        r'(\d{4})[-/](\d{1,2})[-/](\d{1,2})',  # 2026-01-30
+        r'(\d{4})(\d{2})(\d{2})',  # 20260130
+    ]
+    
+    for pattern in date_patterns:
+        match = re.search(pattern, text)
+        if match:
+            year, month, day = match.groups()
+            try:
+                # 验证日期是否有效
+                datetime(int(year), int(month), int(day))
+                return f"{year}-{month.zfill(2)}-{day.zfill(2)}"
+            except ValueError:
+                continue
+    
+    return None
+
+
+def extract_date_from_url(url: str) -> Optional[str]:
+    """
+    从URL中提取日期
+    
+    Args:
+        url: URL链接
+        
+    Returns:
+        日期字符串（格式：YYYY-MM-DD），如果没有找到返回None
+    """
+    # 从URL中提取日期（例如：post_20260130.html）
+    date_pattern = r'(\d{4})[-/]?(\d{2})[-/]?(\d{2})'
+    match = re.search(date_pattern, url)
+    
+    if match:
+        year, month, day = match.groups()
+        try:
+            # 验证日期是否有效
+            datetime(int(year), int(month), int(day))
+            return f"{year}-{month}-{day}"
+        except ValueError:
+            return None
+    
+    return None
+
+
 def fetch_website_node(
     state: FetchWebsiteInput,
     config: RunnableConfig,
@@ -60,24 +117,35 @@ def fetch_website_node(
         content_items = []
         links = soup.find_all('a', href=True)
         
-        # 过滤出有意义的链接
+        # 过滤出有意义的链接（只保留通知相关的内容）
         meaningful_links = []
+        notification_keywords = ['通知', '公告', '通告', '公示', '声明']  # 只抓取这些关键词的内容
+        
         for link in links[:100]:  # 限制检查前100个链接
             text = link.get_text(strip=True)
             if text and len(text) > 3 and len(text) < 200:  # 排除过短或过长的文本
                 # 排除常见的无意义链接
                 skip_keywords = ['首页', '导航', '联系我们', '登录', '注册', '更多', '下一页', '上一页', 
-                               '返回', '跳转', '刷新', '版权', '隐私', '友情链接']
-                if not any(keyword in text for keyword in skip_keywords):
+                               '返回', '跳转', '刷新', '版权', '隐私', '友情链接', '信息公开', '工作动态',
+                               '机构概况', '法规政策', '行政执法', '数据开放', '银行承办', '办事指南',
+                               '我的收藏', '互动交流', '政务服务', '工作机构']
+                
+                # 必须包含通知关键词，且不包含跳过关键词
+                has_notification_keyword = any(keyword in text for keyword in notification_keywords)
+                has_skip_keyword = any(keyword in text for keyword in skip_keywords)
+                
+                if has_notification_keyword and not has_skip_keyword:
                     meaningful_links.append({
                         'text': text,
-                        'href': link.get('href', '')
+                        'href': link.get('href', ''),
+                        'element': link  # 保存链接元素，用于提取日期
                     })
         
         # 构建完整URL并创建ContentItem
         for item in meaningful_links[:50]:  # 最多取50条
             text = item['text']
             href = item['href']
+            link_element = item.get('element')
             
             # 构建完整URL
             if href.startswith('http'):
@@ -85,12 +153,23 @@ def fetch_website_node(
             else:
                 full_url = urljoin(website.url, href)
             
-            # 创建ContentItem（摘要稍后由摘要节点生成）
+            # 尝试提取日期
+            item_date = extract_date_from_url(full_url) or extract_date_from_text(text)
+            
+            # 如果没有提取到日期，尝试查找附近的日期元素
+            if not item_date and link_element:
+                # 查找父元素中的日期信息
+                parent = link_element.find_parent()
+                if parent:
+                    parent_text = parent.get_text()
+                    item_date = extract_date_from_text(parent_text)
+            
+            # 创建ContentItem
             content_item = ContentItem(
                 title=text,
                 link=full_url,
                 summary="",  # 暂时为空，稍后填充
-                date=None  # 暂时为空，如果页面有日期信息可以提取
+                date=item_date  # 提取到的日期
             )
             content_items.append(content_item)
         
