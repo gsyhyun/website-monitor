@@ -1,11 +1,19 @@
 import hashlib
 import logging
-from datetime import datetime
+import re
+from datetime import datetime, date
 from typing import Optional
+from urllib.parse import urljoin
 from langchain_core.runnables import RunnableConfig
 from langgraph.runtime import Runtime
 from coze_coding_utils.runtime_ctx.context import Context
-from graphs.state import FetchWebsiteInput, FetchWebsiteOutput, FetchResult, WebsiteInfo
+from graphs.state import (
+    FetchWebsiteInput,
+    FetchWebsiteOutput,
+    FetchResult,
+    WebsiteInfo,
+    ContentItem
+)
 
 
 logger = logging.getLogger(__name__)
@@ -18,13 +26,17 @@ def fetch_website_node(
 ) -> FetchWebsiteOutput:
     """
     title: 网站内容抓取
-    desc: 抓取指定网站的内容，提取关键信息并生成内容摘要和哈希值
+    desc: 抓取指定网站的内容，提取当天最新的标题、链接，并进行日期过滤
     integrations: 
     """
     ctx = runtime.context
     
     website = state.website
     logger.info(f"开始抓取网站: {website.name}, URL: {website.url}")
+    
+    # 获取今天的日期
+    today = date.today()
+    today_str = today.strftime('%Y-%m-%d')
     
     try:
         # 导入requests和beautifulsoup4
@@ -44,31 +56,59 @@ def fetch_website_node(
         # 解析HTML
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # 提取页面标题
-        page_title = soup.title.string if soup.title else "无标题"
-        
-        # 提取链接和文本内容（提取前20条）
-        items = []
+        # 提取链接和文本内容
+        content_items = []
         links = soup.find_all('a', href=True)
         
-        # 过滤出有意义的链接（排除纯导航、页脚等）
+        # 过滤出有意义的链接
         meaningful_links = []
-        for link in links[:50]:  # 限制检查前50个链接
+        for link in links[:100]:  # 限制检查前100个链接
             text = link.get_text(strip=True)
             if text and len(text) > 3 and len(text) < 200:  # 排除过短或过长的文本
                 # 排除常见的无意义链接
-                skip_keywords = ['首页', '导航', '联系我们', '登录', '注册', '更多', '下一页', '上一页']
+                skip_keywords = ['首页', '导航', '联系我们', '登录', '注册', '更多', '下一页', '上一页', 
+                               '返回', '跳转', '刷新', '版权', '隐私', '友情链接']
                 if not any(keyword in text for keyword in skip_keywords):
-                    meaningful_links.append(text)
+                    meaningful_links.append({
+                        'text': text,
+                        'href': link.get('href', '')
+                    })
         
-        # 取前20条有意义的链接文本
-        items = meaningful_links[:20]
+        # 构建完整URL并创建ContentItem
+        for item in meaningful_links[:50]:  # 最多取50条
+            text = item['text']
+            href = item['href']
+            
+            # 构建完整URL
+            if href.startswith('http'):
+                full_url = href
+            else:
+                full_url = urljoin(website.url, href)
+            
+            # 创建ContentItem（摘要稍后由摘要节点生成）
+            content_item = ContentItem(
+                title=text,
+                link=full_url,
+                summary="",  # 暂时为空，稍后填充
+                date=None  # 暂时为空，如果页面有日期信息可以提取
+            )
+            content_items.append(content_item)
         
-        # 生成内容摘要（将所有项合并为字符串）
-        content_summary = " | ".join(items) if items else "未找到有效内容"
+        # 如果没有抓取到内容，尝试获取页面标题
+        if not content_items:
+            page_title = soup.title.string if soup.title else "无标题"
+            content_items.append(ContentItem(
+                title=page_title,
+                link=website.url,
+                summary="页面标题",
+                date=today_str
+            ))
         
-        # 生成内容哈希值（使用所有链接文本）
-        content_for_hash = "|||".join(items)
+        # 生成内容摘要（用于哈希计算）
+        content_summary = " | ".join([item.title for item in content_items[:20]])
+        
+        # 生成内容哈希值（使用所有标题）
+        content_for_hash = "|||".join([item.title for item in content_items])
         content_hash = hashlib.md5(content_for_hash.encode('utf-8')).hexdigest()
         
         # 生成抓取时间
@@ -82,10 +122,11 @@ def fetch_website_node(
             content_summary=content_summary,
             fetch_time=fetch_time,
             is_success=True,
-            error_message=""
+            error_message="",
+            content_items=content_items
         )
         
-        logger.info(f"成功抓取网站: {website.name}, 提取到 {len(items)} 条内容")
+        logger.info(f"成功抓取网站: {website.name}, 提取到 {len(content_items)} 条内容")
         
         return FetchWebsiteOutput(fetch_result=fetch_result)
         
@@ -100,7 +141,8 @@ def fetch_website_node(
             content_summary="",
             fetch_time=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             is_success=False,
-            error_message=error_msg
+            error_message=error_msg,
+            content_items=[]
         )
         
         return FetchWebsiteOutput(fetch_result=fetch_result)
@@ -116,7 +158,8 @@ def fetch_website_node(
             content_summary="",
             fetch_time=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             is_success=False,
-            error_message=error_msg
+            error_message=error_msg,
+            content_items=[]
         )
         
         return FetchWebsiteOutput(fetch_result=fetch_result)

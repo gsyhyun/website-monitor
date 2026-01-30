@@ -151,7 +151,7 @@ def send_notification_node(
         )
         return SendNotificationOutput(notification=notification, is_sent=False)
 
-    # 生成变化详情
+    # 生成变化详情（包含标题、链接和摘要）
     change_details = f"网站：{website.name}\n"
     change_details += f"URL：{website.url}\n"
     change_details += f"分类：{website.category}\n"
@@ -160,15 +160,23 @@ def send_notification_node(
 
     if change_result.new_items:
         change_details += "\n新增内容：\n"
-        for idx, item in enumerate(change_result.new_items, 1):
-            change_details += f"{idx}. {item}\n"
+        for idx, item in enumerate(change_result.new_items[:10], 1):  # 最多显示10条
+            change_details += f"\n{idx}. {item.title}\n"
+            if item.link:
+                change_details += f"   链接: {item.link}\n"
+            if item.summary:
+                change_details += f"   摘要: {item.summary}\n"
+        
+        if len(change_result.new_items) > 10:
+            change_details += f"\n... 还有 {len(change_result.new_items) - 10} 条内容"
 
-    # 构建通知信息
+    # 构建通知信息（包含完整的新增内容项）
     notification = NotificationInfo(
         website_name=website.name,
         has_change=True,
         change_details=change_details,
-        notification_time=notification_time
+        notification_time=notification_time,
+        new_items=change_result.new_items
     )
 
     # 读取现有通知记录
@@ -182,11 +190,21 @@ def send_notification_node(
             notifications = []
 
     # 添加新通知（只保留最近100条）
+    # 序列化 ContentItem 为字典
     notification_dict = {
         "website_name": notification.website_name,
         "has_change": notification.has_change,
         "change_details": notification.change_details,
-        "notification_time": notification.notification_time
+        "notification_time": notification.notification_time,
+        "new_items": [
+            {
+                "title": item.title,
+                "link": item.link,
+                "summary": item.summary,
+                "date": item.date
+            }
+            for item in notification.new_items
+        ]
     }
     notifications.insert(0, notification_dict)
     if len(notifications) > 100:

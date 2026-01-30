@@ -11,6 +11,14 @@ class WebsiteInfo(BaseModel):
     category: str = Field(..., description="网站分类")
 
 
+class ContentItem(BaseModel):
+    """内容项（包含标题、链接和摘要）"""
+    title: str = Field(..., description="内容标题")
+    link: str = Field(default="", description="内容链接")
+    summary: str = Field(default="", description="100字简要内容")
+    date: Optional[str] = Field(default=None, description="发布日期")
+
+
 class FetchResult(BaseModel):
     """抓取结果"""
     website_name: str = Field(..., description="网站名称")
@@ -20,13 +28,14 @@ class FetchResult(BaseModel):
     fetch_time: str = Field(..., description="抓取时间")
     is_success: bool = Field(default=True, description="是否抓取成功")
     error_message: str = Field(default="", description="错误信息")
+    content_items: List[ContentItem] = Field(default=[], description="抓取的内容项列表（标题、链接、摘要）")
 
 
 class ChangeDetectionResult(BaseModel):
     """变化检测结果"""
     website_name: str = Field(..., description="网站名称")
     has_change: bool = Field(..., description="是否有变化")
-    new_items: List[str] = Field(default=[], description="新增的内容项（标题）")
+    new_items: List[ContentItem] = Field(default=[], description="新增的内容项（包含标题、链接、摘要）")
     old_content_hash: str = Field(default="", description="旧内容哈希值")
     new_content_hash: str = Field(default="", description="新内容哈希值")
 
@@ -37,6 +46,7 @@ class NotificationInfo(BaseModel):
     has_change: bool = Field(..., description="是否有变化")
     change_details: str = Field(default="", description="变化详情")
     notification_time: str = Field(..., description="通知时间")
+    new_items: List[ContentItem] = Field(default=[], description="新增的内容项（包含标题、链接、摘要）")
 
 
 # ============= 默认网站列表 =============
@@ -203,6 +213,17 @@ class CheckChangesInput(BaseModel):
 class CheckChangesOutput(BaseModel):
     """变化检测节点输出"""
     change_result: ChangeDetectionResult = Field(..., description="变化检测结果")
+
+
+# 内容摘要生成节点
+class GenerateSummaryInput(BaseModel):
+    """内容摘要生成节点输入"""
+    fetch_result: FetchResult = Field(..., description="抓取结果")
+
+
+class GenerateSummaryOutput(BaseModel):
+    """内容摘要生成节点输出"""
+    fetch_result: FetchResult = Field(..., description="包含摘要的抓取结果")
 
 
 # 发送通知节点

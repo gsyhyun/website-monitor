@@ -18,6 +18,7 @@ from graphs.state import (
 from graphs.nodes.fetch_website_node import fetch_website_node
 from graphs.nodes.check_changes_node import check_changes_node
 from graphs.nodes.send_notification_node import send_notification_node
+from graphs.nodes.generate_summary_node import generate_summary_node
 
 
 logger = logging.getLogger(__name__)
@@ -89,10 +90,25 @@ def monitor_all_websites_node(
                 mock_runtime
             )
 
-            # 2. 检测变化
+            # 2. 生成内容摘要（如果有变化）
+            summary_output = fetch_output
+            if fetch_output.fetch_result.is_success and fetch_output.fetch_result.content_items:
+                try:
+                    from graphs.state import GenerateSummaryInput
+                    summary_input = GenerateSummaryInput(fetch_result=fetch_output.fetch_result)
+                    summary_output = generate_summary_node(
+                        summary_input,
+                        {},
+                        mock_runtime
+                    )
+                    logger.info(f"成功生成摘要: {website.name}")
+                except Exception as e:
+                    logger.warning(f"生成摘要失败: {website.name}, 错误: {e}")
+
+            # 3. 检测变化
             from graphs.state import CheckChangesInput
             check_input = CheckChangesInput(
-                fetch_result=fetch_output.fetch_result,
+                fetch_result=summary_output.fetch_result,
                 website=website
             )
             check_output = check_changes_node(
@@ -101,7 +117,7 @@ def monitor_all_websites_node(
                 mock_runtime
             )
 
-            # 3. 发送通知（传递邮箱地址）
+            # 4. 发送通知（传递邮箱地址）
             from graphs.state import SendNotificationInput
             notify_input = SendNotificationInput(
                 change_result=check_output.change_result,

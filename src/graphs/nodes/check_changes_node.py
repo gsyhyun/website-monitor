@@ -2,11 +2,18 @@ import json
 import logging
 import os
 from datetime import datetime
-from typing import Dict, List, Set
+from typing import Dict, List
 from langchain_core.runnables import RunnableConfig
 from langgraph.runtime import Runtime
 from coze_coding_utils.runtime_ctx.context import Context
-from graphs.state import CheckChangesInput, CheckChangesOutput, ChangeDetectionResult, FetchResult, WebsiteInfo
+from graphs.state import (
+    CheckChangesInput,
+    CheckChangesOutput,
+    ChangeDetectionResult,
+    FetchResult,
+    WebsiteInfo,
+    ContentItem
+)
 
 
 logger = logging.getLogger(__name__)
@@ -63,29 +70,29 @@ def check_changes_node(
     old_content_hash = old_record.get("content_hash", "")
     old_items = old_record.get("items", [])
     
-    # 提取当前内容项
-    current_summary = fetch_result.content_summary
-    current_items = [item.strip() for item in current_summary.split("|") if item.strip()]
+    # 提取当前内容项（ContentItem -> 标题列表）
+    current_items_data = fetch_result.content_items
+    current_items = [item.title for item in current_items_data]
     
     # 对比哈希值
     has_change = (old_content_hash != fetch_result.content_hash)
     
     # 提取新增的内容项
-    new_items: List[str] = []
+    new_items: List[ContentItem] = []
     if has_change:
         old_items_set = set(old_items)
-        for item in current_items:
-            if item not in old_items_set:
+        for item in current_items_data:
+            if item.title not in old_items_set:
                 new_items.append(item)
         
         logger.info(f"网站 {website.name} 检测到变化，新增 {len(new_items)} 条内容")
     else:
         logger.info(f"网站 {website.name} 无变化")
     
-    # 更新历史记录
+    # 更新历史记录（保存标题列表）
     history[website_key] = {
         "content_hash": fetch_result.content_hash,
-        "items": current_items,
+        "items": current_items,  # 保存标题列表
         "last_update": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         "website_name": website.name
     }
