@@ -1,8 +1,14 @@
 #!/bin/bash
 #
-# 启动网站监控定期任务（使用screen保持会话）
+# 启动网站监控定期任务（使用nohup后台运行）
 # 每5分钟自动监控一次
 #
+
+# 邮件配置（QQ邮箱）
+export QQ_SMTP_SERVER="smtp.qq.com"
+export QQ_SMTP_PORT="587"
+export QQ_EMAIL_ACCOUNT="gshyun@qq.com"
+export QQ_EMAIL_AUTH_CODE="sibcgumiszmwbgic"
 
 echo "======================================"
 echo "网站监控系统启动"

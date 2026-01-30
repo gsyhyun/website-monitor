@@ -29,21 +29,41 @@ logger = logging.getLogger(__name__)
 
 def get_email_config():
     """获取邮件配置信息"""
-    if not EMAIL_INTEGRATION_AVAILABLE:
-        raise Exception("邮件集成模块不可用")
+    # 优先从环境变量读取配置（本地测试）
+    smtp_server = os.getenv("QQ_SMTP_SERVER", "")
+    smtp_port = os.getenv("QQ_SMTP_PORT", "")
+    account = os.getenv("QQ_EMAIL_ACCOUNT", "")
+    auth_code = os.getenv("QQ_EMAIL_AUTH_CODE", "")
 
-    client = Client()
-    email_credential = client.get_integration_credential("integration-email-imap-smtp")
-    config = json.loads(email_credential)
+    if smtp_server and smtp_port and account and auth_code:
+        logger.info("使用环境变量中的邮件配置")
+        return {
+            "smtp_server": smtp_server,
+            "smtp_port": int(smtp_port),
+            "account": account,
+            "auth_code": auth_code
+        }
 
-    # 尝试从环境变量覆盖授权码（用于本地测试）
-    # 如果设置了 QQ_EMAIL_AUTH_CODE 环境变量，使用它
-    auth_code_override = os.getenv("QQ_EMAIL_AUTH_CODE")
-    if auth_code_override:
-        config["auth_code"] = auth_code_override
-        logger.info(f"使用环境变量中的授权码（QQ_EMAIL_AUTH_CODE）")
+    # 如果环境变量不可用，尝试从邮件集成获取
+    if EMAIL_INTEGRATION_AVAILABLE:
+        try:
+            client = Client()
+            email_credential = client.get_integration_credential("integration-email-imap-smtp")
+            config = json.loads(email_credential)
+            
+            # 尝试从环境变量覆盖授权码（用于本地测试）
+            # 如果设置了 QQ_EMAIL_AUTH_CODE 环境变量，使用它
+            auth_code_override = os.getenv("QQ_EMAIL_AUTH_CODE")
+            if auth_code_override:
+                config["auth_code"] = auth_code_override
+                logger.info(f"使用环境变量中的授权码（QQ_EMAIL_AUTH_CODE）")
 
-    return config
+            return config
+        except Exception as e:
+            logger.error(f"从集成获取邮件配置失败: {e}")
+            raise Exception(f"无法获取邮件配置: {e}")
+
+    raise Exception("邮件配置不可用：既没有环境变量配置，邮件集成也不可用")
 
 
 @observe
@@ -59,9 +79,6 @@ def send_email_notification(subject: str, content: str, to_addrs: list) -> dict:
     Returns:
         发送结果字典
     """
-    if not EMAIL_INTEGRATION_AVAILABLE:
-        return {"status": "error", "message": "邮件集成模块不可用"}
-
     if not to_addrs:
         return {"status": "error", "message": "收件人为空"}
 
@@ -76,23 +93,49 @@ def send_email_notification(subject: str, content: str, to_addrs: list) -> dict:
         msg["Date"] = formatdate(localtime=True)
         msg["Message-ID"] = make_msgid()
 
-        # 使用SSL加密连接
+        # 创建SSL上下文
         ctx = ssl.create_default_context()
         ctx.minimum_version = ssl.TLSVersion.TLSv1_2
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE  # 不验证证书（避免SSL错误）
 
         # 尝试发送邮件（重试3次）
         attempts = 3
         last_err = None
         for i in range(attempts):
             try:
-                with smtplib.SMTP_SSL(config["smtp_server"], config["smtp_port"], context=ctx, timeout=30) as server:
-                    server.ehlo()
-                    server.login(config["account"], config["auth_code"])
-                    server.sendmail(config["account"], to_addrs, msg.as_string())
-                    server.quit()
+                logger.info(f"尝试第 {i+1} 次发送邮件...")
+                
+                # 根据端口选择连接方式
+                if config["smtp_port"] == 465:
+                    # SSL方式
+                    logger.info(f"使用SSL连接 {config['smtp_server']}:{config['smtp_port']}")
+                    with smtplib.SMTP_SSL(config["smtp_server"], config["smtp_port"], context=ctx, timeout=30) as server:
+                        server.ehlo()
+                        logger.info(f"正在登录邮件服务器...")
+                        server.login(config["account"], config["auth_code"])
+                        logger.info(f"登录成功，正在发送邮件给 {len(to_addrs)} 位收件人...")
+                        server.sendmail(config["account"], to_addrs, msg.as_string())
+                        server.quit()
+                else:
+                    # STARTTLS方式
+                    logger.info(f"使用STARTTLS连接 {config['smtp_server']}:{config['smtp_port']}")
+                    with smtplib.SMTP(config["smtp_server"], config["smtp_port"], timeout=30) as server:
+                        server.ehlo()
+                        server.starttls(context=ctx)
+                        server.ehlo()
+                        logger.info(f"正在登录邮件服务器...")
+                        server.login(config["account"], config["auth_code"])
+                        logger.info(f"登录成功，正在发送邮件给 {len(to_addrs)} 位收件人...")
+                        server.sendmail(config["account"], to_addrs, msg.as_string())
+                        server.quit()
+                        
+                logger.info("邮件发送成功")
                 return {"status": "success", "message": f"邮件成功发送给 {len(to_addrs)} 位收件人"}
-            except (smtplib.SMTPServerDisconnected, smtplib.SMTPConnectError, smtplib.SMTPDataError, smtplib.SMTPHeloError, ssl.SSLError, OSError) as e:
+                
+            except (smtplib.SMTPServerDisconnected, smtplib.SMTPConnectError, smtplib.SMTPDataError, smtplib.SMTPHeloError, ssl.SSLError, OSError, ConnectionError) as e:
                 last_err = e
+                logger.warning(f"第 {i+1} 次发送失败: {str(e)}")
                 time.sleep(1 * (i + 1))
 
         if last_err:
@@ -222,8 +265,9 @@ def send_notification_node(
 
     # 发送邮件通知
     email_sent = False
-    if state.email_address and EMAIL_INTEGRATION_AVAILABLE:
+    if state.email_address:
         try:
+            logger.info(f"准备发送邮件通知到: {state.email_address}")
             email_result = send_email_notification(
                 subject=f"【网站更新】{website.name} 检测到新内容",
                 content=change_details,
@@ -231,14 +275,12 @@ def send_notification_node(
             )
 
             if email_result.get("status") == "success":
-                logger.info(f"邮件通知发送成功: {state.email_address}")
+                logger.info(f"✅ 邮件通知发送成功: {state.email_address}")
                 email_sent = True
             else:
-                logger.error(f"邮件通知发送失败: {email_result.get('message')}")
+                logger.error(f"❌ 邮件通知发送失败: {email_result.get('message')}")
         except Exception as e:
-            logger.error(f"邮件通知发送异常: {e}")
-    elif state.email_address and not EMAIL_INTEGRATION_AVAILABLE:
-        logger.warning("邮件集成模块不可用，跳过邮件通知")
+            logger.error(f"❌ 邮件通知发送异常: {e}")
     else:
         logger.info("未配置邮箱地址，跳过邮件通知")
 

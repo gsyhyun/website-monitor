@@ -1,5 +1,5445 @@
 [
   {
+    "website_name": "佛山市公积金中心",
+    "has_change": true,
+    "change_details": "网站：佛山市公积金中心\nURL：https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html\n分类：公积金中心\n检测时间：2026-01-30 15:30:23\n新增内容数量：50\n\n新增内容：\n\n1. 信息公开\n   链接: https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html\n   摘要: 信息公开\n\n2. 通知通告\n   链接: http://fsgjj.foshan.gov.cn/xxgk/tztg/index.html\n   摘要: 通知通告\n\n3. 工作动态\n   链接: http://fsgjj.foshan.gov.cn/xxgk/gzdt/index.html\n   摘要: 工作动态\n\n4. 机构概况\n   链接: http://fsgjj.foshan.gov.cn/xxgk/jggk/index.html\n   摘要: 机构概况\n\n5. 信息公开\n   链接: http://fsgjj.foshan.gov.cn/xxgk/xxgk/index.html\n   摘要: 信息公开\n\n6. 法规政策\n   链接: http://fsgjj.foshan.gov.cn/xxgk/fgzc/index.html\n\n7. 行政执法\n   链接: http://fsgjj.foshan.gov.cn/xxgk/xzzf/index.html\n\n8. 数据开放\n   链接: https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38\n\n9. 银行承办\n   链接: http://fsgjj.foshan.gov.cn/xxgk/yxcb/index.html\n\n10. 办事指南\n   链接: https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:30:23",
+    "new_items": [
+      {
+        "title": "信息公开",
+        "link": "https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "信息公开",
+        "date": null
+      },
+      {
+        "title": "通知通告",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "通知通告",
+        "date": null
+      },
+      {
+        "title": "工作动态",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/gzdt/index.html",
+        "summary": "工作动态",
+        "date": null
+      },
+      {
+        "title": "机构概况",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/jggk/index.html",
+        "summary": "机构概况",
+        "date": null
+      },
+      {
+        "title": "信息公开",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/xxgk/index.html",
+        "summary": "信息公开",
+        "date": null
+      },
+      {
+        "title": "法规政策",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/fgzc/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "行政执法",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/xzzf/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "银行承办",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/yxcb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "办事指南",
+        "link": "https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "业务指引",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/ywzy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上操作指引",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/wsczzy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "业务知识库",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/ywzsk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "下载中心",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/xzzx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "办事网点",
+        "link": "https://www.gdzwfw.gov.cn/portal/affairs-public-depart-window?orgId=725458916&region=440600",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "我要咨询",
+        "link": "http://www.foshan.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "征集调查",
+        "link": "http://www.foshan.gov.cn/hdjl/yjzj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "问政与意见调查",
+        "link": "http://www.foshan.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "纪检监察信访举报渠道",
+        "link": "http://fsgjj.foshan.gov.cn/hdjl/jjzjjjcjb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "https://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=725458916",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政府公开目录",
+        "link": "http://fsgjj.foshan.gov.cn/gkmlpt/index",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "Menu",
+        "link": "https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "12329",
+        "link": "javascritp:void(0);",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "信息公开",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知通告",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "工作动态",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/gzdt/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构概况",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/jggk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "信息公开",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/xxgk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "法规政策",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/fgzc/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "行政执法",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/xzzf/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "银行承办",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/yxcb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "办事指南",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "业务指引",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/ywzy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上操作指引",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/wsczzy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "业务知识库",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/ywzsk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "下载中心",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/xzzx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "办事网点",
+        "link": "https://www.gdzwfw.gov.cn/portal/affairs-public-depart-window?orgId=725458916&region=440600",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "我要咨询",
+        "link": "http://www.foshan.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "征集调查",
+        "link": "http://www.foshan.gov.cn/hdjl/yjzj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "问政与意见调查",
+        "link": "http://www.foshan.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "纪检监察信访举报渠道",
+        "link": "http://fsgjj.foshan.gov.cn/hdjl/jjzjjjcjb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "https://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=725458916",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政府公开目录",
+        "link": "http://fsgjj.foshan.gov.cn/gkmlpt/index",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "信息公开",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知通告",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房公积金管理中心政府网站工作年度报表（2025年度）",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/content/post_6946124.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房公积金管理中心关于进一步推进个人住房公积金封存账户清理工作的指引",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/content/post_6568643.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于办理市直售后公有住房住宅专项维修资金业务的通知",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/content/post_6566181.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "高明区住建局",
+    "has_change": true,
+    "change_details": "网站：高明区住建局\nURL：https://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/index.html\n分类：住建局\n检测时间：2026-01-30 15:30:15\n新增内容数量：37\n\n新增内容：\n\n1. 政务公开\n   链接: http://www.gaoming.gov.cn/zwgk\n   摘要: 政务公开\n\n2. 政务服务\n   链接: http://www.gaoming.gov.cn/wsfw/index.html\n   摘要: 政务服务\n\n3. 互动交流\n   链接: http://www.gaoming.gov.cn/hdjl\n   摘要: 互动交流\n\n4. 生态高明\n   链接: http://www.gaoming.gov.cn/lsgm\n   摘要: 生态高明\n\n5. 工作机构\n   链接: http://www.gaoming.gov.cn/gzjg\n   摘要: 工作机构\n\n6. 首　　页\n   链接: http://www.gaoming.gov.cn/\n\n7. 政务公开\n   链接: http://www.gaoming.gov.cn/zwgk/index.html\n\n8. 网上服务\n   链接: http://www.gaoming.gov.cn/wsfw/index.html\n\n9. 互动交流\n   链接: http://www.gaoming.gov.cn/hdjl/index.html\n\n10. 绿色高明\n   链接: http://www.gaoming.gov.cn/lsgm/index.html\n\n... 还有 27 条内容",
+    "notification_time": "2026-01-30 15:30:15",
+    "new_items": [
+      {
+        "title": "政务公开",
+        "link": "http://www.gaoming.gov.cn/zwgk",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "http://www.gaoming.gov.cn/wsfw/index.html",
+        "summary": "政务服务",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.gaoming.gov.cn/hdjl",
+        "summary": "互动交流",
+        "date": null
+      },
+      {
+        "title": "生态高明",
+        "link": "http://www.gaoming.gov.cn/lsgm",
+        "summary": "生态高明",
+        "date": null
+      },
+      {
+        "title": "工作机构",
+        "link": "http://www.gaoming.gov.cn/gzjg",
+        "summary": "工作机构",
+        "date": null
+      },
+      {
+        "title": "首　　页",
+        "link": "http://www.gaoming.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://www.gaoming.gov.cn/zwgk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上服务",
+        "link": "http://www.gaoming.gov.cn/wsfw/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.gaoming.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "绿色高明",
+        "link": "http://www.gaoming.gov.cn/lsgm/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "工作机构",
+        "link": "http://www.gaoming.gov.cn/gzjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区政府网",
+        "link": "http://www.gaoming.gov.cn/fsgm/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "工作机构",
+        "link": "http://www.gaoming.gov.cn/gzjg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区政府部门",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市高明区住房城乡建设和水务局",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "工作动态",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区开展节前安全生产专项检查及企业暖春调研活动",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6953001.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区2025年第四季度高明水厂、杨梅水厂、合水水厂水质抽检结果的公告",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6944194.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局到中心城区第二污水处理厂及明城污水厂调研",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6942088.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市高明区住房城乡建设和水务局2025年法治政府建设年度报告",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6934289.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区住建水务局到沧江泵站进行调研",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6931539.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "贯彻安全生产精神，加强安全防范工作",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6920024.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "加强建筑行业管理，保障工程质量安全",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6908483.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "加强会期污染治理，强化管控污染排放",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6900237.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "筑牢建筑施工安全防线，确保安全生产形势稳定",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6892430.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "党支部联合开展联合党建交流活动",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6871669.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住建水务局开展污水处理厂提标改造工程项目调研",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6832528.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住建水务局扎实开展台风“桦加沙”防御安全检查工作",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6803264.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对相关重点工程项目开展月度实地督导",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6782933.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对工程建设进行安全生产检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6757943.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对在建水利项目进行防台风专项检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6715860.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于海口泵站重建工程水土保持方案审批事项准予行政许可决定书",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6684384.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局到相关工程项目实地开展疫情防控和建筑质量安全工作检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6680449.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对市政水利在建工地以及污水厂联合开展控蚊防蚊专项检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6665524.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对管网运维单位及关键排涝泵站设施开展防汛工作专项检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6649698.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局联合举办了2025年市政管网工程综合演练",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6639418.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "最后一页",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/index_6.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "三水区住建局",
+    "has_change": true,
+    "change_details": "网站：三水区住建局\nURL：https://www.ss.gov.cn/fssscxslj/gkmlpt/index\n分类：住建局\n检测时间：2026-01-30 15:30:07\n新增内容数量：4\n\n新增内容：\n\n1. 佛山市三水区住房城乡建设和水务局\n   链接: https://www.ss.gov.cn/fssscxslj/gkmlpt/index\n   摘要: 佛山市三水区住房城乡建设和水务局\n\n2. 我的收藏\n   链接: https://www.ss.gov.cn/fssscxslj/gkmlpt/index\n   摘要: 我的收藏\n\n3. 粤公网安备44060702000537号\n   链接: https://beian.mps.gov.cn/#/query/webSearch?code=44060702000537\n   摘要: 粤公网安备44060702000537号\n\n4. 粤ICP备05101457号\n   链接: https://beian.miit.gov.cn/\n   摘要: 粤ICP备05101457号\n",
+    "notification_time": "2026-01-30 15:30:07",
+    "new_items": [
+      {
+        "title": "佛山市三水区住房城乡建设和水务局",
+        "link": "https://www.ss.gov.cn/fssscxslj/gkmlpt/index",
+        "summary": "佛山市三水区住房城乡建设和水务局",
+        "date": null
+      },
+      {
+        "title": "我的收藏",
+        "link": "https://www.ss.gov.cn/fssscxslj/gkmlpt/index",
+        "summary": "我的收藏",
+        "date": null
+      },
+      {
+        "title": "粤公网安备44060702000537号",
+        "link": "https://beian.mps.gov.cn/#/query/webSearch?code=44060702000537",
+        "summary": "粤公网安备44060702000537号",
+        "date": null
+      },
+      {
+        "title": "粤ICP备05101457号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "粤ICP备05101457号",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "南海区住建局",
+    "has_change": true,
+    "change_details": "网站：南海区住建局\nURL：https://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/index.html\n分类：住建局\n检测时间：2026-01-30 15:29:58\n新增内容数量：50\n\n新增内容：\n\n1. 中国政府网\n   链接: http://www.gov.cn/\n   摘要: 中国政府网\n\n2. 广东省政府网\n   链接: http://www.gd.gov.cn/\n   摘要: 广东省政府网\n\n3. 用户中心\n   链接: http://www.gdzwfw.gov.cn/yhzx/index?state=757006\n   摘要: 用户中心\n\n4. 政务公开\n   链接: http://www.nanhai.gov.cn/fsnhq/zwgk/index.html\n   摘要: 政务公开\n\n5. 政务服务\n   链接: http://www.nanhai.gov.cn/fsnhq/zwfw/index.html\n   摘要: 政务服务\n\n6. 互动交流\n   链接: http://www.nanhai.gov.cn/fsnhq/hdjl/index.html\n\n7. 人文南海\n   链接: http://www.nanhai.gov.cn/fsnhq/rwnh/index.html\n\n8. 数据开放\n   链接: https://gddata.gd.gov.cn/opdata/base/collect?deptCode=38\n\n9. 南海区人民政府\n   链接: http://www.nanhai.gov.cn/fsnhq/\n\n10. 政府部门\n   链接: http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:29:58",
+    "new_items": [
+      {
+        "title": "中国政府网",
+        "link": "http://www.gov.cn/",
+        "summary": "中国政府网",
+        "date": null
+      },
+      {
+        "title": "广东省政府网",
+        "link": "http://www.gd.gov.cn/",
+        "summary": "广东省政府网",
+        "date": null
+      },
+      {
+        "title": "用户中心",
+        "link": "http://www.gdzwfw.gov.cn/yhzx/index?state=757006",
+        "summary": "用户中心",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://www.nanhai.gov.cn/fsnhq/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "http://www.nanhai.gov.cn/fsnhq/zwfw/index.html",
+        "summary": "政务服务",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.nanhai.gov.cn/fsnhq/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人文南海",
+        "link": "http://www.nanhai.gov.cn/fsnhq/rwnh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "https://gddata.gd.gov.cn/opdata/base/collect?deptCode=38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "南海区人民政府",
+        "link": "http://www.nanhai.gov.cn/fsnhq/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政府部门",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区住房城乡建设和水务局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "信息公开目录",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于进一步推进建筑施工安全生产责任保险工作的通知",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_5078031.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "基层水务部门乡村振兴工作项目需求表（2026年2月）",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6956634.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对积极支援基孔肯雅热疫情防控企业进行表扬的通报（第二批）",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6956487.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对积极参编《南海区住建水务系统工程文明施工标准化指引手册（试行）（2026年版）》相关单位表扬的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6956132.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于向社会公开征求里水镇和桂工业园兆越纺织地块改造及建设世发美妆产业园项目历史文化资源评估情况的意见的公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6955876.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局下属事业单位招聘公益一类事业编制工作人员总成绩及进入体检人员名单",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6955866.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于征求向社会公开征求大沥镇河西新德湾溪工业区改造项目历史文化资源评估情况的意见的公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6950769.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对广东创南工程管理有限公司等企业积极协助检查的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6950756.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对建筑业企业协助支持设计技术领域工作表扬的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6950747.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局2025年政府信息公开工作年度报告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6950738.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于征求向社会公开征求大沥镇河西新德湾溪工业区改造项目历史文化资源评估情况的意见的公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6946189.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对支持编制《佛山市南海区好房子设计指引》相关单位表扬的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6946154.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于将广州华源设计院有限公司列入水土保持信用监管“重点关注名单”公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6946149.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区基层水务部门乡村振兴工作项目需求表 （2026年1月）",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6942763.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于公布2026年佛山市房屋安全鉴定机构名录的函",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6942597.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于转发《佛山市既有住宅加装电梯规划和设计指引》《佛山市既有住宅加装电梯规划和设计审查指引》的函",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6946160.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "2025第4季度生产建设项目水土保持设施自主验收报备材料接收公示",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6939999.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区“百县千镇万村高质量发展工程”指挥部城镇建设专班办公室关于对2025年第四批资金帮扶企业诚信加分的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6939938.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局下属事业单位招聘公益一类事业编制工作人员笔试成绩及拟进入面试人员名单",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6939929.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于印发南海区住建水务领域岁末年初安全生产暨高层建筑重大火灾风险隐患排查整治行动工作方案的通知",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6937843.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "最后一页",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/index_20.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "中央人民政府网",
+        "link": "http://www.gov.cn",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "广东省人民政府",
+        "link": "http://www.gd.gov.cn",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区纪委监委机关",
+        "link": "http://jijian.nanhai.gov.cn/cms/html/jjjcj/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委办公室（区人民政府办公室）",
+        "link": "http://www.nanhai.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委组织部（区委编办）",
+        "link": "http://zuzhibu.nanhai.gov.cn/cms/html/nhzg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委宣传部",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qwgltj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委政法委",
+        "link": "http://zfw.nanhai.gov.cn",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委统一战线工作部",
+        "link": "https://www.nanhai.gov.cn/fsnhq/bmdh/dwbm/qwtyzxgzb/znjj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委社会工作部",
+        "link": "https://www.nanhai.gov.cn/fsnhq/bmdh/dwbm/qwsgb/znjj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区文化广电旅游体育局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qwgltj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区司法局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qsfj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区信访局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qxfj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区发展和改革局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qfgj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区统计局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qtjj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区经济促进局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qjjcjj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区科学技术局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qkjj/xxgkml/",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "顺德区住建局",
+    "has_change": true,
+    "change_details": "网站：顺德区住建局\nURL：https://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html\n分类：住建局\n检测时间：2026-01-30 15:29:57\n新增内容数量：31\n\n新增内容：\n\n1. 政务公开\n   链接: http://www.shunde.gov.cn/fssdcxslj/gkmlpt/index\n   摘要: 政务公开\n\n2. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html\n   摘要: 通知公告及动态\n\n3. 重点领域信息公开专栏\n   链接: http://www.shunde.gov.cn/sdqzfjssl/zdlyxxgkzn/index.html\n   摘要: 重点领域信息公开专栏\n\n4. 公示信息\n   链接: http://www.shunde.gov.cn/sdqzfjssl/gsxx/index.html\n   摘要: 公示信息\n\n5. 信用信息双公示\n   链接: http://www.shunde.gov.cn/zfjssl/xyxxsgs/index.html\n   摘要: 信用信息双公示\n\n6. 资料下载\n   链接: http://www.shunde.gov.cn/sdqzfjssl/zlxz/index.html\n\n7. 长者浏览模式\n   链接: javascript:;\n\n8. 佛山市顺德区住房城乡建设和水务局（新）\n   链接: http://www.shunde.gov.cn/zfjssl/\n\n9. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/\n\n10. 关于对《关于公布顺德区住房保障工作有关申请条件和标准的通告》公开征求意见情况的公示\n   链接: http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6955988.html\n\n... 还有 21 条内容",
+    "notification_time": "2026-01-30 15:29:57",
+    "new_items": [
+      {
+        "title": "政务公开",
+        "link": "http://www.shunde.gov.cn/fssdcxslj/gkmlpt/index",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html",
+        "summary": "通知公告及动态",
+        "date": null
+      },
+      {
+        "title": "重点领域信息公开专栏",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/zdlyxxgkzn/index.html",
+        "summary": "重点领域信息公开专栏",
+        "date": null
+      },
+      {
+        "title": "公示信息",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/gsxx/index.html",
+        "summary": "公示信息",
+        "date": null
+      },
+      {
+        "title": "信用信息双公示",
+        "link": "http://www.shunde.gov.cn/zfjssl/xyxxsgs/index.html",
+        "summary": "信用信息双公示",
+        "date": null
+      },
+      {
+        "title": "资料下载",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/zlxz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "长者浏览模式",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局（新）",
+        "link": "http://www.shunde.gov.cn/zfjssl/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于对《关于公布顺德区住房保障工作有关申请条件和标准的通告》公开征求意见情况的公示",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6955988.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局部门及下属单位综合性涉企收费目录清单",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6955051.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于2025年度勘察、设计、监理企业资质核查整改复查情况的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6952537.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于对水电九局贵州建设工程有限公司在“创智路以西、东乐路以北地块项目三期”中未落实农民工工资支付保障责任予以诚信扣分的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6949375.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于对海南伟业建筑工程有限公司在“容桂街道德胜社区居民委员会成业路43号地块项目”中未落实农民工工资支付保障责任予以诚信扣分的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6949373.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于对2025年配合开展海绵城市建设管理工作的单位通报表扬的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6947002.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局2025年法治政府建设年度报告",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6946887.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于2025年度顺德区工程造价咨询企业专项检查情况的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6945190.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于公开征求《关于公布顺德区住房保障工作有关申请条件和标准的通告》意见建议的公告",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6944250.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于开展2025年年终职能领域质量安全生产综合大检查情况的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6944241.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市水务局调研组赴顺德开展水利工程冬修工作调研",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6940813.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区发展和改革局 佛山市顺德区财政局 佛山市顺德区住房城乡建设和水务局转发关于调整佛山市污水处理费收费标准的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6937668.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "2026年度顺德区住房城乡建设和水务局领导干部接访汇总表",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6936672.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市顺德区住房城乡建设和水务局关于佛山市顺德区供水系统专项规划（2020—2035）》征询公众意见情况的通告",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6935313.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于发布2025年顺德区房屋租赁市场租金参考信息的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6935302.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于废止《佛山市顺德区液化石油气储配站整合工作方案》的通告",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6934836.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局 佛山市顺德区交通运输局关于进一步加强住建水务及交通工程领域政府投资工程项目标后履约监督管理的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6931662.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局 佛山市顺德区交通运输局关于进一步加强住建水务及交通工程领域用工实名管理的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6931659.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局 佛山市顺德区交通运输局关于进一步加大住建水务及交通工程建设市场行为监管力度的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6931656.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局 佛山市顺德区交通运输局关于在住建水务及交通工程领域实施工程款穿透式监管的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6931645.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "备案编号：粤ICP备05093488号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "粤公网安备 44060602000173号",
+        "link": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44060602000173",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山住建局",
+    "has_change": true,
+    "change_details": "网站：佛山住建局\nURL：https://fszj.foshan.gov.cn/zwgk/txgg/index.html\n分类：住建局\n检测时间：2026-01-30 15:29:55\n新增内容数量：35\n\n新增内容：\n\n1. 无障碍版\n   链接: javascript:void(0);\n   摘要: 无障碍版\n\n2. 政务公开\n   链接: http://fszj.foshan.gov.cn/zwgk/index.html\n   摘要: 政务公开\n\n3. 政务专题\n   链接: http://fszj.foshan.gov.cn/zwzt/index.html\n   摘要: 政务专题\n\n4. 办事服务\n   链接: http://fszj.foshan.gov.cn/bsfw/index.html\n   摘要: 办事服务\n\n5. 政务服务\n   链接: http://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=574466125\n   摘要: 政务服务\n\n6. 政民互动\n   链接: http://fszj.foshan.gov.cn/zmhd/index.html\n\n7. 专项工作\n   链接: http://fszj.foshan.gov.cn/zthd/index.html\n\n8. 数据开放\n   链接: http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38\n\n9. 佛山住建局\n   链接: http://fszj.foshan.gov.cn/fszjj/\n\n10. 政务公开\n   链接: http://fszj.foshan.gov.cn/zwgk/\n\n... 还有 25 条内容",
+    "notification_time": "2026-01-30 15:29:55",
+    "new_items": [
+      {
+        "title": "无障碍版",
+        "link": "javascript:void(0);",
+        "summary": "无障碍版",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://fszj.foshan.gov.cn/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务专题",
+        "link": "http://fszj.foshan.gov.cn/zwzt/index.html",
+        "summary": "政务专题",
+        "date": null
+      },
+      {
+        "title": "办事服务",
+        "link": "http://fszj.foshan.gov.cn/bsfw/index.html",
+        "summary": "办事服务",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "http://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=574466125",
+        "summary": "政务服务",
+        "date": null
+      },
+      {
+        "title": "政民互动",
+        "link": "http://fszj.foshan.gov.cn/zmhd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "专项工作",
+        "link": "http://fszj.foshan.gov.cn/zthd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山住建局",
+        "link": "http://fszj.foshan.gov.cn/fszjj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://fszj.foshan.gov.cn/zwgk/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局政府网站年度工作报表（2025年度）",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6945569.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于印发2026年上半年佛山市预拌混凝...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6952773.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市政务服务和数据管理局等６部门关于佛山市公共资...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6951775.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市“百县千镇万村高质量发展工程”指挥部城镇建设专班办公室...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6950397.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于开展2025年下半年房屋...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6949270.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布2025年第四季度“...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6949257.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于表扬有关单位积极推广应用...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6948531.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布2025年度佛山市装...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6947913.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于再次征求《关于进一步加强...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6947462.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布《佛山市绿色建材目录》（第六十...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6945129.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于2025年度企业委派专家参与工程造...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6944717.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于印发《佛山市存量房交易资...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6944371.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于2025年家装厨卫“焕新”工作有关...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943827.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布佛山市绿色建材应用交流项目（第...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943697.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于表扬佛山市绿色建材应用交...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943687.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布佛山市智能建造新技术...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943231.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于对7家建筑企业积极参加支持房屋建筑...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943202.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于2025年第四季度劳动用工管理人员...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6942676.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于开展2025年第四季度“...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6942516.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于对2025年全市建筑施工...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6941876.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "最后一页",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/index_103.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网站地图",
+        "link": "http://fszj.foshan.gov.cn/wzdt/content/post_10144.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "fszjfgk@fszj.foshan.gov.cn",
+        "link": "mailto:fszjfgk@fszj.foshan.gov.cn",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "粤公网安备 44060402000401号",
+        "link": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44060402000401",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "顺德区人民政府网",
+    "has_change": true,
+    "change_details": "网站：顺德区人民政府网\nURL：https://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/\n分类：区政府\n检测时间：2026-01-30 15:29:53\n新增内容数量：50\n\n新增内容：\n\n1. 个人中心\n   链接: https://www.gdzwfw.gov.cn/yhzx/index.html\n   摘要: 个人中心\n\n2. 智能机器人\n   链接: https://www.shunde.gov.cn/znjqr\n   摘要: 智能机器人\n\n3. English\n   链接: https://www.shunde.gov.cn/sdqrmzf/yw/index.html\n   摘要: English\n\n4. 政务公开\n   链接: http://www.shunde.gov.cn/sdqrmzf/zwgk/index.html\n   摘要: 政务公开\n\n5. 政务服务\n   链接: http://www.shunde.gov.cn/sdqrmzf/zwfw/index.html\n   摘要: 政务服务\n\n6. 政民互动\n   链接: http://www.shunde.gov.cn/sdqrmzf/zmhd/index.html\n\n7. 数据开放\n   链接: https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38\n\n8. 走进顺德\n   链接: http://www.shunde.gov.cn/sdqrmzf/zjsd/index.html\n\n9. 部门频道\n   链接: http://www.shunde.gov.cn/sdqrmzf/bmpd/index.html\n\n10. 长者浏览模式\n   链接: https://www.shunde.gov.cn/sdqrmzf/zzfwzq/\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:29:53",
+    "new_items": [
+      {
+        "title": "个人中心",
+        "link": "https://www.gdzwfw.gov.cn/yhzx/index.html",
+        "summary": "个人中心",
+        "date": null
+      },
+      {
+        "title": "智能机器人",
+        "link": "https://www.shunde.gov.cn/znjqr",
+        "summary": "智能机器人",
+        "date": null
+      },
+      {
+        "title": "English",
+        "link": "https://www.shunde.gov.cn/sdqrmzf/yw/index.html",
+        "summary": "English",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwfw/index.html",
+        "summary": "政务服务",
+        "date": null
+      },
+      {
+        "title": "政民互动",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zmhd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "走进顺德",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zjsd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "部门频道",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/bmpd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "长者浏览模式",
+        "link": "https://www.shunde.gov.cn/sdqrmzf/zzfwzq/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务信息",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区人民政府关于同意佛山市顺德区勒流街道伦桂路以东安爱地块城市更新（“三旧”改造）项目实施方案批复延期的批复【顺府（资）复〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6956196.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区农业农村局关于2025年度顺德区动物疫病强制免疫补助情况的公示",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6956194.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市顺德区城镇建设用地规模落实方案（佛山220千伏滨江输变电工程等项目）》的批后公告【佛自然资顺告〔2026〕12号】",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6953811.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "顺德区档案馆2026年物业管理服务需求公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6953810.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948176.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948175.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948174.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948173.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948172.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948171.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948170.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948169.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948168.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948167.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948166.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948165.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948164.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948163.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948162.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948161.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "党政机关",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区属事业单位",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市直属单位",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "各镇街道",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "其他单位",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山五区链接",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区人大办",
+        "link": "http://rd.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区政协办",
+        "link": "http://zx.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "顺德区纪委监察委",
+        "link": "http://jwjcj.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委组织部",
+        "link": "http://zzb.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委统一战线工作部",
+        "link": "http://www.shunde.gov.cn/sdshgz/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委政法委员会",
+        "link": "http://zfw.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区发展和改革局",
+        "link": "http://www.shunde.gov.cn/sg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区教育局",
+        "link": "http://www.shunde.gov.cn/jyj/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区科学技术局",
+        "link": "http://www.shunde.gov.cn/kxjs/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区经济促进局",
+        "link": "http://www.shunde.gov.cn/est/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区民族宗教事务局",
+        "link": "http://www.shunde.gov.cn/sdshgz/index.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山市政府-意见征集",
+    "has_change": true,
+    "change_details": "网站：佛山市政府-意见征集\nURL：https://www.foshan.gov.cn/hdjl/yjzj/index.html\n分类：市政府\n检测时间：2026-01-30 15:29:51\n新增内容数量：12\n\n新增内容：\n\n1. 互动交流\n   链接: https://www.foshan.gov.cn/hdjl/\n   摘要: 互动交流\n\n2. 规范性文件草案征求意见\n   链接: https://www.foshan.gov.cn/hdjl/yjzj/\n   摘要: 规范性文件草案征求意见\n\n3. 佛山市住房和城乡建设局关于征求《佛山市企业自持商品房屋管理实施细则（征求意见稿）》社会公众意见的公告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48562\n   摘要: 佛山市住房和城乡建设局关于征求《佛山市企业自持商品房屋管理实施细则（征求意见稿）》社会公众意见的公告\n\n4. 佛山市民政局关于征求《佛山市民政局关于明确最低生活保障家庭经济状况核对和生活状况综合评估工作有关事项的通知（征求意见稿）》意见的公告\n   链接: http://mz.foshan.gov.cn/hdjlpt/yjzj/answer/48560\n   摘要: 佛山市民政局关于征求《佛山市民政局关于明确最低生活保障家庭经济状况核对和生活状况综合评估工作有关事项的通知（征求意见稿）》意见的公告\n\n5. 佛山市发展和改革局关于《佛山市市级储备粮自主轮换储备管理实施细则（公开征求意见稿）》向社会公众征求意见的公告\n   链接: https://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/48508\n   摘要: 佛山市发展和改革局关于《佛山市市级储备粮自主轮换储备管理实施细则（公开征求意见稿）》向社会公众征求意见的公告\n\n6. 佛山市政务服务和数据管理局关于向社会公开征求《佛山市国有建设用地使用权网上交易规则（征求意见稿）》意见的公告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48296\n\n7. 佛山市发展和改革局关于向社会公众征求《佛山市深化营商环境改革打造涉企服务最优市行动方案（公开征求意见稿）》意见的公告\n   链接: http://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/48149\n\n8. 佛山市社会保险基金管理局关于征求《佛山市职工生育保险待遇经办规程（公开征求意见稿）》意见的公告\n   链接: http://fssi.foshan.gov.cn/hdjlpt/yjzj/answer/48125\n\n9. 佛山市农业农村局关于征求《佛山市农业农村局水产品质量安全监督抽查复检程序管理规定（2025年征求意见稿）》意见的公告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48027\n\n10. 佛山市文化广电旅游体育局关于向社会公众征集《佛山市全域文旅融合发展规划（2026－2030年）》意见的公告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/47835\n\n... 还有 2 条内容",
+    "notification_time": "2026-01-30 15:29:51",
+    "new_items": [
+      {
+        "title": "互动交流",
+        "link": "https://www.foshan.gov.cn/hdjl/",
+        "summary": "互动交流",
+        "date": null
+      },
+      {
+        "title": "规范性文件草案征求意见",
+        "link": "https://www.foshan.gov.cn/hdjl/yjzj/",
+        "summary": "规范性文件草案征求意见",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于征求《佛山市企业自持商品房屋管理实施细则（征求意见稿）》社会公众意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48562",
+        "summary": "佛山市住房和城乡建设局关于征求《佛山市企业自持商品房屋管理实施细则（征求意见稿）》社会公众意见的公告",
+        "date": null
+      },
+      {
+        "title": "佛山市民政局关于征求《佛山市民政局关于明确最低生活保障家庭经济状况核对和生活状况综合评估工作有关事项的通知（征求意见稿）》意见的公告",
+        "link": "http://mz.foshan.gov.cn/hdjlpt/yjzj/answer/48560",
+        "summary": "佛山市民政局关于征求《佛山市民政局关于明确最低生活保障家庭经济状况核对和生活状况综合评估工作有关事项的通知（征求意见稿）》意见的公告",
+        "date": null
+      },
+      {
+        "title": "佛山市发展和改革局关于《佛山市市级储备粮自主轮换储备管理实施细则（公开征求意见稿）》向社会公众征求意见的公告",
+        "link": "https://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/48508",
+        "summary": "佛山市发展和改革局关于《佛山市市级储备粮自主轮换储备管理实施细则（公开征求意见稿）》向社会公众征求意见的公告",
+        "date": null
+      },
+      {
+        "title": "佛山市政务服务和数据管理局关于向社会公开征求《佛山市国有建设用地使用权网上交易规则（征求意见稿）》意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48296",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市发展和改革局关于向社会公众征求《佛山市深化营商环境改革打造涉企服务最优市行动方案（公开征求意见稿）》意见的公告",
+        "link": "http://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/48149",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市社会保险基金管理局关于征求《佛山市职工生育保险待遇经办规程（公开征求意见稿）》意见的公告",
+        "link": "http://fssi.foshan.gov.cn/hdjlpt/yjzj/answer/48125",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市农业农村局关于征求《佛山市农业农村局水产品质量安全监督抽查复检程序管理规定（2025年征求意见稿）》意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48027",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市文化广电旅游体育局关于向社会公众征集《佛山市全域文旅融合发展规划（2026－2030年）》意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/47835",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市医疗保障局关于公开征求《佛山市医疗机构医疗保障定点管理实施办法》《佛山市零售药店医疗保障定点管理实施办法》（征求公众意见稿）意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/47736",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市发展和改革局关于公开征求《佛山市发展和改革局投资咨询评估管理办法（征求意见稿）》意见的公告",
+        "link": "https://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/47678",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山公共资源交易网站",
+    "has_change": true,
+    "change_details": "网站：佛山公共资源交易网站\nURL：http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n分类：公共资源交易\n检测时间：2026-01-30 15:29:49\n新增内容数量：15\n\n新增内容：\n\n1. 交易公告\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 交易公告\n\n2. 正在竞价\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 正在竞价\n\n3. 历史交易\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 历史交易\n\n4. 结果公示\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 结果公示\n\n5. 资料下载\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 资料下载\n\n6. 正在公告\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n7. 正在竞价\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n8. 历史交易\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n9. 结果公示\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n10. 资料下载\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n... 还有 5 条内容",
+    "notification_time": "2026-01-30 15:29:49",
+    "new_items": [
+      {
+        "title": "交易公告",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "交易公告",
+        "date": null
+      },
+      {
+        "title": "正在竞价",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "正在竞价",
+        "date": null
+      },
+      {
+        "title": "历史交易",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "历史交易",
+        "date": null
+      },
+      {
+        "title": "结果公示",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "结果公示",
+        "date": null
+      },
+      {
+        "title": "资料下载",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "资料下载",
+        "date": null
+      },
+      {
+        "title": "正在公告",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "正在竞价",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "历史交易",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "结果公示",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "资料下载",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市国有建设用地使用权和矿业权网上交易系统操作视频",
+        "link": "javascript:void(0);",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数字证书客户端安装包",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/TDJYZtbMis_FS/Pages/WebShow/downloadfile/数字证书客户端安装包.rar",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "建设用地使用权和矿业权网上交易竞买人操作手册",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/TDJYZtbMis_FS/Pages/WebShow/downloadfile/建设用地使用权和矿业权网上交易竞买人操作手册.doc",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于印发佛山市国有建设用地使用权和矿业权网上交易规则（佛府办〔2014〕50号）",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/TDJYZtbMis_FS/Pages/WebShow/downloadfile/关于印发佛山市国有建设用地使用权和矿业权网上交易规则（佛府办〔2014〕50号）.doc",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "GDCA数字证书及电子签章办理指南",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/TDJYZtbMis_FS/Pages/WebShow/downloadfile/GDCA数字证书及电子签章办理指南.docx",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "顺德区自然资源局",
+    "has_change": true,
+    "change_details": "网站：顺德区自然资源局\nURL：https://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/index.html\n分类：自然资源局\n检测时间：2026-01-30 15:29:48\n新增内容数量：41\n\n新增内容：\n\n1. 政务公开\n   链接: http://www.shunde.gov.cn/fssdzrzy/gkmlpt/index\n   摘要: 政务公开\n\n2. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/index.html\n   摘要: 通知公告及动态\n\n3. 公示信息\n   链接: https://www.shunde.gov.cn/sdszrzyjsdfj/gsxx/csgxsjgz/\n   摘要: 公示信息\n\n4. 办事指南\n   链接: http://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=MB2D26310\n   摘要: 办事指南\n\n5. 长者浏览模式\n   链接: javascript:;\n   摘要: 长者浏览模式\n\n6. 顺德区_市自然资源局顺德分局\n   链接: http://www.shunde.gov.cn/zrzy/\n\n7. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/\n\n8. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/\n\n9. 佛山市顺德区城乡建设用地增减挂钩试点龙江镇左滩工业区拆旧区项目复垦地块验收结果的通告【佛自然资顺告〔2026〕15号】\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956714.html\n\n10. 关于临时用地复垦验收结果的通告【佛自然资顺告〔2026〕14号】\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956697.html\n\n... 还有 31 条内容",
+    "notification_time": "2026-01-30 15:29:48",
+    "new_items": [
+      {
+        "title": "政务公开",
+        "link": "http://www.shunde.gov.cn/fssdzrzy/gkmlpt/index",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/index.html",
+        "summary": "通知公告及动态",
+        "date": null
+      },
+      {
+        "title": "公示信息",
+        "link": "https://www.shunde.gov.cn/sdszrzyjsdfj/gsxx/csgxsjgz/",
+        "summary": "公示信息",
+        "date": null
+      },
+      {
+        "title": "办事指南",
+        "link": "http://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=MB2D26310",
+        "summary": "办事指南",
+        "date": null
+      },
+      {
+        "title": "长者浏览模式",
+        "link": "javascript:;",
+        "summary": "长者浏览模式",
+        "date": null
+      },
+      {
+        "title": "顺德区_市自然资源局顺德分局",
+        "link": "http://www.shunde.gov.cn/zrzy/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区城乡建设用地增减挂钩试点龙江镇左滩工业区拆旧区项目复垦地块验收结果的通告【佛自然资顺告〔2026〕15号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956714.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于临时用地复垦验收结果的通告【佛自然资顺告〔2026〕14号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956697.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于高新区西部启动区人居设施配套项目（二期）——科创人才社区南侧连接红北河东侧规划道路批前公示的通告【顺规公（选址）〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956591.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区杏坛镇杏韵湖片区城市更新单元计划批复结果公告",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956385.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区人民政府关于同意佛山市顺德区勒流街道伦桂路以东安爱地块城市更新（“三旧”改造）项目实施方案批复延期的批复【顺府（资）复〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6955341.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕13号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6955218.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市顺德区城镇建设用地规模落实方案（佛山220千伏滨江输变电工程等项目）》的批后公告【佛自然资顺告〔2026〕12号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6953284.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山220千伏丰卓输变电工程（塔基部分）批前公示的通告顺规公（选址）〔2026〕4号",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6953096.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于对《佛山市顺德区土地1.5级开发项目管理细则（试行）（征求意见稿）》内容及公平竞争审查征询公众意见的通告【佛自然资顺告〔2026〕11号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6952704.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于勒流街道广东耀熹工业发展有限公司一期城市更新（“三旧”改造）项目实施方案批复延期批前公示的通告",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6951745.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局顺德分局2026年双随机抽查计划表",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6950537.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于建设项目使用林地公示的通告【佛自然资顺告〔2026〕10号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6950236.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山市顺德区北滘镇西海二支片二期道路改造工程——烈士南二路（规划纵二路——规划纵三路）工程批前公示的通告【顺规公（选址）〔2026〕9号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6946930.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区陈村镇绀现（北一期）绀村工业园城市更新（“三旧”改造）项目涉及集体土地完善转用手续的批复结果通告【佛自然资顺告〔2026〕8号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6946070.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山市顺德区北滘镇坤洲工业区建设项目一期批前公示的通告【顺规公（选址）〔2026〕1号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6945580.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于同意收回佛山市顺德区北滘镇西南片区骏悦路以南地块6.161505公顷国有建设用地使用权的批复【顺德建用字〔2026〕7号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6944391.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于收回佛山市顺德区北滘镇B-CB-08-03-D-53以北地块0.105442公顷土地及补偿安置方案的通告【佛自然资顺告〔2026〕7号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6944330.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于同意收回佛山市顺德区北滘镇B-CB-08-03-D-53以北地块0.105442公顷国有建设用地使用权的批复【顺德建用字〔2026〕8号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6944317.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山110千伏聚胜输变电工程（塔基部分）批前公示的通告【顺规公（选址）〔2026〕3号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6943861.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山110千伏聚胜输变电工程（站址部分）批前公示的通告【顺规公（选址）〔2026〕2号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6943838.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于同意收回佛山市顺德区北滘镇西南片区02-D-05-1地块0.905841公顷国有建设用地使用权的批复【顺德建用字〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6942540.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于临时用地复垦验收结果的通告【佛自然资顺告〔2026〕6号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6941578.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "顺德高新科技产业开发区科技产业园控制性详细规划（修编）",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6941415.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市国土空间规划委员会顺德区分委会会议决议",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6940319.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6939694.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕4号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6939642.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于2025年顺德区地图市场监督检查结果的公示",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6939430.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕3号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6938240.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "龙江镇坦西工业区E区城市更新（“三旧”改造）项目涉及国有土地完善转用手续的批复结果通告【佛自然资顺告〔2026〕2号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6938235.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕1号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6938225.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "最后一页",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/index_251.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "备案编号：粤ICP备05093488号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "粤公网安备 44060602000173号",
+        "link": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44060602000173",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "南海区自然资源局",
+    "has_change": true,
+    "change_details": "网站：南海区自然资源局\nURL：https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/\n分类：自然资源局\n检测时间：2026-01-30 15:29:46\n新增内容数量：4\n\n新增内容：\n\n1. 佛山市自然资源局南海分局\n   链接: http://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/index\n   摘要: 佛山市自然资源局南海分局\n\n2. 我的收藏\n   链接: https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/\n   摘要: 我的收藏\n\n3. 粤公网安备44060502000104号\n   链接: https://beian.mps.gov.cn/#/query/webSearch?code=44060502000104\n   摘要: 粤公网安备44060502000104号\n\n4. 粤ICP备09102853号\n   链接: https://beian.miit.gov.cn/\n   摘要: 粤ICP备09102853号\n",
+    "notification_time": "2026-01-30 15:29:46",
+    "new_items": [
+      {
+        "title": "佛山市自然资源局南海分局",
+        "link": "http://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/index",
+        "summary": "佛山市自然资源局南海分局",
+        "date": null
+      },
+      {
+        "title": "我的收藏",
+        "link": "https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/",
+        "summary": "我的收藏",
+        "date": null
+      },
+      {
+        "title": "粤公网安备44060502000104号",
+        "link": "https://beian.mps.gov.cn/#/query/webSearch?code=44060502000104",
+        "summary": "粤公网安备44060502000104号",
+        "date": null
+      },
+      {
+        "title": "粤ICP备09102853号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "粤ICP备09102853号",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "禅城区自然资源局",
+    "has_change": true,
+    "change_details": "网站：禅城区自然资源局\nURL：https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index\n分类：自然资源局\n检测时间：2026-01-30 15:29:44\n新增内容数量：4\n\n新增内容：\n\n1. 佛山市自然资源局禅城分局\n   链接: http://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index\n   摘要: 佛山市自然资源局禅城分局\n\n2. 我的收藏\n   链接: https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index\n   摘要: 我的收藏\n\n3. 粤公网安备44060402000126号\n   链接: https://beian.mps.gov.cn/#/query/webSearch?code=44060402000126\n   摘要: 粤公网安备44060402000126号\n\n4. 粤ICP备05054493号\n   链接: https://beian.miit.gov.cn/\n   摘要: 粤ICP备05054493号\n",
+    "notification_time": "2026-01-30 15:29:44",
+    "new_items": [
+      {
+        "title": "佛山市自然资源局禅城分局",
+        "link": "http://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index",
+        "summary": "佛山市自然资源局禅城分局",
+        "date": null
+      },
+      {
+        "title": "我的收藏",
+        "link": "https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index",
+        "summary": "我的收藏",
+        "date": null
+      },
+      {
+        "title": "粤公网安备44060402000126号",
+        "link": "https://beian.mps.gov.cn/#/query/webSearch?code=44060402000126",
+        "summary": "粤公网安备44060402000126号",
+        "date": null
+      },
+      {
+        "title": "粤ICP备05054493号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "粤ICP备05054493号",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山自然资源局-通知公告",
+    "has_change": true,
+    "change_details": "网站：佛山自然资源局-通知公告\nURL：https://fszrzy.foshan.gov.cn/zwgk/tzgg/index.html\n分类：自然资源局\n检测时间：2026-01-30 15:29:41\n新增内容数量：50\n\n新增内容：\n\n1. 机构职能\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/index.html\n   摘要: 机构职能\n\n2. 政务公开\n   链接: https://fszrzy.foshan.gov.cn/zwgk/index.html\n   摘要: 政务公开\n\n3. 政务专题\n   链接: https://fszrzy.foshan.gov.cn/ywzt/index.html\n   摘要: 政务专题\n\n4. 政民互动\n   链接: https://fszrzy.foshan.gov.cn/hdjl/index.html\n   摘要: 政民互动\n\n5. 数据开放\n   链接: http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38\n   摘要: 数据开放\n\n6. 机构职责\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html\n\n7. 机构设置\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html\n\n8. 机构领导\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html\n\n9. 直属机构\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html\n\n10. 职权目录\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:29:41",
+    "new_items": [
+      {
+        "title": "机构职能",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/index.html",
+        "summary": "机构职能",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务专题",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/index.html",
+        "summary": "政务专题",
+        "date": null
+      },
+      {
+        "title": "政民互动",
+        "link": "https://fszrzy.foshan.gov.cn/hdjl/index.html",
+        "summary": "政民互动",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38",
+        "summary": "数据开放",
+        "date": null
+      },
+      {
+        "title": "机构职责",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构设置",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构领导",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "直属机构",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "职权目录",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人事信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/rsxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政策文件",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/fggw/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "规划计划",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ghjh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "财政预决算",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/zjxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "征地信息公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/zdxxgk/zdpzxx/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "党建工作",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/dsxxjy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "其它信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/qtxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "权责清单",
+        "link": "https://www.gdzwfw.gov.cn/portal/v2/affairs-public-duty-list?region=440600",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "执法人员信息",
+        "link": "http://www.xzzfxxgs.gdsf.gov.cn/ApprLawPublicity/unit.html#/subject?unitId=d51a69a236494164997860b68db4a2eb&unitName=%E4%BD%9B%E5%B1%B1%E5%B8%82%E8%87%AA%E7%84%B6%E8%B5%84%E6%BA%90%E5%B1%80&areaNumber=440600&activeIndex=2",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "土地管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/tdgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "城乡规划",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "测绘信息管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/chgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "一书两证",
+        "link": "https://fszrzy.foshan.gov.cn/fszyj/yslz/ydz/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "地矿管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/dkgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "三旧改造",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/sjgz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "规划委员会",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/ghwyh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "不动产登记",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/bdcdj/ckzy/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "优化营商环境专题",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/yhyshj/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据发布",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/sjfb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "电子报批",
+        "link": "https://fszrzy.foshan.gov.cn/zxbs/dzbp/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上调查",
+        "link": "https://fszrzy.foshan.gov.cn/hdjl/wsdc/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.foshan.gov.cn/hdjlpt",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构职责",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构设置",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构领导",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "直属机构",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "职权目录",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人事信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/rsxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政府网站工作年度报表（2025年度）",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6947051.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于配合首套住房利率调整做好不动产登记信息查询服务的主要查询途径和指引",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_5797597.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于增补佛山市土地征收成片开发方案论证专家库专家的公示",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6954825.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于支持房地产项目缓建的通知",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6954400.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于限时优化存量项目违约金核算标准的通知",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6954395.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市人力资源和社会保障局关于组建佛山市自然资源专业中级职称评审委员会和开展2025年度佛...",
+        "link": "https://hrss.foshan.gov.cn/ztzl/rczt/fszc/pstz/content/post_6952717.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市城中村改造综合规划（2024-2035年）》的批前公示",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6952713.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于《佛山市“三旧”改造项目地价计收及补偿办法（公开征求意见稿）》公开征求...",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6946599.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于公开聘请不动产登记行风监督员的通告",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6943633.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市2024年度国土变更调查土地利用分类面积汇总表",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6928630.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山自然资源局-批后",
+    "has_change": true,
+    "change_details": "网站：佛山自然资源局-批后\nURL：https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/\n分类：自然资源局\n检测时间：2026-01-30 15:29:40\n新增内容数量：2\n\n新增内容：\n\n1. 《佛山市南海区NH-D-07-01编制单元（狮山博爱湖西片区）控制性详细规划（2021修编...\n   链接: https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956984.html\n\n2. 《杏坛镇杏韵湖片区（SD-I-02-01 编制单元杏龙路以北）控制性详细规划》批后公布\n   链接: https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956978.html\n",
+    "notification_time": "2026-01-30 15:29:40",
+    "new_items": [
+      {
+        "title": "《佛山市南海区NH-D-07-01编制单元（狮山博爱湖西片区）控制性详细规划（2021修编...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956984.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《杏坛镇杏韵湖片区（SD-I-02-01 编制单元杏龙路以北）控制性详细规划》批后公布",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956978.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山市公积金中心",
+    "has_change": true,
+    "change_details": "网站：佛山市公积金中心\nURL：https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html\n分类：公积金中心\n检测时间：2026-01-30 15:27:34\n新增内容数量：50\n\n新增内容：\n\n1. 信息公开\n   链接: https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html\n   摘要: 信息公开\n\n2. 通知通告\n   链接: http://fsgjj.foshan.gov.cn/xxgk/tztg/index.html\n   摘要: 通知通告\n\n3. 工作动态\n   链接: http://fsgjj.foshan.gov.cn/xxgk/gzdt/index.html\n   摘要: 工作动态\n\n4. 机构概况\n   链接: http://fsgjj.foshan.gov.cn/xxgk/jggk/index.html\n   摘要: 机构概况\n\n5. 信息公开\n   链接: http://fsgjj.foshan.gov.cn/xxgk/xxgk/index.html\n   摘要: 信息公开\n\n6. 法规政策\n   链接: http://fsgjj.foshan.gov.cn/xxgk/fgzc/index.html\n\n7. 行政执法\n   链接: http://fsgjj.foshan.gov.cn/xxgk/xzzf/index.html\n\n8. 数据开放\n   链接: https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38\n\n9. 银行承办\n   链接: http://fsgjj.foshan.gov.cn/xxgk/yxcb/index.html\n\n10. 办事指南\n   链接: https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:27:34",
+    "new_items": [
+      {
+        "title": "信息公开",
+        "link": "https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "信息公开",
+        "date": null
+      },
+      {
+        "title": "通知通告",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "通知通告",
+        "date": null
+      },
+      {
+        "title": "工作动态",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/gzdt/index.html",
+        "summary": "工作动态",
+        "date": null
+      },
+      {
+        "title": "机构概况",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/jggk/index.html",
+        "summary": "机构概况",
+        "date": null
+      },
+      {
+        "title": "信息公开",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/xxgk/index.html",
+        "summary": "信息公开",
+        "date": null
+      },
+      {
+        "title": "法规政策",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/fgzc/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "行政执法",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/xzzf/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "银行承办",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/yxcb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "办事指南",
+        "link": "https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "业务指引",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/ywzy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上操作指引",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/wsczzy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "业务知识库",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/ywzsk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "下载中心",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/xzzx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "办事网点",
+        "link": "https://www.gdzwfw.gov.cn/portal/affairs-public-depart-window?orgId=725458916&region=440600",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "我要咨询",
+        "link": "http://www.foshan.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "征集调查",
+        "link": "http://www.foshan.gov.cn/hdjl/yjzj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "问政与意见调查",
+        "link": "http://www.foshan.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "纪检监察信访举报渠道",
+        "link": "http://fsgjj.foshan.gov.cn/hdjl/jjzjjjcjb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "https://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=725458916",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政府公开目录",
+        "link": "http://fsgjj.foshan.gov.cn/gkmlpt/index",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "Menu",
+        "link": "https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "12329",
+        "link": "javascritp:void(0);",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "信息公开",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知通告",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "工作动态",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/gzdt/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构概况",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/jggk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "信息公开",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/xxgk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "法规政策",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/fgzc/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "行政执法",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/xzzf/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "银行承办",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/yxcb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "办事指南",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "业务指引",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/ywzy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上操作指引",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/wsczzy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "业务知识库",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/ywzsk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "下载中心",
+        "link": "http://fsgjj.foshan.gov.cn/bszn/xzzx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "办事网点",
+        "link": "https://www.gdzwfw.gov.cn/portal/affairs-public-depart-window?orgId=725458916&region=440600",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "我要咨询",
+        "link": "http://www.foshan.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "征集调查",
+        "link": "http://www.foshan.gov.cn/hdjl/yjzj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "问政与意见调查",
+        "link": "http://www.foshan.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "纪检监察信访举报渠道",
+        "link": "http://fsgjj.foshan.gov.cn/hdjl/jjzjjjcjb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "https://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=725458916",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政府公开目录",
+        "link": "http://fsgjj.foshan.gov.cn/gkmlpt/index",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "信息公开",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知通告",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房公积金管理中心政府网站工作年度报表（2025年度）",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/content/post_6946124.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房公积金管理中心关于进一步推进个人住房公积金封存账户清理工作的指引",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/content/post_6568643.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于办理市直售后公有住房住宅专项维修资金业务的通知",
+        "link": "http://fsgjj.foshan.gov.cn/xxgk/tztg/content/post_6566181.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "高明区住建局",
+    "has_change": true,
+    "change_details": "网站：高明区住建局\nURL：https://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/index.html\n分类：住建局\n检测时间：2026-01-30 15:27:26\n新增内容数量：37\n\n新增内容：\n\n1. 政务公开\n   链接: http://www.gaoming.gov.cn/zwgk\n   摘要: 政务公开\n\n2. 政务服务\n   链接: http://www.gaoming.gov.cn/wsfw/index.html\n   摘要: 政务服务\n\n3. 互动交流\n   链接: http://www.gaoming.gov.cn/hdjl\n   摘要: 互动交流\n\n4. 生态高明\n   链接: http://www.gaoming.gov.cn/lsgm\n   摘要: 生态高明\n\n5. 工作机构\n   链接: http://www.gaoming.gov.cn/gzjg\n   摘要: 工作机构\n\n6. 首　　页\n   链接: http://www.gaoming.gov.cn/\n\n7. 政务公开\n   链接: http://www.gaoming.gov.cn/zwgk/index.html\n\n8. 网上服务\n   链接: http://www.gaoming.gov.cn/wsfw/index.html\n\n9. 互动交流\n   链接: http://www.gaoming.gov.cn/hdjl/index.html\n\n10. 绿色高明\n   链接: http://www.gaoming.gov.cn/lsgm/index.html\n\n... 还有 27 条内容",
+    "notification_time": "2026-01-30 15:27:26",
+    "new_items": [
+      {
+        "title": "政务公开",
+        "link": "http://www.gaoming.gov.cn/zwgk",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "http://www.gaoming.gov.cn/wsfw/index.html",
+        "summary": "政务服务",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.gaoming.gov.cn/hdjl",
+        "summary": "互动交流",
+        "date": null
+      },
+      {
+        "title": "生态高明",
+        "link": "http://www.gaoming.gov.cn/lsgm",
+        "summary": "生态高明",
+        "date": null
+      },
+      {
+        "title": "工作机构",
+        "link": "http://www.gaoming.gov.cn/gzjg",
+        "summary": "工作机构",
+        "date": null
+      },
+      {
+        "title": "首　　页",
+        "link": "http://www.gaoming.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://www.gaoming.gov.cn/zwgk/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上服务",
+        "link": "http://www.gaoming.gov.cn/wsfw/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.gaoming.gov.cn/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "绿色高明",
+        "link": "http://www.gaoming.gov.cn/lsgm/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "工作机构",
+        "link": "http://www.gaoming.gov.cn/gzjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区政府网",
+        "link": "http://www.gaoming.gov.cn/fsgm/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "工作机构",
+        "link": "http://www.gaoming.gov.cn/gzjg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区政府部门",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市高明区住房城乡建设和水务局",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "工作动态",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区开展节前安全生产专项检查及企业暖春调研活动",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6953001.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区2025年第四季度高明水厂、杨梅水厂、合水水厂水质抽检结果的公告",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6944194.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局到中心城区第二污水处理厂及明城污水厂调研",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6942088.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市高明区住房城乡建设和水务局2025年法治政府建设年度报告",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6934289.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区住建水务局到沧江泵站进行调研",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6931539.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "贯彻安全生产精神，加强安全防范工作",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6920024.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "加强建筑行业管理，保障工程质量安全",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6908483.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "加强会期污染治理，强化管控污染排放",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6900237.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "筑牢建筑施工安全防线，确保安全生产形势稳定",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6892430.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "党支部联合开展联合党建交流活动",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6871669.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住建水务局开展污水处理厂提标改造工程项目调研",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6832528.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住建水务局扎实开展台风“桦加沙”防御安全检查工作",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6803264.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对相关重点工程项目开展月度实地督导",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6782933.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对工程建设进行安全生产检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6757943.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对在建水利项目进行防台风专项检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6715860.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于海口泵站重建工程水土保持方案审批事项准予行政许可决定书",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6684384.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局到相关工程项目实地开展疫情防控和建筑质量安全工作检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6680449.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对市政水利在建工地以及污水厂联合开展控蚊防蚊专项检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6665524.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局对管网运维单位及关键排涝泵站设施开展防汛工作专项检查",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6649698.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "高明区住房城乡建设和水务局联合举办了2025年市政管网工程综合演练",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/content/post_6639418.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "最后一页",
+        "link": "http://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/index_6.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "三水区住建局",
+    "has_change": true,
+    "change_details": "网站：三水区住建局\nURL：https://www.ss.gov.cn/fssscxslj/gkmlpt/index\n分类：住建局\n检测时间：2026-01-30 15:27:18\n新增内容数量：4\n\n新增内容：\n\n1. 佛山市三水区住房城乡建设和水务局\n   链接: https://www.ss.gov.cn/fssscxslj/gkmlpt/index\n   摘要: 佛山市三水区住房城乡建设和水务局\n\n2. 我的收藏\n   链接: https://www.ss.gov.cn/fssscxslj/gkmlpt/index\n   摘要: 我的收藏\n\n3. 粤公网安备44060702000537号\n   链接: https://beian.mps.gov.cn/#/query/webSearch?code=44060702000537\n   摘要: 粤公网安备44060702000537号\n\n4. 粤ICP备05101457号\n   链接: https://beian.miit.gov.cn/\n   摘要: 粤ICP备05101457号\n",
+    "notification_time": "2026-01-30 15:27:18",
+    "new_items": [
+      {
+        "title": "佛山市三水区住房城乡建设和水务局",
+        "link": "https://www.ss.gov.cn/fssscxslj/gkmlpt/index",
+        "summary": "佛山市三水区住房城乡建设和水务局",
+        "date": null
+      },
+      {
+        "title": "我的收藏",
+        "link": "https://www.ss.gov.cn/fssscxslj/gkmlpt/index",
+        "summary": "我的收藏",
+        "date": null
+      },
+      {
+        "title": "粤公网安备44060702000537号",
+        "link": "https://beian.mps.gov.cn/#/query/webSearch?code=44060702000537",
+        "summary": "粤公网安备44060702000537号",
+        "date": null
+      },
+      {
+        "title": "粤ICP备05101457号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "粤ICP备05101457号",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "南海区住建局",
+    "has_change": true,
+    "change_details": "网站：南海区住建局\nURL：https://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/index.html\n分类：住建局\n检测时间：2026-01-30 15:27:10\n新增内容数量：50\n\n新增内容：\n\n1. 中国政府网\n   链接: http://www.gov.cn/\n   摘要: 中国政府网\n\n2. 广东省政府网\n   链接: http://www.gd.gov.cn/\n   摘要: 广东省政府网\n\n3. 用户中心\n   链接: http://www.gdzwfw.gov.cn/yhzx/index?state=757006\n   摘要: 用户中心\n\n4. 政务公开\n   链接: http://www.nanhai.gov.cn/fsnhq/zwgk/index.html\n   摘要: 政务公开\n\n5. 政务服务\n   链接: http://www.nanhai.gov.cn/fsnhq/zwfw/index.html\n   摘要: 政务服务\n\n6. 互动交流\n   链接: http://www.nanhai.gov.cn/fsnhq/hdjl/index.html\n\n7. 人文南海\n   链接: http://www.nanhai.gov.cn/fsnhq/rwnh/index.html\n\n8. 数据开放\n   链接: https://gddata.gd.gov.cn/opdata/base/collect?deptCode=38\n\n9. 南海区人民政府\n   链接: http://www.nanhai.gov.cn/fsnhq/\n\n10. 政府部门\n   链接: http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:27:10",
+    "new_items": [
+      {
+        "title": "中国政府网",
+        "link": "http://www.gov.cn/",
+        "summary": "中国政府网",
+        "date": null
+      },
+      {
+        "title": "广东省政府网",
+        "link": "http://www.gd.gov.cn/",
+        "summary": "广东省政府网",
+        "date": null
+      },
+      {
+        "title": "用户中心",
+        "link": "http://www.gdzwfw.gov.cn/yhzx/index?state=757006",
+        "summary": "用户中心",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://www.nanhai.gov.cn/fsnhq/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "http://www.nanhai.gov.cn/fsnhq/zwfw/index.html",
+        "summary": "政务服务",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.nanhai.gov.cn/fsnhq/hdjl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人文南海",
+        "link": "http://www.nanhai.gov.cn/fsnhq/rwnh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "https://gddata.gd.gov.cn/opdata/base/collect?deptCode=38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "南海区人民政府",
+        "link": "http://www.nanhai.gov.cn/fsnhq/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政府部门",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区住房城乡建设和水务局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "信息公开目录",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于进一步推进建筑施工安全生产责任保险工作的通知",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_5078031.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "基层水务部门乡村振兴工作项目需求表（2026年2月）",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6956634.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对积极支援基孔肯雅热疫情防控企业进行表扬的通报（第二批）",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6956487.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对积极参编《南海区住建水务系统工程文明施工标准化指引手册（试行）（2026年版）》相关单位表扬的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6956132.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于向社会公开征求里水镇和桂工业园兆越纺织地块改造及建设世发美妆产业园项目历史文化资源评估情况的意见的公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6955876.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局下属事业单位招聘公益一类事业编制工作人员总成绩及进入体检人员名单",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6955866.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于征求向社会公开征求大沥镇河西新德湾溪工业区改造项目历史文化资源评估情况的意见的公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6950769.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对广东创南工程管理有限公司等企业积极协助检查的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6950756.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对建筑业企业协助支持设计技术领域工作表扬的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6950747.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局2025年政府信息公开工作年度报告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6950738.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于征求向社会公开征求大沥镇河西新德湾溪工业区改造项目历史文化资源评估情况的意见的公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6946189.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于对支持编制《佛山市南海区好房子设计指引》相关单位表扬的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6946154.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于将广州华源设计院有限公司列入水土保持信用监管“重点关注名单”公告",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6946149.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区基层水务部门乡村振兴工作项目需求表 （2026年1月）",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6942763.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于公布2026年佛山市房屋安全鉴定机构名录的函",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6942597.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于转发《佛山市既有住宅加装电梯规划和设计指引》《佛山市既有住宅加装电梯规划和设计审查指引》的函",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6946160.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "2025第4季度生产建设项目水土保持设施自主验收报备材料接收公示",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6939999.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区“百县千镇万村高质量发展工程”指挥部城镇建设专班办公室关于对2025年第四批资金帮扶企业诚信加分的通报",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6939938.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局下属事业单位招聘公益一类事业编制工作人员笔试成绩及拟进入面试人员名单",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6939929.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市南海区住房城乡建设和水务局关于印发南海区住建水务领域岁末年初安全生产暨高层建筑重大火灾风险隐患排查整治行动工作方案的通知",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6937843.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "最后一页",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/index_20.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "中央人民政府网",
+        "link": "http://www.gov.cn",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "广东省人民政府",
+        "link": "http://www.gd.gov.cn",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区纪委监委机关",
+        "link": "http://jijian.nanhai.gov.cn/cms/html/jjjcj/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委办公室（区人民政府办公室）",
+        "link": "http://www.nanhai.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委组织部（区委编办）",
+        "link": "http://zuzhibu.nanhai.gov.cn/cms/html/nhzg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委宣传部",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qwgltj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委政法委",
+        "link": "http://zfw.nanhai.gov.cn",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委统一战线工作部",
+        "link": "https://www.nanhai.gov.cn/fsnhq/bmdh/dwbm/qwtyzxgzb/znjj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委社会工作部",
+        "link": "https://www.nanhai.gov.cn/fsnhq/bmdh/dwbm/qwsgb/znjj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区文化广电旅游体育局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qwgltj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区司法局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qsfj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区信访局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qxfj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区发展和改革局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qfgj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区统计局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qtjj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区经济促进局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qjjcjj/xxgkml/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区科学技术局",
+        "link": "http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qkjj/xxgkml/",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "顺德区住建局",
+    "has_change": true,
+    "change_details": "网站：顺德区住建局\nURL：https://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html\n分类：住建局\n检测时间：2026-01-30 15:27:02\n新增内容数量：31\n\n新增内容：\n\n1. 政务公开\n   链接: http://www.shunde.gov.cn/fssdcxslj/gkmlpt/index\n   摘要: 政务公开\n\n2. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html\n   摘要: 通知公告及动态\n\n3. 重点领域信息公开专栏\n   链接: http://www.shunde.gov.cn/sdqzfjssl/zdlyxxgkzn/index.html\n   摘要: 重点领域信息公开专栏\n\n4. 公示信息\n   链接: http://www.shunde.gov.cn/sdqzfjssl/gsxx/index.html\n   摘要: 公示信息\n\n5. 信用信息双公示\n   链接: http://www.shunde.gov.cn/zfjssl/xyxxsgs/index.html\n   摘要: 信用信息双公示\n\n6. 资料下载\n   链接: http://www.shunde.gov.cn/sdqzfjssl/zlxz/index.html\n\n7. 长者浏览模式\n   链接: javascript:;\n\n8. 佛山市顺德区住房城乡建设和水务局（新）\n   链接: http://www.shunde.gov.cn/zfjssl/\n\n9. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/\n\n10. 关于对《关于公布顺德区住房保障工作有关申请条件和标准的通告》公开征求意见情况的公示\n   链接: http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6955988.html\n\n... 还有 21 条内容",
+    "notification_time": "2026-01-30 15:27:02",
+    "new_items": [
+      {
+        "title": "政务公开",
+        "link": "http://www.shunde.gov.cn/fssdcxslj/gkmlpt/index",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html",
+        "summary": "通知公告及动态",
+        "date": null
+      },
+      {
+        "title": "重点领域信息公开专栏",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/zdlyxxgkzn/index.html",
+        "summary": "重点领域信息公开专栏",
+        "date": null
+      },
+      {
+        "title": "公示信息",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/gsxx/index.html",
+        "summary": "公示信息",
+        "date": null
+      },
+      {
+        "title": "信用信息双公示",
+        "link": "http://www.shunde.gov.cn/zfjssl/xyxxsgs/index.html",
+        "summary": "信用信息双公示",
+        "date": null
+      },
+      {
+        "title": "资料下载",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/zlxz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "长者浏览模式",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局（新）",
+        "link": "http://www.shunde.gov.cn/zfjssl/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于对《关于公布顺德区住房保障工作有关申请条件和标准的通告》公开征求意见情况的公示",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6955988.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局部门及下属单位综合性涉企收费目录清单",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6955051.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于2025年度勘察、设计、监理企业资质核查整改复查情况的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6952537.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于对水电九局贵州建设工程有限公司在“创智路以西、东乐路以北地块项目三期”中未落实农民工工资支付保障责任予以诚信扣分的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6949375.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于对海南伟业建筑工程有限公司在“容桂街道德胜社区居民委员会成业路43号地块项目”中未落实农民工工资支付保障责任予以诚信扣分的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6949373.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于对2025年配合开展海绵城市建设管理工作的单位通报表扬的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6947002.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局2025年法治政府建设年度报告",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6946887.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于2025年度顺德区工程造价咨询企业专项检查情况的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6945190.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于公开征求《关于公布顺德区住房保障工作有关申请条件和标准的通告》意见建议的公告",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6944250.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于开展2025年年终职能领域质量安全生产综合大检查情况的通报",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6944241.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市水务局调研组赴顺德开展水利工程冬修工作调研",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6940813.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区发展和改革局 佛山市顺德区财政局 佛山市顺德区住房城乡建设和水务局转发关于调整佛山市污水处理费收费标准的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6937668.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "2026年度顺德区住房城乡建设和水务局领导干部接访汇总表",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6936672.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市顺德区住房城乡建设和水务局关于佛山市顺德区供水系统专项规划（2020—2035）》征询公众意见情况的通告",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6935313.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于发布2025年顺德区房屋租赁市场租金参考信息的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6935302.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于废止《佛山市顺德区液化石油气储配站整合工作方案》的通告",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6934836.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局 佛山市顺德区交通运输局关于进一步加强住建水务及交通工程领域政府投资工程项目标后履约监督管理的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6931662.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局 佛山市顺德区交通运输局关于进一步加强住建水务及交通工程领域用工实名管理的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6931659.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局 佛山市顺德区交通运输局关于进一步加大住建水务及交通工程建设市场行为监管力度的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6931656.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局 佛山市顺德区交通运输局关于在住建水务及交通工程领域实施工程款穿透式监管的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6931645.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "备案编号：粤ICP备05093488号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "粤公网安备 44060602000173号",
+        "link": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44060602000173",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山住建局",
+    "has_change": true,
+    "change_details": "网站：佛山住建局\nURL：https://fszj.foshan.gov.cn/zwgk/txgg/index.html\n分类：住建局\n检测时间：2026-01-30 15:26:52\n新增内容数量：35\n\n新增内容：\n\n1. 无障碍版\n   链接: javascript:void(0);\n   摘要: 无障碍版\n\n2. 政务公开\n   链接: http://fszj.foshan.gov.cn/zwgk/index.html\n   摘要: 政务公开\n\n3. 政务专题\n   链接: http://fszj.foshan.gov.cn/zwzt/index.html\n   摘要: 政务专题\n\n4. 办事服务\n   链接: http://fszj.foshan.gov.cn/bsfw/index.html\n   摘要: 办事服务\n\n5. 政务服务\n   链接: http://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=574466125\n   摘要: 政务服务\n\n6. 政民互动\n   链接: http://fszj.foshan.gov.cn/zmhd/index.html\n\n7. 专项工作\n   链接: http://fszj.foshan.gov.cn/zthd/index.html\n\n8. 数据开放\n   链接: http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38\n\n9. 佛山住建局\n   链接: http://fszj.foshan.gov.cn/fszjj/\n\n10. 政务公开\n   链接: http://fszj.foshan.gov.cn/zwgk/\n\n... 还有 25 条内容",
+    "notification_time": "2026-01-30 15:26:52",
+    "new_items": [
+      {
+        "title": "无障碍版",
+        "link": "javascript:void(0);",
+        "summary": "无障碍版",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://fszj.foshan.gov.cn/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务专题",
+        "link": "http://fszj.foshan.gov.cn/zwzt/index.html",
+        "summary": "政务专题",
+        "date": null
+      },
+      {
+        "title": "办事服务",
+        "link": "http://fszj.foshan.gov.cn/bsfw/index.html",
+        "summary": "办事服务",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "http://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=574466125",
+        "summary": "政务服务",
+        "date": null
+      },
+      {
+        "title": "政民互动",
+        "link": "http://fszj.foshan.gov.cn/zmhd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "专项工作",
+        "link": "http://fszj.foshan.gov.cn/zthd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山住建局",
+        "link": "http://fszj.foshan.gov.cn/fszjj/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://fszj.foshan.gov.cn/zwgk/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局政府网站年度工作报表（2025年度）",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6945569.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于印发2026年上半年佛山市预拌混凝...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6952773.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市政务服务和数据管理局等６部门关于佛山市公共资...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6951775.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市“百县千镇万村高质量发展工程”指挥部城镇建设专班办公室...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6950397.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于开展2025年下半年房屋...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6949270.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布2025年第四季度“...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6949257.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于表扬有关单位积极推广应用...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6948531.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布2025年度佛山市装...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6947913.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于再次征求《关于进一步加强...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6947462.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布《佛山市绿色建材目录》（第六十...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6945129.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于2025年度企业委派专家参与工程造...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6944717.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于印发《佛山市存量房交易资...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6944371.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于2025年家装厨卫“焕新”工作有关...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943827.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布佛山市绿色建材应用交流项目（第...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943697.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于表扬佛山市绿色建材应用交...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943687.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于公布佛山市智能建造新技术...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943231.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于对7家建筑企业积极参加支持房屋建筑...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6943202.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于2025年第四季度劳动用工管理人员...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6942676.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于开展2025年第四季度“...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6942516.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于对2025年全市建筑施工...",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/content/post_6941876.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "最后一页",
+        "link": "http://fszj.foshan.gov.cn/zwgk/txgg/index_103.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网站地图",
+        "link": "http://fszj.foshan.gov.cn/wzdt/content/post_10144.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "fszjfgk@fszj.foshan.gov.cn",
+        "link": "mailto:fszjfgk@fszj.foshan.gov.cn",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "粤公网安备 44060402000401号",
+        "link": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44060402000401",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "顺德区人民政府网",
+    "has_change": true,
+    "change_details": "网站：顺德区人民政府网\nURL：https://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/\n分类：区政府\n检测时间：2026-01-30 15:26:44\n新增内容数量：50\n\n新增内容：\n\n1. 个人中心\n   链接: https://www.gdzwfw.gov.cn/yhzx/index.html\n   摘要: 个人中心\n\n2. 智能机器人\n   链接: https://www.shunde.gov.cn/znjqr\n   摘要: 智能机器人\n\n3. English\n   链接: https://www.shunde.gov.cn/sdqrmzf/yw/index.html\n   摘要: English\n\n4. 政务公开\n   链接: http://www.shunde.gov.cn/sdqrmzf/zwgk/index.html\n   摘要: 政务公开\n\n5. 政务服务\n   链接: http://www.shunde.gov.cn/sdqrmzf/zwfw/index.html\n   摘要: 政务服务\n\n6. 政民互动\n   链接: http://www.shunde.gov.cn/sdqrmzf/zmhd/index.html\n\n7. 数据开放\n   链接: https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38\n\n8. 走进顺德\n   链接: http://www.shunde.gov.cn/sdqrmzf/zjsd/index.html\n\n9. 部门频道\n   链接: http://www.shunde.gov.cn/sdqrmzf/bmpd/index.html\n\n10. 长者浏览模式\n   链接: https://www.shunde.gov.cn/sdqrmzf/zzfwzq/\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:26:44",
+    "new_items": [
+      {
+        "title": "个人中心",
+        "link": "https://www.gdzwfw.gov.cn/yhzx/index.html",
+        "summary": "个人中心",
+        "date": null
+      },
+      {
+        "title": "智能机器人",
+        "link": "https://www.shunde.gov.cn/znjqr",
+        "summary": "智能机器人",
+        "date": null
+      },
+      {
+        "title": "English",
+        "link": "https://www.shunde.gov.cn/sdqrmzf/yw/index.html",
+        "summary": "English",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务服务",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwfw/index.html",
+        "summary": "政务服务",
+        "date": null
+      },
+      {
+        "title": "政民互动",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zmhd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "https://gddata.gd.gov.cn/opdata/index?chooseValue=collectForm&deptCode=38",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "走进顺德",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zjsd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "部门频道",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/bmpd/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "长者浏览模式",
+        "link": "https://www.shunde.gov.cn/sdqrmzf/zzfwzq/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务信息",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区人民政府关于同意佛山市顺德区勒流街道伦桂路以东安爱地块城市更新（“三旧”改造）项目实施方案批复延期的批复【顺府（资）复〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6956196.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区农业农村局关于2025年度顺德区动物疫病强制免疫补助情况的公示",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6956194.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市顺德区城镇建设用地规模落实方案（佛山220千伏滨江输变电工程等项目）》的批后公告【佛自然资顺告〔2026〕12号】",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6953811.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "顺德区档案馆2026年物业管理服务需求公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6953810.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948176.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948175.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948174.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948173.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948172.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948171.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948170.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948169.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948168.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948167.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948166.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948165.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948164.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948163.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948162.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区社会保险基金管理局公告",
+        "link": "http://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/content/post_6948161.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "党政机关",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区属事业单位",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市直属单位",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "各镇街道",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "其他单位",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山五区链接",
+        "link": "javascript:;",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区人大办",
+        "link": "http://rd.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区政协办",
+        "link": "http://zx.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "顺德区纪委监察委",
+        "link": "http://jwjcj.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委组织部",
+        "link": "http://zzb.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委统一战线工作部",
+        "link": "http://www.shunde.gov.cn/sdshgz/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区委政法委员会",
+        "link": "http://zfw.shunde.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区发展和改革局",
+        "link": "http://www.shunde.gov.cn/sg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区教育局",
+        "link": "http://www.shunde.gov.cn/jyj/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区科学技术局",
+        "link": "http://www.shunde.gov.cn/kxjs/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区经济促进局",
+        "link": "http://www.shunde.gov.cn/est/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "区民族宗教事务局",
+        "link": "http://www.shunde.gov.cn/sdshgz/index.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山市政府-意见征集",
+    "has_change": true,
+    "change_details": "网站：佛山市政府-意见征集\nURL：https://www.foshan.gov.cn/hdjl/yjzj/index.html\n分类：市政府\n检测时间：2026-01-30 15:26:34\n新增内容数量：12\n\n新增内容：\n\n1. 互动交流\n   链接: https://www.foshan.gov.cn/hdjl/\n   摘要: 互动交流\n\n2. 规范性文件草案征求意见\n   链接: https://www.foshan.gov.cn/hdjl/yjzj/\n   摘要: 规范性文件草案征求意见\n\n3. 佛山市住房和城乡建设局关于征求《佛山市企业自持商品房屋管理实施细则（征求意见稿）》社会公众意见的公告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48562\n   摘要: 佛山市住房和城乡建设局关于征求《佛山市企业自持商品房屋管理实施细则（征求意见稿）》社会公众意见的公告\n\n4. 佛山市民政局关于征求《佛山市民政局关于明确最低生活保障家庭经济状况核对和生活状况综合评估工作有关事项的通知（征求意见稿）》意见的公告\n   链接: http://mz.foshan.gov.cn/hdjlpt/yjzj/answer/48560\n   摘要: 佛山市民政局关于征求《佛山市民政局关于明确最低生活保障家庭经济状况核对和生活状况综合评估工作有关事项的通知（征求意见稿）》意见的公告\n\n5. 佛山市发展和改革局关于《佛山市市级储备粮自主轮换储备管理实施细则（公开征求意见稿）》向社会公众征求意见的公告\n   链接: https://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/48508\n   摘要: 佛山市发展和改革局关于《佛山市市级储备粮自主轮换储备管理实施细则（公开征求意见稿）》向社会公众征求意见的公告\n\n6. 佛山市政务服务和数据管理局关于向社会公开征求《佛山市国有建设用地使用权网上交易规则（征求意见稿）》意见的公告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48296\n\n7. 佛山市发展和改革局关于向社会公众征求《佛山市深化营商环境改革打造涉企服务最优市行动方案（公开征求意见稿）》意见的公告\n   链接: http://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/48149\n\n8. 佛山市社会保险基金管理局关于征求《佛山市职工生育保险待遇经办规程（公开征求意见稿）》意见的公告\n   链接: http://fssi.foshan.gov.cn/hdjlpt/yjzj/answer/48125\n\n9. 佛山市农业农村局关于征求《佛山市农业农村局水产品质量安全监督抽查复检程序管理规定（2025年征求意见稿）》意见的公告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48027\n\n10. 佛山市文化广电旅游体育局关于向社会公众征集《佛山市全域文旅融合发展规划（2026－2030年）》意见的公告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/47835\n\n... 还有 2 条内容",
+    "notification_time": "2026-01-30 15:26:34",
+    "new_items": [
+      {
+        "title": "互动交流",
+        "link": "https://www.foshan.gov.cn/hdjl/",
+        "summary": "互动交流",
+        "date": null
+      },
+      {
+        "title": "规范性文件草案征求意见",
+        "link": "https://www.foshan.gov.cn/hdjl/yjzj/",
+        "summary": "规范性文件草案征求意见",
+        "date": null
+      },
+      {
+        "title": "佛山市住房和城乡建设局关于征求《佛山市企业自持商品房屋管理实施细则（征求意见稿）》社会公众意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48562",
+        "summary": "佛山市住房和城乡建设局关于征求《佛山市企业自持商品房屋管理实施细则（征求意见稿）》社会公众意见的公告",
+        "date": null
+      },
+      {
+        "title": "佛山市民政局关于征求《佛山市民政局关于明确最低生活保障家庭经济状况核对和生活状况综合评估工作有关事项的通知（征求意见稿）》意见的公告",
+        "link": "http://mz.foshan.gov.cn/hdjlpt/yjzj/answer/48560",
+        "summary": "佛山市民政局关于征求《佛山市民政局关于明确最低生活保障家庭经济状况核对和生活状况综合评估工作有关事项的通知（征求意见稿）》意见的公告",
+        "date": null
+      },
+      {
+        "title": "佛山市发展和改革局关于《佛山市市级储备粮自主轮换储备管理实施细则（公开征求意见稿）》向社会公众征求意见的公告",
+        "link": "https://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/48508",
+        "summary": "佛山市发展和改革局关于《佛山市市级储备粮自主轮换储备管理实施细则（公开征求意见稿）》向社会公众征求意见的公告",
+        "date": null
+      },
+      {
+        "title": "佛山市政务服务和数据管理局关于向社会公开征求《佛山市国有建设用地使用权网上交易规则（征求意见稿）》意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48296",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市发展和改革局关于向社会公众征求《佛山市深化营商环境改革打造涉企服务最优市行动方案（公开征求意见稿）》意见的公告",
+        "link": "http://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/48149",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市社会保险基金管理局关于征求《佛山市职工生育保险待遇经办规程（公开征求意见稿）》意见的公告",
+        "link": "http://fssi.foshan.gov.cn/hdjlpt/yjzj/answer/48125",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市农业农村局关于征求《佛山市农业农村局水产品质量安全监督抽查复检程序管理规定（2025年征求意见稿）》意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48027",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市文化广电旅游体育局关于向社会公众征集《佛山市全域文旅融合发展规划（2026－2030年）》意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/47835",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市医疗保障局关于公开征求《佛山市医疗机构医疗保障定点管理实施办法》《佛山市零售药店医疗保障定点管理实施办法》（征求公众意见稿）意见的公告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/47736",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市发展和改革局关于公开征求《佛山市发展和改革局投资咨询评估管理办法（征求意见稿）》意见的公告",
+        "link": "https://fsdr.foshan.gov.cn/hdjlpt/yjzj/answer/47678",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山公共资源交易网站",
+    "has_change": true,
+    "change_details": "网站：佛山公共资源交易网站\nURL：http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n分类：公共资源交易\n检测时间：2026-01-30 15:26:26\n新增内容数量：15\n\n新增内容：\n\n1. 交易公告\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 交易公告\n\n2. 正在竞价\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 正在竞价\n\n3. 历史交易\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 历史交易\n\n4. 结果公示\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 结果公示\n\n5. 资料下载\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n   摘要: 资料下载\n\n6. 正在公告\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n7. 正在竞价\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n8. 历史交易\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n9. 结果公示\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n10. 资料下载\n   链接: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html\n\n... 还有 5 条内容",
+    "notification_time": "2026-01-30 15:26:26",
+    "new_items": [
+      {
+        "title": "交易公告",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "交易公告",
+        "date": null
+      },
+      {
+        "title": "正在竞价",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "正在竞价",
+        "date": null
+      },
+      {
+        "title": "历史交易",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "历史交易",
+        "date": null
+      },
+      {
+        "title": "结果公示",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "结果公示",
+        "date": null
+      },
+      {
+        "title": "资料下载",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "资料下载",
+        "date": null
+      },
+      {
+        "title": "正在公告",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "正在竞价",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "历史交易",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "结果公示",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "资料下载",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市国有建设用地使用权和矿业权网上交易系统操作视频",
+        "link": "javascript:void(0);",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数字证书客户端安装包",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/TDJYZtbMis_FS/Pages/WebShow/downloadfile/数字证书客户端安装包.rar",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "建设用地使用权和矿业权网上交易竞买人操作手册",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/TDJYZtbMis_FS/Pages/WebShow/downloadfile/建设用地使用权和矿业权网上交易竞买人操作手册.doc",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于印发佛山市国有建设用地使用权和矿业权网上交易规则（佛府办〔2014〕50号）",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/TDJYZtbMis_FS/Pages/WebShow/downloadfile/关于印发佛山市国有建设用地使用权和矿业权网上交易规则（佛府办〔2014〕50号）.doc",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "GDCA数字证书及电子签章办理指南",
+        "link": "http://jy.ggzy.foshan.gov.cn:3680/TPBank/TDJYZtbMis_FS/Pages/WebShow/downloadfile/GDCA数字证书及电子签章办理指南.docx",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "顺德区自然资源局",
+    "has_change": true,
+    "change_details": "网站：顺德区自然资源局\nURL：https://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/index.html\n分类：自然资源局\n检测时间：2026-01-30 15:26:18\n新增内容数量：41\n\n新增内容：\n\n1. 政务公开\n   链接: http://www.shunde.gov.cn/fssdzrzy/gkmlpt/index\n   摘要: 政务公开\n\n2. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/index.html\n   摘要: 通知公告及动态\n\n3. 公示信息\n   链接: https://www.shunde.gov.cn/sdszrzyjsdfj/gsxx/csgxsjgz/\n   摘要: 公示信息\n\n4. 办事指南\n   链接: http://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=MB2D26310\n   摘要: 办事指南\n\n5. 长者浏览模式\n   链接: javascript:;\n   摘要: 长者浏览模式\n\n6. 顺德区_市自然资源局顺德分局\n   链接: http://www.shunde.gov.cn/zrzy/\n\n7. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/\n\n8. 通知公告及动态\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/\n\n9. 佛山市顺德区城乡建设用地增减挂钩试点龙江镇左滩工业区拆旧区项目复垦地块验收结果的通告【佛自然资顺告〔2026〕15号】\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956714.html\n\n10. 关于临时用地复垦验收结果的通告【佛自然资顺告〔2026〕14号】\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956697.html\n\n... 还有 31 条内容",
+    "notification_time": "2026-01-30 15:26:18",
+    "new_items": [
+      {
+        "title": "政务公开",
+        "link": "http://www.shunde.gov.cn/fssdzrzy/gkmlpt/index",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/index.html",
+        "summary": "通知公告及动态",
+        "date": null
+      },
+      {
+        "title": "公示信息",
+        "link": "https://www.shunde.gov.cn/sdszrzyjsdfj/gsxx/csgxsjgz/",
+        "summary": "公示信息",
+        "date": null
+      },
+      {
+        "title": "办事指南",
+        "link": "http://www.gdzwfw.gov.cn/portal/branch-hall?orgCode=MB2D26310",
+        "summary": "办事指南",
+        "date": null
+      },
+      {
+        "title": "长者浏览模式",
+        "link": "javascript:;",
+        "summary": "长者浏览模式",
+        "date": null
+      },
+      {
+        "title": "顺德区_市自然资源局顺德分局",
+        "link": "http://www.shunde.gov.cn/zrzy/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告及动态",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区城乡建设用地增减挂钩试点龙江镇左滩工业区拆旧区项目复垦地块验收结果的通告【佛自然资顺告〔2026〕15号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956714.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于临时用地复垦验收结果的通告【佛自然资顺告〔2026〕14号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956697.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于高新区西部启动区人居设施配套项目（二期）——科创人才社区南侧连接红北河东侧规划道路批前公示的通告【顺规公（选址）〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956591.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区杏坛镇杏韵湖片区城市更新单元计划批复结果公告",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6956385.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区人民政府关于同意佛山市顺德区勒流街道伦桂路以东安爱地块城市更新（“三旧”改造）项目实施方案批复延期的批复【顺府（资）复〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6955341.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕13号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6955218.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市顺德区城镇建设用地规模落实方案（佛山220千伏滨江输变电工程等项目）》的批后公告【佛自然资顺告〔2026〕12号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6953284.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山220千伏丰卓输变电工程（塔基部分）批前公示的通告顺规公（选址）〔2026〕4号",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6953096.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于对《佛山市顺德区土地1.5级开发项目管理细则（试行）（征求意见稿）》内容及公平竞争审查征询公众意见的通告【佛自然资顺告〔2026〕11号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6952704.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于勒流街道广东耀熹工业发展有限公司一期城市更新（“三旧”改造）项目实施方案批复延期批前公示的通告",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6951745.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局顺德分局2026年双随机抽查计划表",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6950537.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于建设项目使用林地公示的通告【佛自然资顺告〔2026〕10号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6950236.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山市顺德区北滘镇西海二支片二期道路改造工程——烈士南二路（规划纵二路——规划纵三路）工程批前公示的通告【顺规公（选址）〔2026〕9号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6946930.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市顺德区陈村镇绀现（北一期）绀村工业园城市更新（“三旧”改造）项目涉及集体土地完善转用手续的批复结果通告【佛自然资顺告〔2026〕8号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6946070.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山市顺德区北滘镇坤洲工业区建设项目一期批前公示的通告【顺规公（选址）〔2026〕1号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6945580.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于同意收回佛山市顺德区北滘镇西南片区骏悦路以南地块6.161505公顷国有建设用地使用权的批复【顺德建用字〔2026〕7号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6944391.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于收回佛山市顺德区北滘镇B-CB-08-03-D-53以北地块0.105442公顷土地及补偿安置方案的通告【佛自然资顺告〔2026〕7号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6944330.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于同意收回佛山市顺德区北滘镇B-CB-08-03-D-53以北地块0.105442公顷国有建设用地使用权的批复【顺德建用字〔2026〕8号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6944317.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山110千伏聚胜输变电工程（塔基部分）批前公示的通告【顺规公（选址）〔2026〕3号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6943861.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于佛山110千伏聚胜输变电工程（站址部分）批前公示的通告【顺规公（选址）〔2026〕2号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6943838.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于同意收回佛山市顺德区北滘镇西南片区02-D-05-1地块0.905841公顷国有建设用地使用权的批复【顺德建用字〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6942540.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于临时用地复垦验收结果的通告【佛自然资顺告〔2026〕6号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6941578.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "顺德高新科技产业开发区科技产业园控制性详细规划（修编）",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6941415.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市国土空间规划委员会顺德区分委会会议决议",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6940319.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕5号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6939694.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕4号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6939642.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于2025年顺德区地图市场监督检查结果的公示",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6939430.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕3号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6938240.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "龙江镇坦西工业区E区城市更新（“三旧”改造）项目涉及国有土地完善转用手续的批复结果通告【佛自然资顺告〔2026〕2号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6938235.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕1号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6938225.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "最后一页",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/index_251.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "备案编号：粤ICP备05093488号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "粤公网安备 44060602000173号",
+        "link": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44060602000173",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "南海区自然资源局",
+    "has_change": true,
+    "change_details": "网站：南海区自然资源局\nURL：https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/\n分类：自然资源局\n检测时间：2026-01-30 15:26:10\n新增内容数量：4\n\n新增内容：\n\n1. 佛山市自然资源局南海分局\n   链接: http://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/index\n   摘要: 佛山市自然资源局南海分局\n\n2. 我的收藏\n   链接: https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/\n   摘要: 我的收藏\n\n3. 粤公网安备44060502000104号\n   链接: https://beian.mps.gov.cn/#/query/webSearch?code=44060502000104\n   摘要: 粤公网安备44060502000104号\n\n4. 粤ICP备09102853号\n   链接: https://beian.miit.gov.cn/\n   摘要: 粤ICP备09102853号\n",
+    "notification_time": "2026-01-30 15:26:10",
+    "new_items": [
+      {
+        "title": "佛山市自然资源局南海分局",
+        "link": "http://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/index",
+        "summary": "佛山市自然资源局南海分局",
+        "date": null
+      },
+      {
+        "title": "我的收藏",
+        "link": "https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/",
+        "summary": "我的收藏",
+        "date": null
+      },
+      {
+        "title": "粤公网安备44060502000104号",
+        "link": "https://beian.mps.gov.cn/#/query/webSearch?code=44060502000104",
+        "summary": "粤公网安备44060502000104号",
+        "date": null
+      },
+      {
+        "title": "粤ICP备09102853号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "粤ICP备09102853号",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "禅城区自然资源局",
+    "has_change": true,
+    "change_details": "网站：禅城区自然资源局\nURL：https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index\n分类：自然资源局\n检测时间：2026-01-30 15:26:02\n新增内容数量：4\n\n新增内容：\n\n1. 佛山市自然资源局禅城分局\n   链接: http://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index\n   摘要: 佛山市自然资源局禅城分局\n\n2. 我的收藏\n   链接: https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index\n   摘要: 我的收藏\n\n3. 粤公网安备44060402000126号\n   链接: https://beian.mps.gov.cn/#/query/webSearch?code=44060402000126\n   摘要: 粤公网安备44060402000126号\n\n4. 粤ICP备05054493号\n   链接: https://beian.miit.gov.cn/\n   摘要: 粤ICP备05054493号\n",
+    "notification_time": "2026-01-30 15:26:02",
+    "new_items": [
+      {
+        "title": "佛山市自然资源局禅城分局",
+        "link": "http://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index",
+        "summary": "佛山市自然资源局禅城分局",
+        "date": null
+      },
+      {
+        "title": "我的收藏",
+        "link": "https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index",
+        "summary": "我的收藏",
+        "date": null
+      },
+      {
+        "title": "粤公网安备44060402000126号",
+        "link": "https://beian.mps.gov.cn/#/query/webSearch?code=44060402000126",
+        "summary": "粤公网安备44060402000126号",
+        "date": null
+      },
+      {
+        "title": "粤ICP备05054493号",
+        "link": "https://beian.miit.gov.cn/",
+        "summary": "粤ICP备05054493号",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山自然资源局-通知公告",
+    "has_change": true,
+    "change_details": "网站：佛山自然资源局-通知公告\nURL：https://fszrzy.foshan.gov.cn/zwgk/tzgg/index.html\n分类：自然资源局\n检测时间：2026-01-30 15:25:54\n新增内容数量：50\n\n新增内容：\n\n1. 机构职能\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/index.html\n   摘要: 机构职能\n\n2. 政务公开\n   链接: https://fszrzy.foshan.gov.cn/zwgk/index.html\n   摘要: 政务公开\n\n3. 政务专题\n   链接: https://fszrzy.foshan.gov.cn/ywzt/index.html\n   摘要: 政务专题\n\n4. 政民互动\n   链接: https://fszrzy.foshan.gov.cn/hdjl/index.html\n   摘要: 政民互动\n\n5. 数据开放\n   链接: http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38\n   摘要: 数据开放\n\n6. 机构职责\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html\n\n7. 机构设置\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html\n\n8. 机构领导\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html\n\n9. 直属机构\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html\n\n10. 职权目录\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:25:54",
+    "new_items": [
+      {
+        "title": "机构职能",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/index.html",
+        "summary": "机构职能",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务专题",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/index.html",
+        "summary": "政务专题",
+        "date": null
+      },
+      {
+        "title": "政民互动",
+        "link": "https://fszrzy.foshan.gov.cn/hdjl/index.html",
+        "summary": "政民互动",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38",
+        "summary": "数据开放",
+        "date": null
+      },
+      {
+        "title": "机构职责",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构设置",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构领导",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "直属机构",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "职权目录",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人事信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/rsxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政策文件",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/fggw/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "规划计划",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ghjh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "财政预决算",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/zjxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "征地信息公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/zdxxgk/zdpzxx/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "党建工作",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/dsxxjy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "其它信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/qtxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "权责清单",
+        "link": "https://www.gdzwfw.gov.cn/portal/v2/affairs-public-duty-list?region=440600",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "执法人员信息",
+        "link": "http://www.xzzfxxgs.gdsf.gov.cn/ApprLawPublicity/unit.html#/subject?unitId=d51a69a236494164997860b68db4a2eb&unitName=%E4%BD%9B%E5%B1%B1%E5%B8%82%E8%87%AA%E7%84%B6%E8%B5%84%E6%BA%90%E5%B1%80&areaNumber=440600&activeIndex=2",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "土地管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/tdgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "城乡规划",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "测绘信息管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/chgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "一书两证",
+        "link": "https://fszrzy.foshan.gov.cn/fszyj/yslz/ydz/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "地矿管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/dkgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "三旧改造",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/sjgz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "规划委员会",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/ghwyh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "不动产登记",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/bdcdj/ckzy/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "优化营商环境专题",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/yhyshj/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据发布",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/sjfb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "电子报批",
+        "link": "https://fszrzy.foshan.gov.cn/zxbs/dzbp/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上调查",
+        "link": "https://fszrzy.foshan.gov.cn/hdjl/wsdc/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.foshan.gov.cn/hdjlpt",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构职责",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构设置",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构领导",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "直属机构",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "职权目录",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人事信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/rsxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "通知公告",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政府网站工作年度报表（2025年度）",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6947051.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于配合首套住房利率调整做好不动产登记信息查询服务的主要查询途径和指引",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_5797597.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于增补佛山市土地征收成片开发方案论证专家库专家的公示",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6954825.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于支持房地产项目缓建的通知",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6954400.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于限时优化存量项目违约金核算标准的通知",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6954395.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市人力资源和社会保障局关于组建佛山市自然资源专业中级职称评审委员会和开展2025年度佛...",
+        "link": "https://hrss.foshan.gov.cn/ztzl/rczt/fszc/pstz/content/post_6952717.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市城中村改造综合规划（2024-2035年）》的批前公示",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6952713.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于《佛山市“三旧”改造项目地价计收及补偿办法（公开征求意见稿）》公开征求...",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6946599.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市自然资源局关于公开聘请不动产登记行风监督员的通告",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6943633.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "佛山市2024年度国土变更调查土地利用分类面积汇总表",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/content/post_6928630.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山自然资源局-批后",
+    "has_change": true,
+    "change_details": "网站：佛山自然资源局-批后\nURL：https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/\n分类：自然资源局\n检测时间：2026-01-30 15:25:45\n新增内容数量：50\n\n新增内容：\n\n1. 机构职能\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/index.html\n   摘要: 机构职能\n\n2. 政务公开\n   链接: https://fszrzy.foshan.gov.cn/zwgk/index.html\n   摘要: 政务公开\n\n3. 政务专题\n   链接: https://fszrzy.foshan.gov.cn/ywzt/index.html\n   摘要: 政务专题\n\n4. 政民互动\n   链接: https://fszrzy.foshan.gov.cn/hdjl/index.html\n   摘要: 政民互动\n\n5. 数据开放\n   链接: http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38\n   摘要: 数据开放\n\n6. 机构职责\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html\n\n7. 机构设置\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html\n\n8. 机构领导\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html\n\n9. 直属机构\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html\n\n10. 职权目录\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:25:45",
+    "new_items": [
+      {
+        "title": "机构职能",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/index.html",
+        "summary": "机构职能",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务专题",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/index.html",
+        "summary": "政务专题",
+        "date": null
+      },
+      {
+        "title": "政民互动",
+        "link": "https://fszrzy.foshan.gov.cn/hdjl/index.html",
+        "summary": "政民互动",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38",
+        "summary": "数据开放",
+        "date": null
+      },
+      {
+        "title": "机构职责",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构设置",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构领导",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "直属机构",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "职权目录",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人事信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/rsxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政策文件",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/fggw/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "规划计划",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ghjh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "财政预决算",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/zjxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "征地信息公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/zdxxgk/zdpzxx/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "党建工作",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/dsxxjy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "其它信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/qtxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "权责清单",
+        "link": "https://www.gdzwfw.gov.cn/portal/v2/affairs-public-duty-list?region=440600",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "执法人员信息",
+        "link": "http://www.xzzfxxgs.gdsf.gov.cn/ApprLawPublicity/unit.html#/subject?unitId=d51a69a236494164997860b68db4a2eb&unitName=%E4%BD%9B%E5%B1%B1%E5%B8%82%E8%87%AA%E7%84%B6%E8%B5%84%E6%BA%90%E5%B1%80&areaNumber=440600&activeIndex=2",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "土地管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/tdgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "城乡规划",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "测绘信息管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/chgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "一书两证",
+        "link": "https://fszrzy.foshan.gov.cn/fszyj/yslz/ydz/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "地矿管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/dkgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "三旧改造",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/sjgz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "规划委员会",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/ghwyh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "不动产登记",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/bdcdj/ckzy/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "优化营商环境专题",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/yhyshj/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据发布",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/sjfb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "电子报批",
+        "link": "https://fszrzy.foshan.gov.cn/zxbs/dzbp/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上调查",
+        "link": "https://fszrzy.foshan.gov.cn/hdjl/wsdc/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.foshan.gov.cn/hdjlpt",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构职责",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构设置",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构领导",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "直属机构",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "职权目录",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人事信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/rsxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务专题",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "城乡规划",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "批后公告",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《〈佛山市顺德区SD-A-04-02 编制单元01、02、 03 街坊（南城水轴）控制性详...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956974.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《〈佛山市顺德区SD-A-04-02 编制单元01、02、 03 街坊（南城水轴）控制性详...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956973.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《佛山市顺德区SD-B-02-01-01街坊（容桂四基幸福片区）控制性详细规划局部调整》批...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956963.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《佛山市顺德区SD-B-02-01-01街坊（容桂四基幸福片区）控制性详细规划局部调整》批...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956956.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《佛山市顺德区SD-B-01-03-02街坊（容桂穗香工业区）控制性详细规划局部调整》批后...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956949.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《佛山市顺德区SD-B-01-03-02街坊（容桂穗香工业区）控制性详细规划局部调整》批后...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956945.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《龙江镇龙峰山及周边地区SD-B（LJ）-04-01控制性详细规划》批后公布",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956937.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《〈佛山市南海区NH-A-02-02编制单元（桂城街道夏南一片区）控制性详细规划〉（202...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956777.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "《佛山市禅城区CC-B-03-01-03街坊（变电站地块）控制性详细规划局部调整》批后公布...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956767.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "佛山自然资源局-批前",
+    "has_change": true,
+    "change_details": "网站：佛山自然资源局-批前\nURL：https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/index.html\n分类：自然资源局\n检测时间：2026-01-30 15:25:36\n新增内容数量：50\n\n新增内容：\n\n1. 机构职能\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/index.html\n   摘要: 机构职能\n\n2. 政务公开\n   链接: https://fszrzy.foshan.gov.cn/zwgk/index.html\n   摘要: 政务公开\n\n3. 政务专题\n   链接: https://fszrzy.foshan.gov.cn/ywzt/index.html\n   摘要: 政务专题\n\n4. 政民互动\n   链接: https://fszrzy.foshan.gov.cn/hdjl/index.html\n   摘要: 政民互动\n\n5. 数据开放\n   链接: http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38\n   摘要: 数据开放\n\n6. 机构职责\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html\n\n7. 机构设置\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html\n\n8. 机构领导\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html\n\n9. 直属机构\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html\n\n10. 职权目录\n   链接: https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html\n\n... 还有 40 条内容",
+    "notification_time": "2026-01-30 15:25:36",
+    "new_items": [
+      {
+        "title": "机构职能",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/index.html",
+        "summary": "机构职能",
+        "date": null
+      },
+      {
+        "title": "政务公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/index.html",
+        "summary": "政务公开",
+        "date": null
+      },
+      {
+        "title": "政务专题",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/index.html",
+        "summary": "政务专题",
+        "date": null
+      },
+      {
+        "title": "政民互动",
+        "link": "https://fszrzy.foshan.gov.cn/hdjl/index.html",
+        "summary": "政民互动",
+        "date": null
+      },
+      {
+        "title": "数据开放",
+        "link": "http://gddata.gd.gov.cn/data/dataSet/toDataSet/dept/38",
+        "summary": "数据开放",
+        "date": null
+      },
+      {
+        "title": "机构职责",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构设置",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构领导",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "直属机构",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "职权目录",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人事信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/rsxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政策文件",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/fggw/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "规划计划",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ghjh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "财政预决算",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/zjxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "征地信息公开",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/zdxxgk/zdpzxx/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "党建工作",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/dsxxjy/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "其它信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/qtxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "权责清单",
+        "link": "https://www.gdzwfw.gov.cn/portal/v2/affairs-public-duty-list?region=440600",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "执法人员信息",
+        "link": "http://www.xzzfxxgs.gdsf.gov.cn/ApprLawPublicity/unit.html#/subject?unitId=d51a69a236494164997860b68db4a2eb&unitName=%E4%BD%9B%E5%B1%B1%E5%B8%82%E8%87%AA%E7%84%B6%E8%B5%84%E6%BA%90%E5%B1%80&areaNumber=440600&activeIndex=2",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "土地管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/tdgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "城乡规划",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "测绘信息管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/chgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "一书两证",
+        "link": "https://fszrzy.foshan.gov.cn/fszyj/yslz/ydz/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "地矿管理",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/dkgl/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "三旧改造",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/sjgz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "规划委员会",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/ghwyh/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "不动产登记",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/bdcdj/ckzy/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "优化营商环境专题",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/yhyshj/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "数据发布",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/ztzl/sjfb/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "电子报批",
+        "link": "https://fszrzy.foshan.gov.cn/zxbs/dzbp/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "网上调查",
+        "link": "https://fszrzy.foshan.gov.cn/hdjl/wsdc/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "互动交流",
+        "link": "http://www.foshan.gov.cn/hdjlpt",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构职责",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgzz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构设置",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgsz/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "机构领导",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/jgld/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "直属机构",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zsjg/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "职权目录",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/jgzn/zqml/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "人事信息",
+        "link": "https://fszrzy.foshan.gov.cn/zwgk/rsxx/index.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "政务专题",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "城乡规划",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "批前公示",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于《佛山市禅城区CC-A-02-08-03、CC-A-03-02-04街坊（街道办事处南...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6945079.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于公示《佛山市禅城区CC-A-01-02-01等七个街坊（佛罗路改建一期工程项目）控制性...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6942681.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于公示《佛山市禅城区CC-A-01-02-01等七个街坊（佛罗路改建一期工程项目）控制性...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6942677.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于进行《佛山市禅城区CC-D-05-02-04街坊（贺丰公交首末站）地块开发细则修编》公...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6933412.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于进行《佛山市禅城区CC-B-01-03-03街坊（原镇中路南侧、沙岗涌东侧地块）地块开...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6919997.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于公示《广湛高铁佛山站枢纽地区CC-A-01-01-01街坊（郊边村项目）控制性详细规划...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6910247.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于公示《广湛高铁佛山站枢纽地区CC-A-01-01-01街坊（郊边村项目）控制性详细规划...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6910236.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于进行《佛山市禅城区CC-C-01-03-01、CC-C-01-03-02街坊（古灶村工...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6908869.html",
+        "summary": "",
+        "date": null
+      },
+      {
+        "title": "关于公示《佛山市禅城区CC-A-01-02-03街坊（临时搅拌站地块、彩虹桥西侧地块）控制...",
+        "link": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/content/post_6908459.html",
+        "summary": "",
+        "date": null
+      }
+    ]
+  },
+  {
     "website_name": "佛山自然资源局-批后",
     "has_change": true,
     "change_details": "网站：佛山自然资源局-批后\nURL：https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/\n分类：自然资源局\n检测时间：2026-01-30 15:19:12\n新增内容数量：2\n\n新增内容：\n\n1. 《〈佛山市顺德区SD-A-04-02 编制单元01、02、 03 街坊（南城水轴）控制性详...\n   链接: https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956974.html\n\n2. 《〈佛山市顺德区SD-A-04-02 编制单元01、02、 03 街坊（南城水轴）控制性详...\n   链接: https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6956973.html\n",

@@ -1,134 +1,146 @@
 #!/usr/bin/env python3
 """
-邮件发送测试脚本
-用于测试QQ邮箱授权码是否正确配置
-
-使用方法：
-python scripts/test_email.py
+测试邮件发送功能
 """
-
 import smtplib
 import ssl
+import os
 from email.mime.text import MIMEText
 from email.header import Header
-from email.utils import formataddr, formatdate, make_msgid
+from email.utils import formataddr
 
+# 邮件配置
+SMTP_SERVER = "smtp.qq.com"
+SMTP_PORT = 587
+EMAIL_ACCOUNT = "gshyun@qq.com"
+AUTH_CODE = "sibcgumiszmwbgic"
 
-def test_send_email():
-    """测试发送邮件"""
-    # QQ 邮箱配置
-    smtp_server = "smtp.qq.com"
-    smtp_port = 465
-    email_account = "gshyun@qq.com"
-    auth_code = "sibcgumiszmwbgic"  # 你的授权码
-    to_email = "gshyun@qq.com"  # 接收邮箱（测试发给自己）
+def test_email():
+    """测试邮件发送"""
+    # 尝试两种方式
+    ports_to_test = [465, 587]
 
+    for port in ports_to_test:
+        try:
+            print("=" * 60)
+            print(f"测试邮件配置 - 端口 {port}")
+            print("=" * 60)
+            print(f"SMTP服务器: {SMTP_SERVER}")
+            print(f"SMTP端口: {port}")
+            print(f"邮箱账号: {EMAIL_ACCOUNT}")
+            print(f"授权码: {'*' * len(AUTH_CODE)}")
+            print("=" * 60)
+            print()
+
+            # 创建测试邮件
+            msg = MIMEText("这是一封测试邮件，来自网站监控系统。", "plain", "utf-8")
+            msg["From"] = formataddr(("网站监控助手", EMAIL_ACCOUNT))
+            msg["To"] = EMAIL_ACCOUNT
+            msg["Subject"] = Header(f"【测试】网站监控系统邮件配置测试 (端口{port})", "utf-8")
+
+            # 创建SSL上下文
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+
+            print(f"尝试连接SMTP服务器 (端口 {port})...")
+
+            if port == 465:
+                # SSL方式
+                print("使用SSL方式连接...")
+                with smtplib.SMTP_SSL(SMTP_SERVER, port, context=ctx, timeout=30) as server:
+                    server.ehlo()
+                    print(f"✅ 成功连接到 {SMTP_SERVER}:{port}")
+                    print()
+                    
+                    print("尝试登录邮件服务器...")
+                    server.login(EMAIL_ACCOUNT, AUTH_CODE)
+                    print("✅ 登录成功！")
+                    print()
+                    
+                    print("发送测试邮件...")
+                    server.sendmail(EMAIL_ACCOUNT, [EMAIL_ACCOUNT], msg.as_string())
+                    print("✅ 邮件发送成功！")
+                    print()
+                    
+                    server.quit()
+                    print("✅ 断开连接")
+            else:
+                # STARTTLS方式
+                print("使用STARTTLS方式连接...")
+                with smtplib.SMTP(SMTP_SERVER, port, timeout=30) as server:
+                    server.ehlo()
+                    print(f"✅ 成功连接到 {SMTP_SERVER}:{port}")
+                    print()
+                    
+                    print("启动STARTTLS...")
+                    server.starttls(context=ctx)
+                    print("✅ STARTTLS启动成功")
+                    print()
+                    
+                    server.ehlo()
+                    print("尝试登录邮件服务器...")
+                    server.login(EMAIL_ACCOUNT, AUTH_CODE)
+                    print("✅ 登录成功！")
+                    print()
+                    
+                    print("发送测试邮件...")
+                    server.sendmail(EMAIL_ACCOUNT, [EMAIL_ACCOUNT], msg.as_string())
+                    print("✅ 邮件发送成功！")
+                    print()
+                    
+                    server.quit()
+                    print("✅ 断开连接")
+
+            print()
+            print("=" * 60)
+            print(f"邮件测试成功！(端口 {port})")
+            print("=" * 60)
+            print(f"请检查邮箱 {EMAIL_ACCOUNT} 查收测试邮件")
+
+            return True
+
+        except smtplib.SMTPAuthenticationError as e:
+            print(f"❌ 认证失败: {e}")
+            print()
+            print("可能的原因：")
+            print("1. 授权码不正确")
+            print("2. 邮箱未开启SMTP服务")
+            print("3. 授权码已过期")
+            print()
+            print("解决方法：")
+            print("1. 登录QQ邮箱网页版")
+            print("2. 进入设置 -> 账户")
+            print("3. 开启SMTP服务")
+            print("4. 获取授权码（16位）")
+            print()
+            print("注意：授权码不是QQ密码，而是16位的随机字符串")
+            return False
+
+        except smtplib.SMTPConnectError as e:
+            print(f"❌ 连接失败: {e}")
+            print()
+            print("可能的原因：")
+            print("1. SMTP服务器地址不正确")
+            print("2. 端口不正确")
+            print("3. 网络问题")
+            print()
+            print("QQ邮箱SMTP配置：")
+            print("服务器: smtp.qq.com")
+            print("端口: 587 (STARTTLS) 或 465 (SSL)")
+            continue
+
+        except Exception as e:
+            print(f"❌ 测试失败: {e}")
+            import traceback
+            traceback.print_exc()
+            continue
+
+    print()
     print("=" * 60)
-    print("邮件发送测试")
+    print("所有端口测试失败")
     print("=" * 60)
-    print(f"SMTP 服务器: {smtp_server}:{smtp_port}")
-    print(f"发件人: {email_account}")
-    print(f"收件人: {to_email}")
-    print("=" * 60)
-
-    # 创建邮件内容
-    subject = "【网站监控】邮件发送测试"
-    content = f"""
-这是一封测试邮件，用于验证网站监控系统的邮件通知功能。
-
-测试时间: {formatdate(localtime=True)}
-测试内容:
-- SMTP 服务器: {smtp_server}
-- 发件人: {email_account}
-- 收件人: {to_email}
-
-如果您收到这封邮件，说明邮件配置成功！🎉
-"""
-
-    try:
-        # 创建邮件对象
-        msg = MIMEText(content, "plain", "utf-8")
-        msg["From"] = formataddr(("网站监控助手", email_account))
-        msg["To"] = to_email
-        msg["Subject"] = Header(subject, "utf-8")
-        msg["Date"] = formatdate(localtime=True)
-        msg["Message-ID"] = make_msgid()
-
-        # 创建 SSL 上下文
-        ctx = ssl.create_default_context()
-        ctx.minimum_version = ssl.TLSVersion.TLSv1_2
-
-        print("\n正在连接 SMTP 服务器...")
-
-        # 连接 SMTP 服务器
-        with smtplib.SMTP_SSL(smtp_server, smtp_port, context=ctx, timeout=30) as server:
-            print("✓ 连接成功")
-
-            print("正在登录...")
-            server.ehlo()
-            server.login(email_account, auth_code)
-            print("✓ 登录成功")
-
-            print("正在发送邮件...")
-            server.sendmail(email_account, [to_email], msg.as_string())
-            print("✓ 邮件发送成功")
-            server.quit()
-
-        print("\n" + "=" * 60)
-        print("🎉 测试成功！请检查收件箱查看邮件。")
-        print("=" * 60)
-        return True
-
-    except smtplib.SMTPAuthenticationError as e:
-        print("\n❌ 认证失败")
-        print(f"错误信息: {e}")
-        print("\n可能的原因:")
-        print("1. 授权码不正确（请确认是否复制完整）")
-        print("2. IMAP/SMTP 服务未开启")
-        print("3. 授权码已过期，需要重新生成")
-        return False
-
-    except smtplib.SMTPConnectError as e:
-        print("\n❌ 连接失败")
-        print(f"错误信息: {e}")
-        print("\n可能的原因:")
-        print("1. 网络连接问题")
-        print("2. SMTP 服务器地址或端口错误")
-        return False
-
-    except smtplib.SMTPServerDisconnected as e:
-        print("\n❌ 服务器断开连接")
-        print(f"错误信息: {e}")
-        print("\n可能的原因:")
-        print("1. 授权码不正确")
-        print("2. 服务器限制")
-        return False
-
-    except Exception as e:
-        print("\n❌ 发送失败")
-        print(f"错误类型: {type(e).__name__}")
-        print(f"错误信息: {e}")
-        return False
-
-
-def main():
-    """主函数"""
-    print("\n")
-    success = test_send_email()
-    print("\n")
-
-    if success:
-        print("✅ 授权码配置正确，可以使用邮件通知功能！")
-        print("\n接下来你可以:")
-        print("1. 启动定期监控: python scripts/periodic_monitor.py --email gshyun@qq.com")
-        print("2. 或者单次运行工作流测试")
-    else:
-        print("❌ 授权码配置有问题，请检查后重试")
-        print("\n需要帮助？")
-        print("1. 确认授权码是否正确复制（16位字符）")
-        print("2. 确认QQ邮箱的 IMAP/SMTP 服务已开启")
-        print("3. 重新生成授权码并更新")
-
+    return False
 
 if __name__ == "__main__":
-    main()
+    test_email()
