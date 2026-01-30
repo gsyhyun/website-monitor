@@ -6,39 +6,38 @@ from graphs.state import (
     GlobalState,
     GraphInput,
     GraphOutput,
-    LoopMonitorInput,
-    LoopMonitorOutput,
-    WebsiteInfo
+    MonitorWebsitesInput,
+    MonitorWebsitesOutput
 )
 from graphs.loop_graph import loop_subgraph
 
 
 def monitor_websites_node(
-    state: LoopMonitorInput,
+    state: MonitorWebsitesInput,
     config: RunnableConfig,
     runtime: Runtime[Context]
-) -> LoopMonitorOutput:
+) -> MonitorWebsitesOutput:
     """
     title: 网站监控主节点
     desc: 调用循环监控子图，对所有网站进行监控
-    integrations: 
+    integrations:
     """
     ctx = runtime.context
-    
+
     # 准备子图输入
     input_state = GlobalState(
         websites=state.websites
     )
-    
+
     # 调用子图
-    result = loop_subgraph.invoke(input_state, config)
-    
+    result_dict = loop_subgraph.invoke(input_state, config)
+
     # 构建输出
-    output = LoopMonitorOutput(
-        all_notifications=result.all_notifications or [],
-        monitoring_summary=result.monitoring_summary or {}
+    output = MonitorWebsitesOutput(
+        all_notifications=result_dict.get("all_notifications", []),
+        monitoring_summary=result_dict.get("monitoring_summary", {})
     )
-    
+
     return output
 
 

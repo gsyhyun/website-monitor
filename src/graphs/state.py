@@ -45,12 +45,15 @@ class GlobalState(BaseModel):
     """全局状态定义"""
     # 输入数据
     websites: List[WebsiteInfo] = Field(default=[], description="要监控的网站列表")
-    
+
     # 监控过程数据
     current_website: Optional[WebsiteInfo] = Field(default=None, description="当前处理的网站")
     fetch_result: Optional[FetchResult] = Field(default=None, description="抓取结果")
     change_result: Optional[ChangeDetectionResult] = Field(default=None, description="变化检测结果")
-    
+
+    # 循环控制
+    loop_index: int = Field(default=0, description="循环索引")
+
     # 输出数据
     all_notifications: List[NotificationInfo] = Field(default=[], description="所有通知信息")
     monitoring_summary: Dict = Field(default={}, description="监控摘要")
@@ -65,8 +68,8 @@ class GraphInput(BaseModel):
 
 class GraphOutput(BaseModel):
     """工作流输出"""
-    notifications: List[NotificationInfo] = Field(..., description="所有通知信息")
-    summary: Dict = Field(..., description="监控摘要")
+    all_notifications: List[NotificationInfo] = Field(..., description="所有通知信息")
+    monitoring_summary: Dict = Field(..., description="监控摘要")
 
 
 # ============= 节点输入输出定义 =============
@@ -115,5 +118,17 @@ class LoopMonitorInput(BaseModel):
 
 class LoopMonitorOutput(BaseModel):
     """循环监控节点输出"""
+    all_notifications: List[NotificationInfo] = Field(..., description="所有通知信息")
+    monitoring_summary: Dict = Field(..., description="监控摘要")
+
+
+# 主图监控节点
+class MonitorWebsitesInput(BaseModel):
+    """主图监控节点输入"""
+    websites: List[WebsiteInfo] = Field(..., description="要监控的网站列表")
+
+
+class MonitorWebsitesOutput(BaseModel):
+    """主图监控节点输出"""
     all_notifications: List[NotificationInfo] = Field(..., description="所有通知信息")
     monitoring_summary: Dict = Field(..., description="监控摘要")
