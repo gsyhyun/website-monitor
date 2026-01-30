@@ -25,11 +25,12 @@ sys.path.insert(0, str(project_root / "src"))
 from graphs.graph import main_graph
 
 # 配置日志
+LOG_FILE = 'logs/monitor.out'
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('logs/monitoring.log', encoding='utf-8'),
+        logging.FileHandler(LOG_FILE, encoding='utf-8'),
         logging.StreamHandler()
     ]
 )
