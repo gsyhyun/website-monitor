@@ -1,4 +1,5 @@
 import logging
+from typing import Any
 from langgraph.graph import StateGraph, END
 from langchain_core.runnables import RunnableConfig
 from langgraph.runtime import Runtime
@@ -20,6 +21,22 @@ from graphs.nodes.send_notification_node import send_notification_node
 
 
 logger = logging.getLogger(__name__)
+
+
+class MockContext:
+    """Mock Context for direct node calls"""
+    def __init__(self):
+        pass
+
+
+class MockRuntime:
+    """Mock Runtime for direct node calls"""
+    def __init__(self):
+        self.context = MockContext()
+
+
+# 创建 mock runtime 实例
+mock_runtime = MockRuntime()
 
 
 def monitor_all_websites_node(
@@ -69,7 +86,7 @@ def monitor_all_websites_node(
             fetch_output = fetch_website_node(
                 fetch_input,
                 {},
-                None
+                mock_runtime
             )
 
             # 2. 检测变化
@@ -81,7 +98,7 @@ def monitor_all_websites_node(
             check_output = check_changes_node(
                 check_input,
                 {},
-                None
+                mock_runtime
             )
 
             # 3. 发送通知（传递邮箱地址）
@@ -94,7 +111,7 @@ def monitor_all_websites_node(
             notify_output = send_notification_node(
                 notify_input,
                 {},
-                None
+                mock_runtime
             )
 
             # 收集通知信息
