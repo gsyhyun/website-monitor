@@ -13,7 +13,7 @@ import sys
 import time
 import logging
 import signal
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 # 添加项目路径到 sys.path
@@ -92,7 +92,7 @@ class PeriodicMonitor:
             if notifications:
                 logger.info(f"  - 通知详情:")
                 for idx, notif in enumerate(notifications, 1):
-                    logger.info(f"    {idx}. {notif['website_name']}")
+                    logger.info(f"    {idx}. {notif.website_name}")
 
             # 记录运行时间
             elapsed = (datetime.now() - start_time).total_seconds()
@@ -122,7 +122,7 @@ class PeriodicMonitor:
             try:
                 # 等待指定间隔
                 next_run_time = datetime.now() + \
-                    datetime.timedelta(seconds=self.interval)
+                    timedelta(seconds=self.interval)
                 logger.info(f"下次运行时间: {next_run_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
                 # 分段 sleep，支持中断
