@@ -1,7 +1,7 @@
 import json
 import logging
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, List
 from langchain_core.runnables import RunnableConfig
 from langgraph.runtime import Runtime
@@ -26,7 +26,7 @@ def check_changes_node(
 ) -> CheckChangesOutput:
     """
     title: 内容变化检测
-    desc: 检测网站内容是否有更新，对比当前和历史内容，提取新增内容
+    desc: 检测网站内容是否有更新，对比当前和历史内容，提取新增内容，并过滤掉超过24小时的内容
     integrations: 
     """
     ctx = runtime.context
@@ -85,7 +85,18 @@ def check_changes_node(
             if item.title not in old_items_set:
                 new_items.append(item)
         
-        logger.info(f"网站 {website.name} 检测到变化，新增 {len(new_items)} 条内容")
+        logger.info(f"网站 {website.name} 检测到变化，原始新增 {len(new_items)} 条内容")
+        
+        # 如果历史记录为空（首次运行），只保留最新10条内容
+        if not old_items:
+            if len(new_items) > 10:
+                logger.info(f"首次运行，只保留最新10条内容")
+                new_items = new_items[:10]
+            else:
+                logger.info(f"首次运行，保留所有 {len(new_items)} 条内容")
+        else:
+            # 非首次运行，保留所有新增内容
+            logger.info(f"检测到新增内容，保留所有 {len(new_items)} 条")
     else:
         logger.info(f"网站 {website.name} 无变化")
     

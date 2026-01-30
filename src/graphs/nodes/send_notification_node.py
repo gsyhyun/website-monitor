@@ -263,9 +263,27 @@ def send_notification_node(
         logger.error(f"保存通知文件失败: {e}")
         is_sent = False
 
+    # 检查是否为首次运行（通过判断历史记录文件是否存在或为空）
+    # 如果是首次运行，就不发送邮件，只保存到文件
+    is_first_run = False
+    history_file = os.path.join(workspace_path, "assets", "website_monitoring_history.json")
+    
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, 'r', encoding='utf-8') as f:
+                history = json.load(f)
+                # 检查历史记录中是否已经存在该网站
+                website_key = website.url
+                if not history.get(website_key):
+                    is_first_run = True
+        except:
+            is_first_run = True
+    else:
+        is_first_run = True
+    
     # 发送邮件通知
     email_sent = False
-    if state.email_address:
+    if state.email_address and change_result.has_change and not is_first_run:
         try:
             logger.info(f"准备发送邮件通知到: {state.email_address}")
             email_result = send_email_notification(
@@ -281,6 +299,8 @@ def send_notification_node(
                 logger.error(f"❌ 邮件通知发送失败: {email_result.get('message')}")
         except Exception as e:
             logger.error(f"❌ 邮件通知发送异常: {e}")
+    elif state.email_address and change_result.has_change and is_first_run:
+        logger.info(f"⚠️  首次运行，跳过邮件通知（仅保存到文件）")
     else:
         logger.info("未配置邮箱地址，跳过邮件通知")
 
