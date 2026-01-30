@@ -1,242 +1,272 @@
-2026-01-30 15:39:00,132 - __main__ - INFO - ============================================================
-2026-01-30 15:39:00,134 - __main__ - INFO - 网站监控系统启动
-2026-01-30 15:39:00,134 - __main__ - INFO - 监控间隔: 5 分钟
-2026-01-30 15:39:00,135 - __main__ - INFO - 邮箱地址: gshyun@qq.com
-2026-01-30 15:39:00,135 - __main__ - INFO - 按 Ctrl+C 停止监控
-2026-01-30 15:39:00,136 - __main__ - INFO - ============================================================
-2026-01-30 15:39:00,136 - __main__ - INFO - ============================================================
-2026-01-30 15:39:00,137 - __main__ - INFO - 开始第 1 次监控 - 2026-01-30 15:39:00
-2026-01-30 15:39:00,137 - __main__ - INFO - 邮件通知已启用，将发送到: gshyun@qq.com
-2026-01-30 15:39:00,139 - graphs.graph - INFO - 使用默认网站列表，共 15 个网站
-2026-01-30 15:39:00,140 - graphs.graph - INFO - 已配置邮件通知，将发送到: gshyun@qq.com
-2026-01-30 15:39:00,141 - graphs.graph - INFO - 处理第 1/15 个网站: 佛山自然资源局-批前
-2026-01-30 15:39:00,141 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山自然资源局-批前, URL: https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/index.html
+2026-01-30 15:44:49,430 - __main__ - INFO - ============================================================
+2026-01-30 15:44:49,432 - __main__ - INFO - 网站监控系统启动
+2026-01-30 15:44:49,433 - __main__ - INFO - 监控间隔: 5 分钟
+2026-01-30 15:44:49,434 - __main__ - INFO - 邮箱地址: gshyun@qq.com
+2026-01-30 15:44:49,435 - __main__ - INFO - 按 Ctrl+C 停止监控
+2026-01-30 15:44:49,436 - __main__ - INFO - ============================================================
+2026-01-30 15:44:49,437 - __main__ - INFO - ============================================================
+2026-01-30 15:44:49,439 - __main__ - INFO - 开始第 1 次监控 - 2026-01-30 15:44:49
+2026-01-30 15:44:49,440 - __main__ - INFO - 邮件通知已启用，将发送到: gshyun@qq.com
+2026-01-30 15:44:49,445 - graphs.graph - INFO - 使用默认网站列表，共 15 个网站
+2026-01-30 15:44:49,446 - graphs.graph - INFO - 已配置邮件通知，将发送到: gshyun@qq.com
+2026-01-30 15:44:49,447 - graphs.graph - INFO - 处理第 1/15 个网站: 佛山自然资源局-批前
+2026-01-30 15:44:49,448 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山自然资源局-批前, URL: https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'fszrzy.foshan.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:00,500 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山自然资源局-批前, 提取到 50 条内容
-2026-01-30 15:39:00,503 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山自然资源局-批前
-2026-01-30 15:39:00,503 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:03,939 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:03,941 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:03,942 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山自然资源局-批前
-2026-01-30 15:39:03,955 - graphs.graph - INFO - 成功生成摘要: 佛山自然资源局-批前
-2026-01-30 15:39:03,960 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山自然资源局-批前
-2026-01-30 15:39:03,964 - graphs.nodes.check_changes_node - INFO - 网站 佛山自然资源局-批前 无变化
-2026-01-30 15:39:03,972 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山自然资源局-批前
-2026-01-30 15:39:03,973 - graphs.graph - INFO - 网站 佛山自然资源局-批前 处理完成
-2026-01-30 15:39:03,975 - graphs.graph - INFO - 处理第 2/15 个网站: 佛山自然资源局-批后
-2026-01-30 15:39:03,977 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山自然资源局-批后, URL: https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/
+2026-01-30 15:44:49,855 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山自然资源局-批前, 提取到 50 条内容
+2026-01-30 15:44:49,857 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山自然资源局-批前
+2026-01-30 15:44:49,858 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:50,140 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:50,140 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:50,141 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山自然资源局-批前
+2026-01-30 15:44:50,147 - graphs.graph - INFO - 成功生成摘要: 佛山自然资源局-批前
+2026-01-30 15:44:50,150 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山自然资源局-批前
+2026-01-30 15:44:50,152 - graphs.nodes.check_changes_node - INFO - 网站 佛山自然资源局-批前 无变化
+2026-01-30 15:44:50,157 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山自然资源局-批前
+2026-01-30 15:44:50,160 - graphs.graph - INFO - 网站 佛山自然资源局-批前 处理完成
+2026-01-30 15:44:50,161 - graphs.graph - INFO - 处理第 2/15 个网站: 佛山自然资源局-批后
+2026-01-30 15:44:50,162 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山自然资源局-批后, URL: https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'fszrzy.foshan.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:04,340 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山自然资源局-批后, 提取到 50 条内容
-2026-01-30 15:39:04,345 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山自然资源局-批后
-2026-01-30 15:39:04,348 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:04,525 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:04,526 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:04,527 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山自然资源局-批后
-2026-01-30 15:39:04,530 - graphs.graph - INFO - 成功生成摘要: 佛山自然资源局-批后
-2026-01-30 15:39:04,530 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山自然资源局-批后
-2026-01-30 15:39:04,532 - graphs.nodes.check_changes_node - INFO - 网站 佛山自然资源局-批后 无变化
-2026-01-30 15:39:04,536 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山自然资源局-批后
-2026-01-30 15:39:04,536 - graphs.graph - INFO - 网站 佛山自然资源局-批后 处理完成
-2026-01-30 15:39:04,537 - graphs.graph - INFO - 处理第 3/15 个网站: 佛山自然资源局-通知公告
-2026-01-30 15:39:04,538 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山自然资源局-通知公告, URL: https://fszrzy.foshan.gov.cn/zwgk/tzgg/index.html
+2026-01-30 15:44:50,465 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山自然资源局-批后, 提取到 50 条内容
+2026-01-30 15:44:50,469 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山自然资源局-批后
+2026-01-30 15:44:50,470 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:51,665 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:51,668 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:51,668 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山自然资源局-批后
+2026-01-30 15:44:51,670 - graphs.graph - INFO - 成功生成摘要: 佛山自然资源局-批后
+2026-01-30 15:44:51,671 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山自然资源局-批后
+2026-01-30 15:44:51,672 - graphs.nodes.check_changes_node - INFO - 网站 佛山自然资源局-批后 检测到变化，原始新增 2 条内容
+2026-01-30 15:44:51,673 - graphs.nodes.check_changes_node - INFO - 检测到新增内容，保留所有 2 条
+2026-01-30 15:44:51,676 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山自然资源局-批后
+2026-01-30 15:44:51,680 - graphs.nodes.send_notification_node - INFO - 通知已保存到文件: /workspace/projects/assets/website_notifications.json
+2026-01-30 15:44:51,681 - graphs.nodes.send_notification_node - INFO - 准备发送邮件通知到: gshyun@qq.com
+2026-01-30 15:44:51,682 cozeloop._noop _noop.py:67 [WARNING] [cozeloop] Noop client not supported. Invalid parameter. workspace_id is required.
+2026-01-30 15:44:51,682 - cozeloop._noop - WARNING - Noop client not supported. Invalid parameter. workspace_id is required.
+2026-01-30 15:44:51,683 - graphs.nodes.send_notification_node - INFO - 使用环境变量中的邮件配置
+2026-01-30 15:44:51,795 - graphs.nodes.send_notification_node - INFO - 尝试第 1 次发送邮件...
+2026-01-30 15:44:51,798 - graphs.nodes.send_notification_node - INFO - 使用SSL连接 smtp.qq.com:465
+2026-01-30 15:44:52,078 - graphs.nodes.send_notification_node - INFO - 正在登录邮件服务器...
+2026-01-30 15:44:52,323 - graphs.nodes.send_notification_node - INFO - 登录成功，正在发送邮件给 1 位收件人...
+2026-01-30 15:44:53,247 - graphs.nodes.send_notification_node - INFO - 邮件发送成功
+2026-01-30 15:44:53,250 - graphs.nodes.send_notification_node - INFO - ✅ 邮件通知发送成功: gshyun@qq.com
+2026-01-30 15:44:53,252 - graphs.nodes.send_notification_node - INFO - 检测到网站更新！
+网站：佛山自然资源局-批后
+URL：https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/
+分类：自然资源局
+检测时间：2026-01-30 15:44:51
+新增内容数量：2
+
+新增内容：
+
+1. 《佛山市禅城区CC-A-01-03-01、02街坊（水泵厂二期项目地块）控制性详细规划局部...
+   链接: https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6957062.html
+
+2. 《佛山市禅城区CC-A-01-03-01、02街坊（水泵厂二期项目地块）控制性详细规划局部...
+   链接: https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/content/post_6957059.html
+
+2026-01-30 15:44:53,252 - graphs.nodes.send_notification_node - INFO - 通知处理完成: 佛山自然资源局-批后
+2026-01-30 15:44:53,253 - graphs.graph - INFO - 网站 佛山自然资源局-批后 处理完成
+2026-01-30 15:44:53,253 - graphs.graph - INFO - 处理第 3/15 个网站: 佛山自然资源局-通知公告
+2026-01-30 15:44:53,254 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山自然资源局-通知公告, URL: https://fszrzy.foshan.gov.cn/zwgk/tzgg/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'fszrzy.foshan.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:04,873 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山自然资源局-通知公告, 提取到 50 条内容
-2026-01-30 15:39:04,876 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山自然资源局-通知公告
-2026-01-30 15:39:04,877 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:04,995 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:04,996 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:04,997 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山自然资源局-通知公告
-2026-01-30 15:39:04,999 - graphs.graph - INFO - 成功生成摘要: 佛山自然资源局-通知公告
-2026-01-30 15:39:05,000 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山自然资源局-通知公告
-2026-01-30 15:39:05,001 - graphs.nodes.check_changes_node - INFO - 网站 佛山自然资源局-通知公告 无变化
-2026-01-30 15:39:05,004 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山自然资源局-通知公告
-2026-01-30 15:39:05,005 - graphs.graph - INFO - 网站 佛山自然资源局-通知公告 处理完成
-2026-01-30 15:39:05,005 - graphs.graph - INFO - 处理第 4/15 个网站: 禅城区自然资源局
-2026-01-30 15:39:05,006 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 禅城区自然资源局, URL: https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index
+2026-01-30 15:44:53,536 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山自然资源局-通知公告, 提取到 50 条内容
+2026-01-30 15:44:53,539 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山自然资源局-通知公告
+2026-01-30 15:44:53,540 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:53,651 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:53,652 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:53,653 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山自然资源局-通知公告
+2026-01-30 15:44:53,655 - graphs.graph - INFO - 成功生成摘要: 佛山自然资源局-通知公告
+2026-01-30 15:44:53,656 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山自然资源局-通知公告
+2026-01-30 15:44:53,657 - graphs.nodes.check_changes_node - INFO - 网站 佛山自然资源局-通知公告 无变化
+2026-01-30 15:44:53,661 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山自然资源局-通知公告
+2026-01-30 15:44:53,662 - graphs.graph - INFO - 网站 佛山自然资源局-通知公告 处理完成
+2026-01-30 15:44:53,662 - graphs.graph - INFO - 处理第 4/15 个网站: 禅城区自然资源局
+2026-01-30 15:44:53,663 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 禅城区自然资源局, URL: https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.chancheng.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:05,313 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 禅城区自然资源局, 提取到 4 条内容
-2026-01-30 15:39:05,315 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 禅城区自然资源局
-2026-01-30 15:39:05,316 - graphs.nodes.generate_summary_node - INFO - 准备处理 4 个内容项
-2026-01-30 15:39:05,422 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:05,425 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:05,426 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 禅城区自然资源局
-2026-01-30 15:39:05,429 - graphs.graph - INFO - 成功生成摘要: 禅城区自然资源局
-2026-01-30 15:39:05,430 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 禅城区自然资源局
-2026-01-30 15:39:05,432 - graphs.nodes.check_changes_node - INFO - 网站 禅城区自然资源局 无变化
-2026-01-30 15:39:05,436 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 禅城区自然资源局
-2026-01-30 15:39:05,437 - graphs.graph - INFO - 网站 禅城区自然资源局 处理完成
-2026-01-30 15:39:05,438 - graphs.graph - INFO - 处理第 5/15 个网站: 南海区自然资源局
-2026-01-30 15:39:05,439 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 南海区自然资源局, URL: https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/
+2026-01-30 15:44:53,952 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 禅城区自然资源局, 提取到 4 条内容
+2026-01-30 15:44:53,955 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 禅城区自然资源局
+2026-01-30 15:44:53,957 - graphs.nodes.generate_summary_node - INFO - 准备处理 4 个内容项
+2026-01-30 15:44:54,084 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:54,085 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:54,086 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 禅城区自然资源局
+2026-01-30 15:44:54,088 - graphs.graph - INFO - 成功生成摘要: 禅城区自然资源局
+2026-01-30 15:44:54,089 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 禅城区自然资源局
+2026-01-30 15:44:54,090 - graphs.nodes.check_changes_node - INFO - 网站 禅城区自然资源局 无变化
+2026-01-30 15:44:54,094 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 禅城区自然资源局
+2026-01-30 15:44:54,095 - graphs.graph - INFO - 网站 禅城区自然资源局 处理完成
+2026-01-30 15:44:54,095 - graphs.graph - INFO - 处理第 5/15 个网站: 南海区自然资源局
+2026-01-30 15:44:54,096 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 南海区自然资源局, URL: https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.nanhai.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:05,827 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 南海区自然资源局, 提取到 4 条内容
-2026-01-30 15:39:05,829 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 南海区自然资源局
-2026-01-30 15:39:05,830 - graphs.nodes.generate_summary_node - INFO - 准备处理 4 个内容项
-2026-01-30 15:39:05,943 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:05,944 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:05,945 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 南海区自然资源局
-2026-01-30 15:39:05,946 - graphs.graph - INFO - 成功生成摘要: 南海区自然资源局
-2026-01-30 15:39:05,947 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 南海区自然资源局
-2026-01-30 15:39:05,949 - graphs.nodes.check_changes_node - INFO - 网站 南海区自然资源局 无变化
-2026-01-30 15:39:05,951 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 南海区自然资源局
-2026-01-30 15:39:05,952 - graphs.graph - INFO - 网站 南海区自然资源局 处理完成
-2026-01-30 15:39:05,953 - graphs.graph - INFO - 处理第 6/15 个网站: 顺德区自然资源局
-2026-01-30 15:39:05,953 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 顺德区自然资源局, URL: https://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/index.html
+2026-01-30 15:44:54,380 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 南海区自然资源局, 提取到 4 条内容
+2026-01-30 15:44:54,382 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 南海区自然资源局
+2026-01-30 15:44:54,383 - graphs.nodes.generate_summary_node - INFO - 准备处理 4 个内容项
+2026-01-30 15:44:54,487 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:54,489 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:54,490 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 南海区自然资源局
+2026-01-30 15:44:54,491 - graphs.graph - INFO - 成功生成摘要: 南海区自然资源局
+2026-01-30 15:44:54,492 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 南海区自然资源局
+2026-01-30 15:44:54,494 - graphs.nodes.check_changes_node - INFO - 网站 南海区自然资源局 无变化
+2026-01-30 15:44:54,497 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 南海区自然资源局
+2026-01-30 15:44:54,498 - graphs.graph - INFO - 网站 南海区自然资源局 处理完成
+2026-01-30 15:44:54,498 - graphs.graph - INFO - 处理第 6/15 个网站: 顺德区自然资源局
+2026-01-30 15:44:54,499 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 顺德区自然资源局, URL: https://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.shunde.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:06,337 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 顺德区自然资源局, 提取到 41 条内容
-2026-01-30 15:39:06,339 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 顺德区自然资源局
-2026-01-30 15:39:06,340 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:06,528 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:06,528 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:06,529 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 顺德区自然资源局
-2026-01-30 15:39:06,531 - graphs.graph - INFO - 成功生成摘要: 顺德区自然资源局
-2026-01-30 15:39:06,532 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 顺德区自然资源局
-2026-01-30 15:39:06,534 - graphs.nodes.check_changes_node - INFO - 网站 顺德区自然资源局 无变化
-2026-01-30 15:39:06,539 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 顺德区自然资源局
-2026-01-30 15:39:06,541 - graphs.graph - INFO - 网站 顺德区自然资源局 处理完成
-2026-01-30 15:39:06,542 - graphs.graph - INFO - 处理第 7/15 个网站: 佛山公共资源交易网站
-2026-01-30 15:39:06,543 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山公共资源交易网站, URL: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html
-2026-01-30 15:39:06,685 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山公共资源交易网站, 提取到 15 条内容
-2026-01-30 15:39:06,686 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山公共资源交易网站
-2026-01-30 15:39:06,687 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:06,791 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:06,793 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:06,793 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山公共资源交易网站
-2026-01-30 15:39:06,795 - graphs.graph - INFO - 成功生成摘要: 佛山公共资源交易网站
-2026-01-30 15:39:06,796 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山公共资源交易网站
-2026-01-30 15:39:06,798 - graphs.nodes.check_changes_node - INFO - 网站 佛山公共资源交易网站 无变化
-2026-01-30 15:39:06,800 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山公共资源交易网站
-2026-01-30 15:39:06,801 - graphs.graph - INFO - 网站 佛山公共资源交易网站 处理完成
-2026-01-30 15:39:06,801 - graphs.graph - INFO - 处理第 8/15 个网站: 佛山市政府-意见征集
-2026-01-30 15:39:06,802 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山市政府-意见征集, URL: https://www.foshan.gov.cn/hdjl/yjzj/index.html
+2026-01-30 15:44:54,831 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 顺德区自然资源局, 提取到 41 条内容
+2026-01-30 15:44:54,834 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 顺德区自然资源局
+2026-01-30 15:44:54,834 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:54,986 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:54,987 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:54,987 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 顺德区自然资源局
+2026-01-30 15:44:54,989 - graphs.graph - INFO - 成功生成摘要: 顺德区自然资源局
+2026-01-30 15:44:54,990 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 顺德区自然资源局
+2026-01-30 15:44:54,991 - graphs.nodes.check_changes_node - INFO - 网站 顺德区自然资源局 无变化
+2026-01-30 15:44:54,994 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 顺德区自然资源局
+2026-01-30 15:44:54,994 - graphs.graph - INFO - 网站 顺德区自然资源局 处理完成
+2026-01-30 15:44:54,995 - graphs.graph - INFO - 处理第 7/15 个网站: 佛山公共资源交易网站
+2026-01-30 15:44:54,995 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山公共资源交易网站, URL: http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html
+2026-01-30 15:44:55,152 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山公共资源交易网站, 提取到 15 条内容
+2026-01-30 15:44:55,154 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山公共资源交易网站
+2026-01-30 15:44:55,154 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:55,559 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:55,560 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:55,561 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山公共资源交易网站
+2026-01-30 15:44:55,563 - graphs.graph - INFO - 成功生成摘要: 佛山公共资源交易网站
+2026-01-30 15:44:55,564 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山公共资源交易网站
+2026-01-30 15:44:55,566 - graphs.nodes.check_changes_node - INFO - 网站 佛山公共资源交易网站 无变化
+2026-01-30 15:44:55,569 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山公共资源交易网站
+2026-01-30 15:44:55,570 - graphs.graph - INFO - 网站 佛山公共资源交易网站 处理完成
+2026-01-30 15:44:55,570 - graphs.graph - INFO - 处理第 8/15 个网站: 佛山市政府-意见征集
+2026-01-30 15:44:55,571 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山市政府-意见征集, URL: https://www.foshan.gov.cn/hdjl/yjzj/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.foshan.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:07,386 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山市政府-意见征集, 提取到 12 条内容
-2026-01-30 15:39:07,388 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山市政府-意见征集
-2026-01-30 15:39:07,389 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:07,516 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:07,517 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:07,518 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山市政府-意见征集
-2026-01-30 15:39:07,520 - graphs.graph - INFO - 成功生成摘要: 佛山市政府-意见征集
-2026-01-30 15:39:07,521 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山市政府-意见征集
-2026-01-30 15:39:07,522 - graphs.nodes.check_changes_node - INFO - 网站 佛山市政府-意见征集 无变化
-2026-01-30 15:39:07,526 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山市政府-意见征集
-2026-01-30 15:39:07,527 - graphs.graph - INFO - 网站 佛山市政府-意见征集 处理完成
-2026-01-30 15:39:07,527 - graphs.graph - INFO - 处理第 9/15 个网站: 顺德区人民政府网
-2026-01-30 15:39:07,528 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 顺德区人民政府网, URL: https://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/
+2026-01-30 15:44:55,922 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山市政府-意见征集, 提取到 12 条内容
+2026-01-30 15:44:55,927 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山市政府-意见征集
+2026-01-30 15:44:55,929 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:56,100 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:56,101 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:56,102 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山市政府-意见征集
+2026-01-30 15:44:56,103 - graphs.graph - INFO - 成功生成摘要: 佛山市政府-意见征集
+2026-01-30 15:44:56,104 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山市政府-意见征集
+2026-01-30 15:44:56,105 - graphs.nodes.check_changes_node - INFO - 网站 佛山市政府-意见征集 无变化
+2026-01-30 15:44:56,109 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山市政府-意见征集
+2026-01-30 15:44:56,109 - graphs.graph - INFO - 网站 佛山市政府-意见征集 处理完成
+2026-01-30 15:44:56,110 - graphs.graph - INFO - 处理第 9/15 个网站: 顺德区人民政府网
+2026-01-30 15:44:56,110 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 顺德区人民政府网, URL: https://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.shunde.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:07,901 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 顺德区人民政府网, 提取到 50 条内容
-2026-01-30 15:39:07,903 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 顺德区人民政府网
-2026-01-30 15:39:07,904 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:08,022 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:08,023 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:08,024 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 顺德区人民政府网
-2026-01-30 15:39:08,027 - graphs.graph - INFO - 成功生成摘要: 顺德区人民政府网
-2026-01-30 15:39:08,031 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 顺德区人民政府网
-2026-01-30 15:39:08,034 - graphs.nodes.check_changes_node - INFO - 网站 顺德区人民政府网 无变化
-2026-01-30 15:39:08,043 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 顺德区人民政府网
-2026-01-30 15:39:08,045 - graphs.graph - INFO - 网站 顺德区人民政府网 处理完成
-2026-01-30 15:39:08,046 - graphs.graph - INFO - 处理第 10/15 个网站: 佛山住建局
-2026-01-30 15:39:08,047 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山住建局, URL: https://fszj.foshan.gov.cn/zwgk/txgg/index.html
+2026-01-30 15:44:56,443 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 顺德区人民政府网, 提取到 50 条内容
+2026-01-30 15:44:56,445 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 顺德区人民政府网
+2026-01-30 15:44:56,446 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:56,674 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:56,674 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:56,675 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 顺德区人民政府网
+2026-01-30 15:44:56,677 - graphs.graph - INFO - 成功生成摘要: 顺德区人民政府网
+2026-01-30 15:44:56,678 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 顺德区人民政府网
+2026-01-30 15:44:56,681 - graphs.nodes.check_changes_node - INFO - 网站 顺德区人民政府网 无变化
+2026-01-30 15:44:56,685 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 顺德区人民政府网
+2026-01-30 15:44:56,687 - graphs.graph - INFO - 网站 顺德区人民政府网 处理完成
+2026-01-30 15:44:56,688 - graphs.graph - INFO - 处理第 10/15 个网站: 佛山住建局
+2026-01-30 15:44:56,689 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山住建局, URL: https://fszj.foshan.gov.cn/zwgk/txgg/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'fszj.foshan.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:08,332 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山住建局, 提取到 35 条内容
-2026-01-30 15:39:08,335 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山住建局
-2026-01-30 15:39:08,336 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:08,518 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:08,519 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:08,520 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山住建局
-2026-01-30 15:39:08,522 - graphs.graph - INFO - 成功生成摘要: 佛山住建局
-2026-01-30 15:39:08,523 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山住建局
-2026-01-30 15:39:08,524 - graphs.nodes.check_changes_node - INFO - 网站 佛山住建局 无变化
-2026-01-30 15:39:08,528 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山住建局
-2026-01-30 15:39:08,529 - graphs.graph - INFO - 网站 佛山住建局 处理完成
-2026-01-30 15:39:08,530 - graphs.graph - INFO - 处理第 11/15 个网站: 顺德区住建局
-2026-01-30 15:39:08,531 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 顺德区住建局, URL: https://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html
+2026-01-30 15:44:56,973 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山住建局, 提取到 35 条内容
+2026-01-30 15:44:56,977 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山住建局
+2026-01-30 15:44:56,978 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:57,074 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:57,074 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:57,075 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山住建局
+2026-01-30 15:44:57,078 - graphs.graph - INFO - 成功生成摘要: 佛山住建局
+2026-01-30 15:44:57,079 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山住建局
+2026-01-30 15:44:57,082 - graphs.nodes.check_changes_node - INFO - 网站 佛山住建局 无变化
+2026-01-30 15:44:57,089 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山住建局
+2026-01-30 15:44:57,091 - graphs.graph - INFO - 网站 佛山住建局 处理完成
+2026-01-30 15:44:57,092 - graphs.graph - INFO - 处理第 11/15 个网站: 顺德区住建局
+2026-01-30 15:44:57,093 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 顺德区住建局, URL: https://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.shunde.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:08,890 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 顺德区住建局, 提取到 31 条内容
-2026-01-30 15:39:08,897 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 顺德区住建局
-2026-01-30 15:39:08,901 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:09,070 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:09,071 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:09,072 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 顺德区住建局
-2026-01-30 15:39:09,074 - graphs.graph - INFO - 成功生成摘要: 顺德区住建局
-2026-01-30 15:39:09,075 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 顺德区住建局
-2026-01-30 15:39:09,076 - graphs.nodes.check_changes_node - INFO - 网站 顺德区住建局 无变化
-2026-01-30 15:39:09,079 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 顺德区住建局
-2026-01-30 15:39:09,079 - graphs.graph - INFO - 网站 顺德区住建局 处理完成
-2026-01-30 15:39:09,080 - graphs.graph - INFO - 处理第 12/15 个网站: 南海区住建局
-2026-01-30 15:39:09,081 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 南海区住建局, URL: https://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/index.html
+2026-01-30 15:44:57,585 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 顺德区住建局, 提取到 31 条内容
+2026-01-30 15:44:57,589 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 顺德区住建局
+2026-01-30 15:44:57,590 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:57,744 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:57,746 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:57,747 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 顺德区住建局
+2026-01-30 15:44:57,749 - graphs.graph - INFO - 成功生成摘要: 顺德区住建局
+2026-01-30 15:44:57,750 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 顺德区住建局
+2026-01-30 15:44:57,751 - graphs.nodes.check_changes_node - INFO - 网站 顺德区住建局 无变化
+2026-01-30 15:44:57,754 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 顺德区住建局
+2026-01-30 15:44:57,755 - graphs.graph - INFO - 网站 顺德区住建局 处理完成
+2026-01-30 15:44:57,755 - graphs.graph - INFO - 处理第 12/15 个网站: 南海区住建局
+2026-01-30 15:44:57,756 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 南海区住建局, URL: https://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.nanhai.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:09,728 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 南海区住建局, 提取到 50 条内容
-2026-01-30 15:39:09,731 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 南海区住建局
-2026-01-30 15:39:09,732 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:09,873 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:09,875 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:09,876 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 南海区住建局
-2026-01-30 15:39:09,878 - graphs.graph - INFO - 成功生成摘要: 南海区住建局
-2026-01-30 15:39:09,879 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 南海区住建局
-2026-01-30 15:39:09,880 - graphs.nodes.check_changes_node - INFO - 网站 南海区住建局 无变化
-2026-01-30 15:39:09,883 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 南海区住建局
-2026-01-30 15:39:09,884 - graphs.graph - INFO - 网站 南海区住建局 处理完成
-2026-01-30 15:39:09,885 - graphs.graph - INFO - 处理第 13/15 个网站: 三水区住建局
-2026-01-30 15:39:09,885 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 三水区住建局, URL: https://www.ss.gov.cn/fssscxslj/gkmlpt/index
+2026-01-30 15:44:58,087 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 南海区住建局, 提取到 50 条内容
+2026-01-30 15:44:58,090 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 南海区住建局
+2026-01-30 15:44:58,091 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:58,191 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:58,193 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:58,194 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 南海区住建局
+2026-01-30 15:44:58,200 - graphs.graph - INFO - 成功生成摘要: 南海区住建局
+2026-01-30 15:44:58,203 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 南海区住建局
+2026-01-30 15:44:58,206 - graphs.nodes.check_changes_node - INFO - 网站 南海区住建局 无变化
+2026-01-30 15:44:58,212 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 南海区住建局
+2026-01-30 15:44:58,213 - graphs.graph - INFO - 网站 南海区住建局 处理完成
+2026-01-30 15:44:58,214 - graphs.graph - INFO - 处理第 13/15 个网站: 三水区住建局
+2026-01-30 15:44:58,215 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 三水区住建局, URL: https://www.ss.gov.cn/fssscxslj/gkmlpt/index
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ss.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:10,421 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 三水区住建局, 提取到 4 条内容
-2026-01-30 15:39:10,424 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 三水区住建局
-2026-01-30 15:39:10,425 - graphs.nodes.generate_summary_node - INFO - 准备处理 4 个内容项
-2026-01-30 15:39:10,662 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:10,664 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:10,665 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 三水区住建局
-2026-01-30 15:39:10,667 - graphs.graph - INFO - 成功生成摘要: 三水区住建局
-2026-01-30 15:39:10,668 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 三水区住建局
-2026-01-30 15:39:10,670 - graphs.nodes.check_changes_node - INFO - 网站 三水区住建局 无变化
-2026-01-30 15:39:10,678 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 三水区住建局
-2026-01-30 15:39:10,681 - graphs.graph - INFO - 网站 三水区住建局 处理完成
-2026-01-30 15:39:10,682 - graphs.graph - INFO - 处理第 14/15 个网站: 高明区住建局
-2026-01-30 15:39:10,684 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 高明区住建局, URL: https://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/index.html
+2026-01-30 15:44:58,550 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 三水区住建局, 提取到 4 条内容
+2026-01-30 15:44:58,553 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 三水区住建局
+2026-01-30 15:44:58,554 - graphs.nodes.generate_summary_node - INFO - 准备处理 4 个内容项
+2026-01-30 15:44:58,849 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:58,851 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:58,852 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 三水区住建局
+2026-01-30 15:44:58,853 - graphs.graph - INFO - 成功生成摘要: 三水区住建局
+2026-01-30 15:44:58,854 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 三水区住建局
+2026-01-30 15:44:58,855 - graphs.nodes.check_changes_node - INFO - 网站 三水区住建局 无变化
+2026-01-30 15:44:58,858 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 三水区住建局
+2026-01-30 15:44:58,859 - graphs.graph - INFO - 网站 三水区住建局 处理完成
+2026-01-30 15:44:58,859 - graphs.graph - INFO - 处理第 14/15 个网站: 高明区住建局
+2026-01-30 15:44:58,860 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 高明区住建局, URL: https://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.gaoming.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:10,989 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 高明区住建局, 提取到 37 条内容
-2026-01-30 15:39:10,992 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 高明区住建局
-2026-01-30 15:39:10,993 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:11,139 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:11,139 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:11,140 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 高明区住建局
-2026-01-30 15:39:11,141 - graphs.graph - INFO - 成功生成摘要: 高明区住建局
-2026-01-30 15:39:11,142 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 高明区住建局
-2026-01-30 15:39:11,144 - graphs.nodes.check_changes_node - INFO - 网站 高明区住建局 无变化
-2026-01-30 15:39:11,147 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 高明区住建局
-2026-01-30 15:39:11,149 - graphs.graph - INFO - 网站 高明区住建局 处理完成
-2026-01-30 15:39:11,149 - graphs.graph - INFO - 处理第 15/15 个网站: 佛山市公积金中心
-2026-01-30 15:39:11,150 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山市公积金中心, URL: https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html
+2026-01-30 15:44:59,162 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 高明区住建局, 提取到 37 条内容
+2026-01-30 15:44:59,164 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 高明区住建局
+2026-01-30 15:44:59,165 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:59,326 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:59,327 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:59,328 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 高明区住建局
+2026-01-30 15:44:59,330 - graphs.graph - INFO - 成功生成摘要: 高明区住建局
+2026-01-30 15:44:59,331 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 高明区住建局
+2026-01-30 15:44:59,332 - graphs.nodes.check_changes_node - INFO - 网站 高明区住建局 无变化
+2026-01-30 15:44:59,335 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 高明区住建局
+2026-01-30 15:44:59,336 - graphs.graph - INFO - 网站 高明区住建局 处理完成
+2026-01-30 15:44:59,336 - graphs.graph - INFO - 处理第 15/15 个网站: 佛山市公积金中心
+2026-01-30 15:44:59,337 - graphs.nodes.fetch_website_node - INFO - 开始抓取网站: 佛山市公积金中心, URL: https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html
 /usr/local/lib/python3.12/dist-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'fsgjj.foshan.gov.cn'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-2026-01-30 15:39:11,670 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山市公积金中心, 提取到 50 条内容
-2026-01-30 15:39:11,672 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山市公积金中心
-2026-01-30 15:39:11,674 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
-2026-01-30 15:39:11,827 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:11,829 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
-2026-01-30 15:39:11,829 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山市公积金中心
-2026-01-30 15:39:11,832 - graphs.graph - INFO - 成功生成摘要: 佛山市公积金中心
-2026-01-30 15:39:11,833 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山市公积金中心
-2026-01-30 15:39:11,834 - graphs.nodes.check_changes_node - INFO - 网站 佛山市公积金中心 无变化
-2026-01-30 15:39:11,838 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山市公积金中心
-2026-01-30 15:39:11,839 - graphs.graph - INFO - 网站 佛山市公积金中心 处理完成
-2026-01-30 15:39:11,839 - graphs.graph - INFO - 所有网站处理完成，共 0 个网站有更新
-2026-01-30 15:39:11,841 - __main__ - INFO - 监控完成:
-2026-01-30 15:39:11,842 - __main__ - INFO -   - 总网站数: 15
-2026-01-30 15:39:11,842 - __main__ - INFO -   - 已处理: 15
-2026-01-30 15:39:11,843 - __main__ - INFO -   - 有更新: 0
-2026-01-30 15:39:11,844 - __main__ - INFO - 本次监控耗时: 11.71秒
-2026-01-30 15:39:11,844 - __main__ - INFO - ============================================================
-2026-01-30 15:39:11,845 - __main__ - INFO - 下次运行时间: 2026-01-30 15:44:11
+2026-01-30 15:44:59,632 - graphs.nodes.fetch_website_node - INFO - 成功抓取网站: 佛山市公积金中心, 提取到 50 条内容
+2026-01-30 15:44:59,634 - graphs.nodes.generate_summary_node - INFO - 开始生成摘要: 佛山市公积金中心
+2026-01-30 15:44:59,636 - graphs.nodes.generate_summary_node - INFO - 准备处理 5 个内容项
+2026-01-30 15:44:59,790 - coze_workload_identity.client - ERROR - Integration credential request failed with status 400: Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:59,792 - graphs.nodes.generate_summary_node - ERROR - 生成摘要失败: Client error (400): Integration credential request failed with status 400: invalid param
+2026-01-30 15:44:59,792 - graphs.nodes.generate_summary_node - INFO - 摘要生成完成: 佛山市公积金中心
+2026-01-30 15:44:59,794 - graphs.graph - INFO - 成功生成摘要: 佛山市公积金中心
+2026-01-30 15:44:59,795 - graphs.nodes.check_changes_node - INFO - 开始检测网站内容变化: 佛山市公积金中心
+2026-01-30 15:44:59,796 - graphs.nodes.check_changes_node - INFO - 网站 佛山市公积金中心 无变化
+2026-01-30 15:44:59,799 - graphs.nodes.send_notification_node - INFO - 开始处理通知: 佛山市公积金中心
+2026-01-30 15:44:59,800 - graphs.graph - INFO - 网站 佛山市公积金中心 处理完成
+2026-01-30 15:44:59,800 - graphs.graph - INFO - 所有网站处理完成，共 1 个网站有更新
+2026-01-30 15:44:59,801 - __main__ - INFO - 监控完成:
+2026-01-30 15:44:59,802 - __main__ - INFO -   - 总网站数: 15
+2026-01-30 15:44:59,804 - __main__ - INFO -   - 已处理: 15
+2026-01-30 15:44:59,806 - __main__ - INFO -   - 有更新: 1
+2026-01-30 15:44:59,807 - __main__ - INFO -   - 通知详情:
+2026-01-30 15:44:59,809 - __main__ - INFO -     1. 佛山自然资源局-批后
+2026-01-30 15:44:59,811 - __main__ - INFO - 本次监控耗时: 10.37秒
+2026-01-30 15:44:59,812 - __main__ - INFO - ============================================================
+2026-01-30 15:44:59,813 - __main__ - INFO - 下次运行时间: 2026-01-30 15:49:59

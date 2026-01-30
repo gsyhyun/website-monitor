@@ -6,9 +6,9 @@
 
 # 邮件配置（QQ邮箱）
 export QQ_SMTP_SERVER="smtp.qq.com"
-export QQ_SMTP_PORT="587"
+export QQ_SMTP_PORT="465"
 export QQ_EMAIL_ACCOUNT="gshyun@qq.com"
-export QQ_EMAIL_AUTH_CODE="sibcgumiszmwbgic"
+export QQ_EMAIL_AUTH_CODE="zlwdukmzjedycbbj"
 
 echo "======================================"
 echo "网站监控系统启动"

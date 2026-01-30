@@ -13,7 +13,7 @@ from email.utils import formataddr
 SMTP_SERVER = "smtp.qq.com"
 SMTP_PORT = 587
 EMAIL_ACCOUNT = "gshyun@qq.com"
-AUTH_CODE = "sibcgumiszmwbgic"
+AUTH_CODE = "zlwdukmzjedycbbj"
 
 def test_email():
     """测试邮件发送"""
