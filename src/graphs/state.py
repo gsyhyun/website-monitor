@@ -1,5 +1,5 @@
 from typing import List, Dict, Optional, Literal
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 # ============= 网站监控相关数据结构 =============
@@ -39,12 +39,101 @@ class NotificationInfo(BaseModel):
     notification_time: str = Field(..., description="通知时间")
 
 
+# ============= 默认网站列表 =============
+DEFAULT_WEBSITES = [
+    # 佛山自然资源局
+    WebsiteInfo(
+        name="佛山自然资源局-批前",
+        url="https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/index.html",
+        category="自然资源局"
+    ),
+    WebsiteInfo(
+        name="佛山自然资源局-批后",
+        url="https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/",
+        category="自然资源局"
+    ),
+    WebsiteInfo(
+        name="佛山自然资源局-通知公告",
+        url="https://fszrzy.foshan.gov.cn/zwgk/tzgg/index.html",
+        category="自然资源局"
+    ),
+    # 各区自然资源局
+    WebsiteInfo(
+        name="禅城区自然资源局",
+        url="https://www.chancheng.gov.cn/fscczrzyj/gkmlpt/index",
+        category="自然资源局"
+    ),
+    WebsiteInfo(
+        name="南海区自然资源局",
+        url="https://www.nanhai.gov.cn/fsnhzrzyj/gkmlpt/mindex/",
+        category="自然资源局"
+    ),
+    WebsiteInfo(
+        name="顺德区自然资源局",
+        url="https://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/index.html",
+        category="自然资源局"
+    ),
+    # 公共资源交易
+    WebsiteInfo(
+        name="佛山公共资源交易网站",
+        url="http://jy.ggzy.foshan.gov.cn:3680/TPBank/newweb/framehtml/onlineTradex/index.html",
+        category="公共资源交易"
+    ),
+    # 政府网站
+    WebsiteInfo(
+        name="佛山市政府-意见征集",
+        url="https://www.foshan.gov.cn/hdjl/yjzj/index.html",
+        category="市政府"
+    ),
+    WebsiteInfo(
+        name="顺德区人民政府网",
+        url="https://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/",
+        category="区政府"
+    ),
+    # 住建局
+    WebsiteInfo(
+        name="佛山住建局",
+        url="https://fszj.foshan.gov.cn/zwgk/txgg/index.html",
+        category="住建局"
+    ),
+    WebsiteInfo(
+        name="顺德区住建局",
+        url="https://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html",
+        category="住建局"
+    ),
+    WebsiteInfo(
+        name="南海区住建局",
+        url="https://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/index.html",
+        category="住建局"
+    ),
+    WebsiteInfo(
+        name="三水区住建局",
+        url="https://www.ss.gov.cn/fssscxslj/gkmlpt/index",
+        category="住建局"
+    ),
+    WebsiteInfo(
+        name="高明区住建局",
+        url="https://www.gaoming.gov.cn/gzjg/zfgzbm/qgtcjswj/gzdt_1106223/index.html",
+        category="住建局"
+    ),
+    # 其他
+    WebsiteInfo(
+        name="佛山市公积金中心",
+        url="https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html",
+        category="公积金中心"
+    )
+]
+
+
 # ============= 全局状态 =============
 
 class GlobalState(BaseModel):
     """全局状态定义"""
     # 输入数据
-    websites: List[WebsiteInfo] = Field(default=[], description="要监控的网站列表")
+    websites: Optional[List[WebsiteInfo]] = Field(
+        default=None,
+        description="要监控的网站列表"
+    )
 
     # 监控过程数据
     current_website: Optional[WebsiteInfo] = Field(default=None, description="当前处理的网站")
@@ -63,7 +152,18 @@ class GlobalState(BaseModel):
 
 class GraphInput(BaseModel):
     """工作流输入"""
-    websites: List[WebsiteInfo] = Field(..., description="要监控的网站列表")
+    websites: Optional[List[WebsiteInfo]] = Field(
+        default=None,
+        description="要监控的网站列表，为空时使用默认的15个佛山政府网站"
+    )
+
+    @field_validator('websites', mode='before')
+    @classmethod
+    def set_default_websites(cls, v):
+        """如果网站列表为空，使用默认列表"""
+        if v is None or (isinstance(v, list) and len(v) == 0):
+            return DEFAULT_WEBSITES
+        return v
 
 
 class GraphOutput(BaseModel):
@@ -123,6 +223,20 @@ class LoopMonitorOutput(BaseModel):
 
 
 # 主图监控节点
+class MonitorAllWebsitesInput(BaseModel):
+    """主图监控节点输入"""
+    websites: Optional[List[WebsiteInfo]] = Field(
+        default=None,
+        description="要监控的网站列表"
+    )
+
+
+class MonitorAllWebsitesOutput(BaseModel):
+    """主图监控节点输出"""
+    all_notifications: List[NotificationInfo] = Field(..., description="所有通知信息")
+    monitoring_summary: Dict = Field(..., description="监控摘要")
+
+
 class MonitorWebsitesInput(BaseModel):
     """主图监控节点输入"""
     websites: List[WebsiteInfo] = Field(..., description="要监控的网站列表")
@@ -132,3 +246,14 @@ class MonitorWebsitesOutput(BaseModel):
     """主图监控节点输出"""
     all_notifications: List[NotificationInfo] = Field(..., description="所有通知信息")
     monitoring_summary: Dict = Field(..., description="监控摘要")
+
+
+# 初始化网站节点
+class InitializeWebsitesInput(BaseModel):
+    """初始化网站节点输入"""
+    websites: Optional[List[WebsiteInfo]] = Field(default=None, description="输入的网站列表")
+
+
+class InitializeWebsitesOutput(BaseModel):
+    """初始化网站节点输出"""
+    websites: List[WebsiteInfo] = Field(..., description="初始化后的网站列表")

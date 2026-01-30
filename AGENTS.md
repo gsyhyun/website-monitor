@@ -8,23 +8,13 @@
 | fetch_website_node | `nodes/fetch_website_node.py` | task | 抓取网站内容并生成哈希值 | - | - |
 | check_changes_node | `nodes/check_changes_node.py` | task | 检测网站内容是否有变化 | - | - |
 | send_notification_node | `nodes/send_notification_node.py` | task | 记录通知到文件 | - | - |
-| initialize | `loop_graph.py` | task | 初始化循环监控 | - | - |
-| process_all | `loop_graph.py` | task | 批量处理所有网站 | - | - |
-| monitor_websites | `graph.py` | task | 调用循环监控子图 | - | - |
+| monitor_all_websites | `graph.py` | task | 批量处理所有网站（自动使用默认15个网站或自定义列表） | - | - |
 
 **类型说明**: task(task节点) / agent(大模型) / condition(条件分支) / looparray(列表循环) / loopcond(条件循环)
 
-## 子图清单
-| 子图名 | 文件位置 | 功能描述 | 被调用节点 |
-|-------|---------|------|---------|
-| loop_subgraph | `graphs/loop_graph.py` | 批量处理网站列表，执行抓取、检测、通知流程 | monitor_websites |
+## 默认网站列表
 
-## 集成使用
-- 本项目暂未使用外部集成服务
-- 通知功能将变化记录保存到 `assets/website_notifications.json` 文件中
-- 预留了邮件和飞书消息的集成接口（在send_notification_node.py中）
-
-## 监控网站列表
+当不输入任何参数时，系统会自动监控以下15个佛山政府网站：
 
 ### 佛山自然资源局
 - 批前: https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/index.html
@@ -53,10 +43,17 @@
 ### 其他
 - 佛山市公积金中心: https://fsgjj.foshan.gov.cn/xxgk/tztg/index.html
 
+## 集成使用
+- 本项目暂未使用外部集成服务
+- 通知功能将变化记录保存到 `assets/website_notifications.json` 文件中
+- 预留了邮件和飞书消息的集成接口（在send_notification_node.py中）
+
 ## 工作流程
 
-1. **主图启动**: 接收网站列表作为输入
-2. **批量处理**: 在子图中对所有网站执行以下流程：
+1. **主图启动**: 
+   - 如果不输入参数，自动使用默认的15个佛山政府网站
+   - 如果输入自定义网站列表，使用用户指定的网站
+2. **批量处理**: 对所有网站执行以下流程：
    - **抓取内容**: 访问网站URL，提取页面中的标题和链接
    - **生成哈希**: 根据内容生成MD5哈希值
    - **对比检测**: 与历史记录对比，检测是否有变化
@@ -72,17 +69,32 @@
 - **历史记录内容**: 每个网站的内容哈希值、内容项、最后更新时间等
 - **通知记录内容**: 最多保留最近100条通知记录
 
-## 扩展说明
+## 使用方式
 
-### 添加新网站
-在GraphInput的`websites`参数中添加新的WebsiteInfo对象：
+### 方式一：使用默认网站列表（推荐）
+不输入任何参数，系统自动监控15个佛山政府网站：
+```json
+{}
+```
+
+### 方式二：使用自定义网站列表
+输入自定义的网站列表：
 ```json
 {
-  "name": "网站名称",
-  "url": "网站URL",
-  "category": "网站分类"
+  "websites": [
+    {
+      "name": "网站名称",
+      "url": "网站URL",
+      "category": "网站分类"
+    }
+  ]
 }
 ```
+
+## 扩展说明
+
+### 添加新网站到默认列表
+编辑 `src/graphs/state.py` 中的 `DEFAULT_WEBSITES` 列表，添加新的网站信息。
 
 ### 配置邮件通知
 在`send_notification_node.py`中取消邮件相关代码的注释，并配置SMTP服务器信息。
@@ -96,7 +108,8 @@
 
 ## 技术实现说明
 
-- **循环优化**: 为避免递归限制问题，在单个节点中批量处理所有网站，而非使用条件循环
+- **默认网站列表**: 使用 Pydantic 的 validator 实现，当输入为空时自动填充默认列表
+- **批量处理**: 在单个节点中循环处理所有网站，避免递归限制
 - **历史记录**: 基于文件存储，每次运行时更新内容哈希值
 - **通知管理**: 通知信息保存到JSON文件，最多保留100条记录
 - **错误处理**: 单个网站处理失败不影响其他网站的监控

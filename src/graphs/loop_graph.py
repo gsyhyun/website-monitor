@@ -35,6 +35,17 @@ def process_all_websites(state: GlobalState) -> GlobalState:
     """
     在单个节点中循环处理所有网站
     """
+    # 如果没有提供网站列表，返回空结果
+    if not state.websites:
+        logger.warning("没有提供网站列表，跳过处理")
+        state.all_notifications = []
+        state.monitoring_summary = {
+            "total_websites": 0,
+            "processed": 0,
+            "websites_with_changes": 0
+        }
+        return state
+
     logger.info(f"开始处理 {len(state.websites)} 个网站")
 
     state.all_notifications = []
