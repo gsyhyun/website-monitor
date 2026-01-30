@@ -134,6 +134,10 @@ class GlobalState(BaseModel):
         default=None,
         description="要监控的网站列表"
     )
+    email_address: Optional[str] = Field(
+        default=None,
+        description="接收通知的邮箱地址"
+    )
 
     # 监控过程数据
     current_website: Optional[WebsiteInfo] = Field(default=None, description="当前处理的网站")
@@ -155,6 +159,10 @@ class GraphInput(BaseModel):
     websites: Optional[List[WebsiteInfo]] = Field(
         default=None,
         description="要监控的网站列表，为空时使用默认的15个佛山政府网站"
+    )
+    email_address: Optional[str] = Field(
+        default=None,
+        description="接收通知的邮箱地址，为空时不发送邮件"
     )
 
     @field_validator('websites', mode='before')
@@ -202,6 +210,10 @@ class SendNotificationInput(BaseModel):
     """发送通知节点输入"""
     change_result: ChangeDetectionResult = Field(..., description="变化检测结果")
     website: WebsiteInfo = Field(..., description="网站信息")
+    email_address: Optional[str] = Field(
+        default=None,
+        description="接收通知的邮箱地址，为空时不发送邮件"
+    )
 
 
 class SendNotificationOutput(BaseModel):
@@ -228,6 +240,10 @@ class MonitorAllWebsitesInput(BaseModel):
     websites: Optional[List[WebsiteInfo]] = Field(
         default=None,
         description="要监控的网站列表"
+    )
+    email_address: Optional[str] = Field(
+        default=None,
+        description="接收通知的邮箱地址，为空时不发送邮件"
     )
 
 

@@ -43,6 +43,13 @@ def monitor_all_websites_node(
         websites_to_monitor = state.websites
         logger.info(f"使用自定义网站列表，共 {len(state.websites)} 个网站")
 
+    # 获取邮箱地址
+    email_address = state.email_address
+    if email_address:
+        logger.info(f"已配置邮件通知，将发送到: {email_address}")
+    else:
+        logger.info("未配置邮件地址，将只保存通知到文件")
+
     # 初始化状态
     all_notifications = []
     monitoring_summary = {
@@ -77,11 +84,12 @@ def monitor_all_websites_node(
                 None
             )
 
-            # 3. 发送通知
+            # 3. 发送通知（传递邮箱地址）
             from graphs.state import SendNotificationInput
             notify_input = SendNotificationInput(
                 change_result=check_output.change_result,
-                website=website
+                website=website,
+                email_address=email_address
             )
             notify_output = send_notification_node(
                 notify_input,

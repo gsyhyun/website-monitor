@@ -1,15 +1,108 @@
 import json
 import logging
 import os
+import smtplib
+import ssl
+import time
 from datetime import datetime
+from email.mime.text import MIMEText
+from email.header import Header
+from email.utils import formataddr, formatdate, make_msgid
 from typing import Optional
 from langchain_core.runnables import RunnableConfig
 from langgraph.runtime import Runtime
 from coze_coding_utils.runtime_ctx.context import Context
 from graphs.state import SendNotificationInput, SendNotificationOutput, NotificationInfo, ChangeDetectionResult, WebsiteInfo
 
+# 尝试导入邮件集成相关模块（如果已配置）
+try:
+    from coze_workload_identity import Client
+    from cozeloop.decorator import observe
+    EMAIL_INTEGRATION_AVAILABLE = True
+except ImportError:
+    EMAIL_INTEGRATION_AVAILABLE = False
+    logging.warning("邮件集成模块未找到，邮件通知功能将不可用")
+
 
 logger = logging.getLogger(__name__)
+
+
+def get_email_config():
+    """获取邮件配置信息"""
+    if not EMAIL_INTEGRATION_AVAILABLE:
+        raise Exception("邮件集成模块不可用")
+
+    client = Client()
+    email_credential = client.get_integration_credential("integration-email-imap-smtp")
+    return json.loads(email_credential)
+
+
+@observe
+def send_email_notification(subject: str, content: str, to_addrs: list) -> dict:
+    """
+    发送邮件通知
+
+    Args:
+        subject: 邮件主题
+        content: 邮件正文（纯文本）
+        to_addrs: 收件人列表
+
+    Returns:
+        发送结果字典
+    """
+    if not EMAIL_INTEGRATION_AVAILABLE:
+        return {"status": "error", "message": "邮件集成模块不可用"}
+
+    if not to_addrs:
+        return {"status": "error", "message": "收件人为空"}
+
+    try:
+        config = get_email_config()
+
+        # 创建纯文本邮件
+        msg = MIMEText(content, "plain", "utf-8")
+        msg["From"] = formataddr(("网站监控助手", config["account"]))
+        msg["To"] = ", ".join(to_addrs)
+        msg["Subject"] = Header(subject, "utf-8")
+        msg["Date"] = formatdate(localtime=True)
+        msg["Message-ID"] = make_msgid()
+
+        # 使用SSL加密连接
+        ctx = ssl.create_default_context()
+        ctx.minimum_version = ssl.TLSVersion.TLSv1_2
+
+        # 尝试发送邮件（重试3次）
+        attempts = 3
+        last_err = None
+        for i in range(attempts):
+            try:
+                with smtplib.SMTP_SSL(config["smtp_server"], config["smtp_port"], context=ctx, timeout=30) as server:
+                    server.ehlo()
+                    server.login(config["account"], config["auth_code"])
+                    server.sendmail(config["account"], to_addrs, msg.as_string())
+                    server.quit()
+                return {"status": "success", "message": f"邮件成功发送给 {len(to_addrs)} 位收件人"}
+            except (smtplib.SMTPServerDisconnected, smtplib.SMTPConnectError, smtplib.SMTPDataError, smtplib.SMTPHeloError, ssl.SSLError, OSError) as e:
+                last_err = e
+                time.sleep(1 * (i + 1))
+
+        if last_err:
+            return {"status": "error", "message": f"发送失败: {str(last_err)}"}
+
+        return {"status": "error", "message": "发送失败: 未知错误"}
+
+    except smtplib.SMTPAuthenticationError as e:
+        return {"status": "error", "message": f"认证失败: {str(e)}"}
+    except smtplib.SMTPRecipientsRefused as e:
+        return {"status": "error", "message": f"收件人被拒绝: {str(e)}"}
+    except smtplib.SMTPSenderRefused as e:
+        return {"status": "error", "message": f"发件人被拒绝: {e.smtp_code} {e.smtp_error}"}
+    except smtplib.SMTPDataError as e:
+        return {"status": "error", "message": f"数据被拒绝: {e.smtp_code} {e.smtp_error}"}
+    except smtplib.SMTPConnectError as e:
+        return {"status": "error", "message": f"连接失败: {str(e)}"}
+    except Exception as e:
+        return {"status": "error", "message": f"发送失败: {str(e)}"}
 
 
 def send_notification_node(
@@ -18,9 +111,9 @@ def send_notification_node(
     runtime: Runtime[Context]
 ) -> SendNotificationOutput:
     """
-    title: 记录通知到文件
-    desc: 检测到网站内容更新后，将通知信息保存到文件中
-    integrations:
+    title: 记录并发送通知
+    desc: 检测到网站内容更新后，将通知信息保存到文件中，并发送邮件通知
+    integrations: 邮件
     """
     ctx = runtime.context
 
@@ -52,6 +145,7 @@ def send_notification_node(
     # 生成变化详情
     change_details = f"网站：{website.name}\n"
     change_details += f"URL：{website.url}\n"
+    change_details += f"分类：{website.category}\n"
     change_details += f"检测时间：{notification_time}\n"
     change_details += f"新增内容数量：{len(change_result.new_items)}\n"
 
@@ -99,35 +193,30 @@ def send_notification_node(
         logger.error(f"保存通知文件失败: {e}")
         is_sent = False
 
+    # 发送邮件通知
+    email_sent = False
+    if state.email_address and EMAIL_INTEGRATION_AVAILABLE:
+        try:
+            email_result = send_email_notification(
+                subject=f"【网站更新】{website.name} 检测到新内容",
+                content=change_details,
+                to_addrs=[state.email_address]
+            )
+
+            if email_result.get("status") == "success":
+                logger.info(f"邮件通知发送成功: {state.email_address}")
+                email_sent = True
+            else:
+                logger.error(f"邮件通知发送失败: {email_result.get('message')}")
+        except Exception as e:
+            logger.error(f"邮件通知发送异常: {e}")
+    elif state.email_address and not EMAIL_INTEGRATION_AVAILABLE:
+        logger.warning("邮件集成模块不可用，跳过邮件通知")
+    else:
+        logger.info("未配置邮箱地址，跳过邮件通知")
+
     # 输出到日志
     logger.info(f"检测到网站更新！\n{change_details}")
-
-    # 注意：当前版本将通知保存到本地文件
-    # 如需发送邮件或飞书通知，请配置相应的集成服务
-    # 邮件/飞书集成的示例代码见下方注释：
-    #
-    # # 邮件通知示例：
-    # try:
-    #     from integrations.email import send_email
-    #     send_email(
-    #         to="your_email@example.com",
-    #         subject=f"网站更新通知: {website.name}",
-    #         body=change_details
-    #     )
-    #     logger.info("邮件通知发送成功")
-    # except Exception as e:
-    #     logger.error(f"邮件通知发送失败: {e}")
-    #
-    # # 飞书通知示例：
-    # try:
-    #     from integrations.feishu import send_feishu_message
-    #     send_feishu_message(
-    #         webhook_url="your_webhook_url",
-    #         message=change_details
-    #     )
-    #     logger.info("飞书通知发送成功")
-    # except Exception as e:
-    #     logger.error(f"飞书通知发送失败: {e}")
 
     logger.info(f"通知处理完成: {website.name}")
 
