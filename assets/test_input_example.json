@@ -1,0 +1,19 @@
+{
+  "websites": [
+    {
+      "name": "佛山自然资源局-批前",
+      "url": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/pqgs/index.html",
+      "category": "自然资源局"
+    },
+    {
+      "name": "佛山自然资源局-批后",
+      "url": "https://fszrzy.foshan.gov.cn/ywzt/cxgh/phgg/",
+      "category": "自然资源局"
+    },
+    {
+      "name": "佛山自然资源局-通知公告",
+      "url": "https://fszrzy.foshan.gov.cn/zwgk/tzgg/index.html",
+      "category": "自然资源局"
+    }
+  ]
+}

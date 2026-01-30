@@ -54,7 +54,7 @@ def build_main_graph() -> StateGraph:
     )
     
     # 添加节点
-    builder.add_node("monitor_websites", monitor_websites_node)
+    builder.add_node("monitor_websites", monitor_websites_node, metadata={"type": "task"})
     
     # 设置入口点
     builder.set_entry_point("monitor_websites")

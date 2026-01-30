@@ -68,8 +68,8 @@ class GraphInput(BaseModel):
 
 class GraphOutput(BaseModel):
     """工作流输出"""
-    all_notifications: List[NotificationInfo] = Field(..., description="所有通知信息")
-    monitoring_summary: Dict = Field(..., description="监控摘要")
+    all_notifications: List[NotificationInfo] = Field(default=[], description="所有通知信息")
+    monitoring_summary: Dict = Field(default={}, description="监控摘要")
 
 
 # ============= 节点输入输出定义 =============
