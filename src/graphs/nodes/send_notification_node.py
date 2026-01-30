@@ -34,7 +34,16 @@ def get_email_config():
 
     client = Client()
     email_credential = client.get_integration_credential("integration-email-imap-smtp")
-    return json.loads(email_credential)
+    config = json.loads(email_credential)
+
+    # 尝试从环境变量覆盖授权码（用于本地测试）
+    # 如果设置了 QQ_EMAIL_AUTH_CODE 环境变量，使用它
+    auth_code_override = os.getenv("QQ_EMAIL_AUTH_CODE")
+    if auth_code_override:
+        config["auth_code"] = auth_code_override
+        logger.info(f"使用环境变量中的授权码（QQ_EMAIL_AUTH_CODE）")
+
+    return config
 
 
 @observe
