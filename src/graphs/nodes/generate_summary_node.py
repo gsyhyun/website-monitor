@@ -21,8 +21,8 @@ def generate_summary_node(
 ) -> GenerateSummaryOutput:
     """
     title: 内容摘要生成
-    desc: 爬取内容页并使用大语言模型生成100字摘要
-    integrations: 大语言模型
+    desc: 爬取内容页并生成简短摘要（最多100字）
+    integrations: 
     """
     ctx = runtime.context
     
@@ -38,82 +38,24 @@ def generate_summary_node(
     
     logger.info(f"准备处理 {len(items_to_process)} 个内容项")
     
-    # 尝试使用大语言模型生成摘要
-    try:
-        # 导入大语言模型集成
-        from coze_workload_identity import Client
-        client = Client()
-        llm_credential = client.get_integration_credential("integration-doubao-seed")
-        
-        if llm_credential:
-            import json
-            from langchain_openai import ChatOpenAI
-            from langchain_core.messages import HumanMessage
-            
-            # 解析大语言模型配置
-            llm_config = json.loads(llm_credential)
-            
-            # 初始化大语言模型
-            llm = ChatOpenAI(
-                base_url=llm_config.get("base_url", ""),
-                api_key=llm_config.get("api_key", ""),
-                model=llm_config.get("model", "doubao-pro-32k"),
-                temperature=0.3,
-                max_tokens=200
-            )
-            
-            # 为每个内容项生成摘要
-            for item in items_to_process:
-                try:
-                    # 爬取内容页
-                    summary = fetch_page_summary(item.link)
-                    
-                    if summary:
-                        # 使用大语言模型生成100字摘要
-                        prompt = f"请将以下内容概括为100字以内的简要说明：\n\n{summary}"
-                        
-                        messages = [HumanMessage(content=prompt)]
-                        response = llm.invoke(messages)
-                        
-                        if response and response.content:
-                            item.summary = response.content.strip()
-                            logger.info(f"成功生成摘要: {item.title[:20]}...")
-                        else:
-                            # 如果大语言模型失败，使用原始摘要
-                            item.summary = summary[:100] if len(summary) > 100 else summary
-                    else:
-                        # 如果爬取失败，使用标题作为摘要
-                        item.summary = item.title[:100]
-                        
-                except Exception as e:
-                    logger.warning(f"处理内容项失败: {item.title}, 错误: {e}")
-                    # 使用标题作为后备摘要
-                    item.summary = item.title[:100]
-        
-        else:
-            logger.warning("大语言模型配置未找到，使用简单摘要")
-            # 如果没有大语言模型配置，使用简单的摘要方法
-            for item in items_to_process:
-                summary = fetch_page_summary(item.link)
-                if summary:
-                    item.summary = summary[:100] if len(summary) > 100 else summary
-                else:
-                    item.summary = item.title[:100]
-    
-    except ImportError:
-        logger.warning("大语言模型集成未导入，使用简单摘要")
-        # 后退到简单摘要
-        for item in items_to_process:
+    # 使用简单方法生成摘要（不依赖大语言模型）
+    for item in items_to_process:
+        try:
+            # 尝试爬取内容页
             summary = fetch_page_summary(item.link)
-            if summary:
+            
+            if summary and len(summary) > 0:
+                # 限制为100字
                 item.summary = summary[:100] if len(summary) > 100 else summary
+                logger.debug(f"使用页面内容生成摘要: {item.title[:20]}")
             else:
+                # 如果爬取失败，使用标题作为摘要
                 item.summary = item.title[:100]
-    
-    except Exception as e:
-        logger.error(f"生成摘要失败: {e}")
-        # 降级处理：使用标题作为摘要
-        for item in items_to_process:
+                logger.debug(f"使用标题作为摘要: {item.title[:20]}")
+                
+        except Exception as e:
+            logger.warning(f"处理内容项失败: {item.title}, 错误: {e}")
+            # 使用标题作为后备摘要
             item.summary = item.title[:100]
     
     logger.info(f"摘要生成完成: {fetch_result.website_name}")
