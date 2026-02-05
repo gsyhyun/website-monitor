@@ -1,5 +1,78 @@
 [
   {
+    "website_name": "顺德区住建局",
+    "has_change": true,
+    "change_details": "网站：顺德区住建局\nURL：https://www.shunde.gov.cn/sdqzfjssl/tzggjdt/index.html\n分类：住建局\n检测时间：2026-02-05 15:15:50\n新增内容数量：2\n\n新增内容：\n\n1. 佛山市顺德区住房城乡建设和水务局关于顺德高新区学校（二期）公寓项目租金定价的公示\n   链接: http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6960856.html\n   摘要: 佛山市顺德区住房城乡建设和水务局关于顺德高新区学校（二期）公寓项目租金定价的公示\n\n2. 关于撤销保障性租赁住房项目认定书的通知\n   链接: http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6959743.html\n",
+    "notification_time": "2026-02-05 15:15:50",
+    "new_items": [
+      {
+        "title": "佛山市顺德区住房城乡建设和水务局关于顺德高新区学校（二期）公寓项目租金定价的公示",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6960856.html",
+        "summary": "佛山市顺德区住房城乡建设和水务局关于顺德高新区学校（二期）公寓项目租金定价的公示",
+        "date": "2026-02-05"
+      },
+      {
+        "title": "关于撤销保障性租赁住房项目认定书的通知",
+        "link": "http://www.shunde.gov.cn/sdqzfjssl/tzggjdt/content/post_6959743.html",
+        "summary": "",
+        "date": "2026-02-04"
+      }
+    ]
+  },
+  {
+    "website_name": "顺德区人民政府网",
+    "has_change": true,
+    "change_details": "网站：顺德区人民政府网\nURL：https://www.shunde.gov.cn/sdqrmzf/zwgk/gzdt/tzgg/\n分类：区政府\n检测时间：2026-02-05 15:15:49\n新增内容数量：0\n",
+    "notification_time": "2026-02-05 15:15:49",
+    "new_items": []
+  },
+  {
+    "website_name": "佛山市政府-意见征集",
+    "has_change": true,
+    "change_details": "网站：佛山市政府-意见征集\nURL：https://www.foshan.gov.cn/hdjl/yjzj/index.html\n分类：市政府\n检测时间：2026-02-05 15:15:48\n新增内容数量：1\n\n新增内容：\n\n1. 佛山市交通运输局关于公开征求《佛山市公共汽车客运管理办法（修订征求意见稿）》意见的通告\n   链接: https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48821\n   摘要: 佛山市交通运输局关于公开征求《佛山市公共汽车客运管理办法（修订征求意见稿）》意见的通告\n",
+    "notification_time": "2026-02-05 15:15:48",
+    "new_items": [
+      {
+        "title": "佛山市交通运输局关于公开征求《佛山市公共汽车客运管理办法（修订征求意见稿）》意见的通告",
+        "link": "https://www.foshan.gov.cn/hdjlpt/yjzj/answer/48821",
+        "summary": "佛山市交通运输局关于公开征求《佛山市公共汽车客运管理办法（修订征求意见稿）》意见的通告",
+        "date": null
+      }
+    ]
+  },
+  {
+    "website_name": "顺德区自然资源局",
+    "has_change": true,
+    "change_details": "网站：顺德区自然资源局\nURL：https://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/index.html\n分类：自然资源局\n检测时间：2026-02-05 15:15:47\n新增内容数量：4\n\n新增内容：\n\n1. 佛山市自然资源局国有划拨土地使用权协议出让公示（2025年度）\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6960125.html\n   摘要: 佛山市自然资源局国有划拨土地使用权协议出让公示（2025年度）\n\n2. 关于均安镇天连边鱼沙工业区城市更新（“三旧”改造）项目实施方案（草案）批前公示的通告\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6959276.html\n\n3. 农用地转用公告【佛自然资顺告〔2026〕16号】\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6958570.html\n\n4. 关于德胜河北岸糖厂周边配套项目规划支路二批前公示的通告【顺规公（选址）〔2026〕6号】\n   链接: http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6957909.html\n",
+    "notification_time": "2026-02-05 15:15:47",
+    "new_items": [
+      {
+        "title": "佛山市自然资源局国有划拨土地使用权协议出让公示（2025年度）",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6960125.html",
+        "summary": "佛山市自然资源局国有划拨土地使用权协议出让公示（2025年度）",
+        "date": "2026-02-04"
+      },
+      {
+        "title": "关于均安镇天连边鱼沙工业区城市更新（“三旧”改造）项目实施方案（草案）批前公示的通告",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6959276.html",
+        "summary": "",
+        "date": "2026-02-02"
+      },
+      {
+        "title": "农用地转用公告【佛自然资顺告〔2026〕16号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6958570.html",
+        "summary": "",
+        "date": "2026-02-02"
+      },
+      {
+        "title": "关于德胜河北岸糖厂周边配套项目规划支路二批前公示的通告【顺规公（选址）〔2026〕6号】",
+        "link": "http://www.shunde.gov.cn/sdszrzyjsdfj/tzgg/tzggjdt/content/post_6957909.html",
+        "summary": "",
+        "date": "2026-02-02"
+      }
+    ]
+  },
+  {
     "website_name": "南海区住建局",
     "has_change": true,
     "change_details": "网站：南海区住建局\nURL：https://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/index.html\n分类：住建局\n检测时间：2026-02-02 14:05:13\n新增内容数量：2\n\n新增内容：\n\n1. 佛山市南海区住房城乡建设和水务局关于向社会公开征求狮山镇永泰兴地块工改居项目、狮山镇罗村社区良安路地段旧厂房改造项目等2个城市更新项目历史文化资源评估情况的意见的公告\n   链接: http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6957787.html\n   摘要: 佛山市南海区住房城乡建设和水务局关于向社会公开征求狮山镇永泰兴地块工改居项目、狮山镇罗村社区良安路地段旧厂房改造项目等2个城市更新项目历史文化资源评估情况的意见的公告\n\n2. 佛山市南海区住房城乡建设和水务局关于保障性租赁住房项目认定书变更情况的公告\n   链接: http://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_6957795.html\n   摘要: 佛山市南海区住房城乡建设和水务局关于保障性租赁住房项目认定书变更情况的公告\n",
