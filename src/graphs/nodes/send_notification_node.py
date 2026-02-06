@@ -194,24 +194,17 @@ def send_notification_node(
         )
         return SendNotificationOutput(notification=notification, is_sent=False)
 
-    # 生成变化详情（包含标题、链接和摘要）
-    change_details = f"网站：{website.name}\n"
-    change_details += f"URL：{website.url}\n"
-    change_details += f"分类：{website.category}\n"
-    change_details += f"检测时间：{notification_time}\n"
-    change_details += f"新增内容数量：{len(change_result.new_items)}\n"
+    # 生成简报内容（只包含文章更新）
+    change_details = f"【网站更新简报】{notification_time}\n\n"
+    change_details += f"网站：{website.name}\n\n"
+    change_details += f"新增文章（{len(change_result.new_items)}条）：\n"
+    change_details += "─" * 50 + "\n"
 
     if change_result.new_items:
-        change_details += "\n新增内容：\n"
-        for idx, item in enumerate(change_result.new_items[:10], 1):  # 最多显示10条
+        for idx, item in enumerate(change_result.new_items[:20], 1):  # 最多显示20条
             change_details += f"\n{idx}. {item.title}\n"
             if item.link:
-                change_details += f"   链接: {item.link}\n"
-            if item.summary:
-                change_details += f"   摘要: {item.summary}\n"
-        
-        if len(change_result.new_items) > 10:
-            change_details += f"\n... 还有 {len(change_result.new_items) - 10} 条内容"
+                change_details += f"   {item.link}\n"
 
     # 构建通知信息（包含完整的新增内容项）
     notification = NotificationInfo(
@@ -287,7 +280,7 @@ def send_notification_node(
         try:
             logger.info(f"准备发送邮件通知到: {state.email_address}")
             email_result = send_email_notification(
-                subject=f"【网站更新】{website.name} 检测到新内容",
+                subject=f"【{website.name}】{len(change_result.new_items)}条新内容",
                 content=change_details,
                 to_addrs=[state.email_address]
             )
